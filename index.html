@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2021-07-25 Sun 21:03 -->
+<!-- 2021-07-25 Sun 21:05 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Mohit's Notes</title>
@@ -193,12 +193,9 @@
   .org-svg { width: 90%; }
   /*]]>*/-->
 </style>
-<link rel="stylesheet" type="text/css" href="src/readtheorg_theme/css/htmlize.css"/>
-<link rel="stylesheet" type="text/css" href="src/readtheorg_theme/css/readtheorg.css"/>
-<script type="text/javascript" src="src/lib/js/jquery.min.js"></script>
-<script type="text/javascript" src="src/lib/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="src/lib/js/jquery.stickytableheaders.min.js"></script>
-<script type="text/javascript" src="src/readtheorg_theme/js/readtheorg.js"></script>
+<style type="text/css">
+/* * Cascading stylesheet for GNU Emacs org mode * Nicolas P. Rougier - September 2020 * Released under a Creative Commons CC-BY 4.0 licence */ body {    font-family: "Roboto Mono", monospace;    font-size: 14px;    font-weight: 300;    color:  rgba(51, 51, 51, 1.00);    line-height: 1.4em;    font-weight: light;    counter-reset: section;    counter-reset: toc-section;    counter-increment: toc-section;}a, a:visited {    text-decoration: none;    color: rgba(48,63,159, 1.00);}.org-bold {    font-weight: 400;}i, i a {    color: #999999;    font-style: normal;}.org-italic, .org-org-meta-line {    color: rgba(48,63,159, 0.75);    font-style: normal;}.org-face-salient {    font-weight: 400;}/* Blinking cursor when strike-through */.custom { animation: blinker 1s linear infinite; }@keyframes blinker { 50% { opacity: 0; } }/* --- Side notes --- */div.side-note::before {    content: "Note";    color: rgba(0,0,0,.75);    font-weight: 400;}div.side-note {    color: rgba(0,0,0,.5);    float: left;    font-size: .85em;    line-height: 1.25em;    margin-left: -24em;    width: 20em;}/* --- Table of contents --- */#table-of-contents {    padding-top: 0em;    margin-top: 0em;    text-transform: uppercase;}#table-of-contents ul {    padding: 0;    font-weight: 400;    list-style: none;    counter-reset: list 0;}#table-of-contents ul ul {    padding-left:0em;    font-weight: 300;    font-size: 90%;    line-height: 1.5em;    margin-top: 0em;    margin-bottom: 1em;    padding-left: 2em;}#table-of-contents h2:before {    content: "";    counter-reset: section;}#table-of-contents ul li {    vertical-align: top;    display: inline-block;    width: 32%;}#table-of-contents ul li:before {    display: inline-block;    counter-increment: list;    content: counters(list, ".") ".";    width: 2.0em;    margin-left: -2.0em;    text-align: right;    text-transform: uppercase;    color:#2255bb;}#table-of-contents ul li ul,#table-of-contents ul li ul li {    display: static;    width: 100%;    padding-left: 0;    line-height: 1.35em;}#table-of-contents ul li ul li:before {    content: ""}#table-of-contents h2 {    font-size: 1em;    font-weight: 400;    padding-top: 5em;}#table-of-contents h2:before {    content: "ʘ";}blockquote {    color: #999999;    padding-top: 0;    margin-left: 1em;    padding-left: 1em;    border-left: 3px solid #cccccc;}ul.org-ul {    padding-left: 0}ul.org-ul li  {    list-style-type: none;    margin-bottom: .5em;}ul.org-ul li p {    display: inline-block;    margin-top: 0em;    margin-bottom: 0em;}ul.org-ul li::before {    display: inline-block;    content: "ʘ";    color: #999999;    width: 1em;    margin-left: -1em;}ol.org-ol {    padding-left: 0;    margin-left: 2em;    list-style: none;    counter-reset: li;}.org-ol li  {    counter-increment: li;    margin-bottom: .25em;}.org-ol li::before {    content: counter(li) ". ";    color: #999999;    display: inline-block;    width: 2em;    margin-left: -2em;}#content, #postamble {    margin: 0 auto;    max-width: 920px;    margin-top: 2.5%;    margin-bottom: 2.5%;}#postamble {/*    border-top: 1px solid #999999; */    padding-top: 1.5em;}#postamble p, #postamble a {    color: #999999;    line-height: 1.25em;    margin: 0;    text-align: right;}h1.title {    font-size: 1.5em;    margin-top: 4em;    margin-bottom: 0em;    font-weight: 400;    text-align: left;}span.subtitle {    display: inline-block;    margin-top: .25em;    font-size: 74.5%;    font-weight: 300;    color: #999999;}h3 { padding-top: .5em; }h1, h2, h3, h4 {    color: black;    font-size: 1em;    font-weight: 400;    /* font-variant: all-small-caps; */    text-transform: uppercase;}h2 { padding-top: 5em; }h3 { padding-top: 3em; }body {  counter-reset: section;}h2 {  counter-reset: subsection;}h2::before {    color: #cccccc;    float: left;    text-align: right;    font-weight: 300;    width: 7.5em;    margin-left: -8.0em;    counter-increment: section;    content: "Chapter " counter(section) " ";}h3::before {    color: #cccccc;    float: left;    text-align: right;    font-weight: 300;    width: 2.5em;    margin-left: -3.0em;    counter-increment: subsection;    content: counter(section) "." counter(subsection) " ";}code {    background-color: #f9f9f9;    font-family: "Roboto Mono", sans-serif;    font-weight: 400;}pre::before {    color: #cccccc;    float: left;    text-align: right;    font-weight: 300;    width: 3.0em;    margin-left: -4.25em;    font-variant: small-caps;    content: "";}pre.src-lisp::before { content: "lisp"; }pre.src-org::before { content: "org"; }pre {    color: #00008b;    background-color: #fbfbfb;    overflow: auto;    margin: 0em;    padding: 0.25em;    padding-left: 0.5em;    line-height: 1.35em;    font-family: "Roboto Mono", sans-serif;    font-weight: 300;    border-left: 2px dotted #00008b;}pre.src {    position: relative;    overflow: visible;}/* --- Code folding --- */details {    color: rgba(48,63,159, 1.00);    background: #fbfbfb;    border: 1px solid rgba(48,63,159, 1.00);    border-radius: 3px;    padding:  0.25em;    margin-bottom: 1.0em;}details pre {    border: 0;}details pre.src-lisp::before { content: ""; }summary {    outline: 0;    color: rgba(48,63,159, 1.00);}summary::after {    font-size: 0.85em;    color: rgba(48,63,159, 0.25);    display: inline-block;    float: right;    content: "Click to fold/unfold";    padding-right:  0.5em;}/* --- Table --- */table { min-width: 100%; }table, tbody, td, tr, th, colgroup, thead {    border: 0;/*    padding: 0;*/}table {    margin-top: 1em;}thead {    border-bottom: 1px dashed black;}th {    text-align: left;    font-weight: 400;    padding: 0;    margin-bottom: 0.25em;    padding-bottom: 0.25em;}td { padding: 0; }tr:nth-child(even) {background: #f9f9f9;}tr:nth-child(odd) {background: #ffffff;}tbody {/* border-bottom: 1px solid black; */}/* --- Description list --- */dd {    margin-top: 0.25em;    margin-bottom: 0.50em;}/* --- Back links in header --- */div.back a {    float: right;    font-weight: 300;    color: #cccccc;    font-variant: small-caps;    margin-top: -2.5em;}/* h2 { border-bottom: .5px solid #999999; } */
+</style>
 <script type="text/javascript">
 // @license magnet:?xt=urn:btih:e95b018ef3580986a04669f1b5879592219e2a7a&dn=public-domain.txt Public Domain
 <!--/*--><![CDATA[/*><!--*/
@@ -229,30 +226,30 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#org3934fd2">Sojourn</a>
+<li><a href="#org2005c90">Sojourn</a>
 <ul>
-<li><a href="#org7bfd4de">On Method</a></li>
-<li><a href="#orgde32072">Design</a></li>
-<li><a href="#orgf9d7f8d">Porosity of Boundaries</a></li>
+<li><a href="#orgfcd2082">On Method</a></li>
+<li><a href="#orgb84b140">Design</a></li>
+<li><a href="#org98db44c">Porosity of Boundaries</a></li>
 </ul>
 </li>
-<li><a href="#orgc2997c8">Astrophotography</a></li>
-<li><a href="#org2a426ce">About</a></li>
+<li><a href="#org703341d">Astrophotography</a></li>
+<li><a href="#org31baf1a">About</a></li>
 </ul>
 </div>
 </div>
 
 
-<div id="outline-container-org3934fd2" class="outline-2">
-<h2 id="org3934fd2">Sojourn</h2>
-<div class="outline-text-2" id="text-org3934fd2">
+<div id="outline-container-org2005c90" class="outline-2">
+<h2 id="org2005c90">Sojourn</h2>
+<div class="outline-text-2" id="text-org2005c90">
 <p>
 Wondering and wanderings in the half light of dawn. Disparate thoughts, desperate fumblings.
 </p>
 </div>
-<div id="outline-container-org7bfd4de" class="outline-3">
-<h3 id="org7bfd4de">On Method</h3>
-<div class="outline-text-3" id="text-org7bfd4de">
+<div id="outline-container-orgfcd2082" class="outline-3">
+<h3 id="orgfcd2082">On Method</h3>
+<div class="outline-text-3" id="text-orgfcd2082">
 <p>
 कबीरा कुआँ एक है,<br />
 पानी भरे अनेक<br />
@@ -311,7 +308,7 @@ In his book, the <a href="https://archive.org/details/counterrevolutio030197mbp/
 </p>
 
 <p>
-I shared similar thoughts in <a href="#orgf9d7f8d">Porosity of Boundaries</a>
+I shared similar thoughts in <a href="#org98db44c">Porosity of Boundaries</a>
 &gt; To think that modern science is not riddled with fallacies of inductive logic would simply show that one does not understand the very foundations on which it rests. The analytical tools and objectivity, the foundations of modern science, itself rest on historical paradigms and strategies of inquiry that are effective only within a specific milieu.
 </p>
 
@@ -339,26 +336,26 @@ And I get back to the sublime writing of Hesse. "The incomprehensible truth, rea
 </p>
 </div>
 </div>
-<div id="outline-container-orgde32072" class="outline-3">
-<h3 id="orgde32072">Design</h3>
-<div class="outline-text-3" id="text-orgde32072">
+<div id="outline-container-orgb84b140" class="outline-3">
+<h3 id="orgb84b140">Design</h3>
+<div class="outline-text-3" id="text-orgb84b140">
 <p>
-You can also see <a href="#org7bfd4de">this</a> 
+You can also see <a href="#orgfcd2082">this</a> 
 </p>
 </div>
 </div>
-<div id="outline-container-orgf9d7f8d" class="outline-3">
-<h3 id="orgf9d7f8d">Porosity of Boundaries</h3>
-<div class="outline-text-3" id="text-orgf9d7f8d">
+<div id="outline-container-org98db44c" class="outline-3">
+<h3 id="org98db44c">Porosity of Boundaries</h3>
+<div class="outline-text-3" id="text-org98db44c">
 <p>
 &#x2014;
 </p>
 </div>
 </div>
 </div>
-<div id="outline-container-orgc2997c8" class="outline-2">
-<h2 id="orgc2997c8">Astrophotography</h2>
-<div class="outline-text-2" id="text-orgc2997c8">
+<div id="outline-container-org703341d" class="outline-2">
+<h2 id="org703341d">Astrophotography</h2>
+<div class="outline-text-2" id="text-org703341d">
 <p>
 Something that I do, not as frequently as I would hope to. Still a beginner in the world of AP.
 </p>
@@ -368,9 +365,9 @@ Something that I do, not as frequently as I would hope to. Still a beginner in t
 </p>
 </div>
 </div>
-<div id="outline-container-org2a426ce" class="outline-2">
-<h2 id="org2a426ce">About</h2>
-<div class="outline-text-2" id="text-org2a426ce">
+<div id="outline-container-org31baf1a" class="outline-2">
+<h2 id="org31baf1a">About</h2>
+<div class="outline-text-2" id="text-org31baf1a">
 <p>
 My name is <b><b>Mohit Patel</b></b><br />
 <a href="https://twitter.com/mohitkpatel">Twitter</a>, <a href="https://www.facebook.com/mohitpatel">Facebook</a> 
@@ -384,7 +381,7 @@ I like being a <a href="https://oll.libertyfund.org/quotes/341">gadfly</a>. My l
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: Mohit Patel</p>
-<p class="date">Created: 2021-07-25 Sun 21:03</p>
+<p class="date">Created: 2021-07-25 Sun 21:05</p>
 <p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>
