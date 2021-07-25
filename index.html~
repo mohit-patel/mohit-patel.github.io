@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2021-07-25 Sun 13:07 -->
+<!-- 2021-07-25 Sun 13:08 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Mohit's Notes</title>
@@ -229,46 +229,34 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#org48efe06">Sojourn</a>
+<li><a href="#org090993e">Sojourn</a>
 <ul>
-<li><a href="#org6d00092">On Method</a></li>
-<li><a href="#org3059b37">Design</a></li>
-<li><a href="#org5bf19d0">Porosity of Boundaries</a></li>
+<li><a href="#org5b807e2">On Method</a></li>
+<li><a href="#org7e3bcf2">Design</a></li>
+<li><a href="#orgfa74332">Porosity of Boundaries</a></li>
 </ul>
 </li>
-<li><a href="#org003d270">Astrophotography</a></li>
-<li><a href="#orgdb19d03">About</a></li>
+<li><a href="#org60eb27c">Astrophotography</a></li>
+<li><a href="#org9e70e34">About</a></li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-org48efe06" class="outline-2">
-<h2 id="org48efe06">Sojourn</h2>
-<div class="outline-text-2" id="text-org48efe06">
+<div id="outline-container-org090993e" class="outline-2">
+<h2 id="org090993e">Sojourn</h2>
+<div class="outline-text-2" id="text-org090993e">
 <p>
 Wondering and wanderings in the half light of dawn. Disparate thoughts, desperate fumblings.
 </p>
 </div>
-<div id="outline-container-org6d00092" class="outline-3">
-<h3 id="org6d00092">On Method</h3>
-<div class="outline-text-3" id="text-org6d00092">
+<div id="outline-container-org5b807e2" class="outline-3">
+<h3 id="org5b807e2">On Method</h3>
+<div class="outline-text-3" id="text-org5b807e2">
 <p>
-कबीरा कुआँ एक है,
-</p>
-
-<p>
-पानी भरे अनेक
-</p>
-
-<p>
-भांडे ही में भेद है,
-</p>
-
-<p>
-पानी सब में एक
-</p>
-
-<p>
+कबीरा कुआँ एक है,<br />
+पानी भरे अनेक<br />
+भांडे ही में भेद है,<br />
+पानी सब में एक<br />
 -Kabir
 </p>
 
@@ -322,7 +310,7 @@ In his book, the ["Counter Revolution of Science"](<a href="https://archive.org/
 </p>
 
 <p>
-I shared similar thoughts in <a href="#org5bf19d0">Porosity of Boundaries</a>
+I shared similar thoughts in <a href="#orgfa74332">Porosity of Boundaries</a>
 &gt; To think that modern science is not riddled with fallacies of inductive logic would simply show that one does not understand the very foundations on which it rests. The analytical tools and objectivity, the foundations of modern science, itself rest on historical paradigms and strategies of inquiry that are effective only within a specific milieu.
 </p>
 
@@ -350,26 +338,26 @@ And I get back to the sublime writing of Hesse. "The incomprehensible truth, rea
 </p>
 </div>
 </div>
-<div id="outline-container-org3059b37" class="outline-3">
-<h3 id="org3059b37">Design</h3>
-<div class="outline-text-3" id="text-org3059b37">
+<div id="outline-container-org7e3bcf2" class="outline-3">
+<h3 id="org7e3bcf2">Design</h3>
+<div class="outline-text-3" id="text-org7e3bcf2">
 <p>
-You can also see <a href="#org6d00092">this</a> 
+You can also see <a href="#org5b807e2">this</a> 
 </p>
 </div>
 </div>
-<div id="outline-container-org5bf19d0" class="outline-3">
-<h3 id="org5bf19d0">Porosity of Boundaries</h3>
-<div class="outline-text-3" id="text-org5bf19d0">
+<div id="outline-container-orgfa74332" class="outline-3">
+<h3 id="orgfa74332">Porosity of Boundaries</h3>
+<div class="outline-text-3" id="text-orgfa74332">
 <p>
 &#x2014;
 </p>
 </div>
 </div>
 </div>
-<div id="outline-container-org003d270" class="outline-2">
-<h2 id="org003d270">Astrophotography</h2>
-<div class="outline-text-2" id="text-org003d270">
+<div id="outline-container-org60eb27c" class="outline-2">
+<h2 id="org60eb27c">Astrophotography</h2>
+<div class="outline-text-2" id="text-org60eb27c">
 <p>
 Something that I do, not as frequently as I would hope to. Still a beginner in the world of AP.
 </p>
@@ -379,13 +367,13 @@ Something that I do, not as frequently as I would hope to. Still a beginner in t
 </p>
 </div>
 </div>
-<div id="outline-container-orgdb19d03" class="outline-2">
-<h2 id="orgdb19d03">About</h2>
+<div id="outline-container-org9e70e34" class="outline-2">
+<h2 id="org9e70e34">About</h2>
 </div>
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: Mohit Patel</p>
-<p class="date">Created: 2021-07-25 Sun 13:07</p>
+<p class="date">Created: 2021-07-25 Sun 13:08</p>
 <p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>
