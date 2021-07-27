@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2021-07-26 Mon 18:18 -->
+<!-- 2021-07-27 Tue 17:27 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Mohit's Notes</title>
@@ -229,35 +229,42 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#org74ec01e">Sojourn</a>
+<li><a href="#org2a2bf16">July 2021</a>
 <ul>
-<li><a href="#org7eebbfd">On Method - <span class="timestamp-wrapper"><span class="timestamp">[2021-07-26 Mon]</span></span></a></li>
-<li><a href="#org0587b5f">Design</a>
+<li><a href="#org25ff941">Raga Svara Habitat Collective</a></li>
+<li><a href="#orgc8c288f">On Method <span class="timestamp-wrapper"><span class="timestamp">[2021-07-26 Mon]</span></span></a></li>
+<li><a href="#org486527b">Design</a>
 <ul>
-<li><a href="#orgf6235ca">Proportional Fonts</a></li>
-<li><a href="#org73a304b">Mono Fonts</a></li>
+<li><a href="#org5b04bd2">Proportional Fonts</a></li>
+<li><a href="#orgafe680d">Mono Fonts</a></li>
 </ul>
 </li>
-<li><a href="#org33003ab">Porosity of Boundaries</a></li>
+<li><a href="#org811f8fa">Porosity of Boundaries</a></li>
 </ul>
 </li>
-<li><a href="#orgb7fc2c9">Astrophotography</a></li>
-<li><a href="#org2efd980">About</a></li>
+<li><a href="#org8e0c62b">May 2021</a>
+<ul>
+<li><a href="#orge40aafb">Porosity of Boundaries</a></li>
+</ul>
+</li>
+<li><a href="#org9279301">Astrophotography</a></li>
+<li><a href="#orge312bd8">About</a></li>
 </ul>
 </div>
 </div>
 
 
-<div id="outline-container-org74ec01e" class="outline-2">
-<h2 id="org74ec01e">Sojourn</h2>
-<div class="outline-text-2" id="text-org74ec01e">
-<p>
-Wondering and wanderings in the half light of dawn. Disparate thoughts, desperate fumblings.
-</p>
+<div id="outline-container-org2a2bf16" class="outline-2">
+<h2 id="org2a2bf16">July 2021</h2>
+<div class="outline-text-2" id="text-org2a2bf16">
 </div>
-<div id="outline-container-org7eebbfd" class="outline-3">
-<h3 id="org7eebbfd">On Method - <span class="timestamp-wrapper"><span class="timestamp">[2021-07-26 Mon]</span></span></h3>
-<div class="outline-text-3" id="text-org7eebbfd">
+<div id="outline-container-org25ff941" class="outline-3">
+<h3 id="org25ff941">Raga Svara Habitat Collective</h3>
+</div>
+
+<div id="outline-container-orgc8c288f" class="outline-3">
+<h3 id="orgc8c288f">On Method <span class="timestamp-wrapper"><span class="timestamp">[2021-07-26 Mon]</span></span></h3>
+<div class="outline-text-3" id="text-orgc8c288f">
 <p>
 कबीरा कुआँ एक है,<br />
 पानी भरे अनेक<br />
@@ -316,7 +323,7 @@ In his book, the <a href="https://archive.org/details/counterrevolutio030197mbp/
 </p>
 
 <p>
-I shared similar thoughts in <a href="#org33003ab">Porosity of Boundaries</a>
+I shared similar thoughts in <a href="#org811f8fa">Porosity of Boundaries</a>
 &gt; To think that modern science is not riddled with fallacies of inductive logic would simply show that one does not understand the very foundations on which it rests. The analytical tools and objectivity, the foundations of modern science, itself rest on historical paradigms and strategies of inquiry that are effective only within a specific milieu.
 </p>
 
@@ -344,32 +351,32 @@ And I get back to the sublime writing of Hesse. "The incomprehensible truth, rea
 </p>
 </div>
 </div>
-<div id="outline-container-org0587b5f" class="outline-3">
-<h3 id="org0587b5f">Design</h3>
-<div class="outline-text-3" id="text-org0587b5f">
+<div id="outline-container-org486527b" class="outline-3">
+<h3 id="org486527b">Design</h3>
+<div class="outline-text-3" id="text-org486527b">
 <p>
 I think good fonts can elevate a design and bad fonts do the opposite. As a reader my most intimate relationship is with print. The curves, the spacing, serif or sans, everything comes together to create a character of the graphemes. Over the years I have liked (and then stopped linking) many fonts. I'm listing some of my current favourites.
 </p>
 </div>
 
-<div id="outline-container-orgf6235ca" class="outline-4">
-<h4 id="orgf6235ca">Proportional Fonts</h4>
-<div class="outline-text-4" id="text-orgf6235ca">
+<div id="outline-container-org5b04bd2" class="outline-4">
+<h4 id="org5b04bd2">Proportional Fonts</h4>
+<div class="outline-text-4" id="text-org5b04bd2">
 <p>
-This is the type of font that you would see most often (almost always). [Proportional](<a href="https://en.wikipedia.org/wiki/Typeface#Proportion">https://en.wikipedia.org/wiki/Typeface#Proportion</a>) or variable width fonts are probably easier on the eye and are made possible by modern computers. You would probably have not noticed that the width of each letter and the spacing between each letter is not the same (this very text that you are reading right now!). I like these proportional fonts:\
-[Open Sans](<a href="https://github.com/marcologous/Open-Sauce-Fonts">https://github.com/marcologous/Open-Sauce-Fonts</a>)\
-[Ubuntu](<a href="https://fonts.google.com/specimen/Ubuntu?query=ubuntu">https://fonts.google.com/specimen/Ubuntu?query=ubuntu</a>)\
-[Graphik](<a href="https://commercialtype.com/catalog/graphik">https://commercialtype.com/catalog/graphik</a>)\
-[Source Sans](<a href="https://fonts.google.com/specimen/Source+Sans+Pro?query=source">https://fonts.google.com/specimen/Source+Sans+Pro?query=source</a>)
+This is the type of font that you would see most often (almost always). <a href="https://en.wikipedia.org/wiki/Typeface#Proportion">Proportional</a> or variable width fonts are probably easier on the eye and are made possible by modern computers. You would probably have not noticed that the width of each letter and the spacing between each letter is not the same (this very text that you are reading right now!). I like these proportional fonts:\
+<a href="https://github.com/marcologous/Open-Sauce-Fonts">Open Sans</a>
+<a href="https://fonts.google.com/specimen/Ubuntu?query=ubuntu">Ubuntu</a>
+<a href="https://commercialtype.com/catalog/graphik">Graphik</a>
+<a href="https://fonts.google.com/specimen/Source+Sans+Pro?query=source">Source Sans</a>
 </p>
 </div>
 </div>
 
-<div id="outline-container-org73a304b" class="outline-4">
-<h4 id="org73a304b">Mono Fonts</h4>
-<div class="outline-text-4" id="text-org73a304b">
+<div id="outline-container-orgafe680d" class="outline-4">
+<h4 id="orgafe680d">Mono Fonts</h4>
+<div class="outline-text-4" id="text-orgafe680d">
 <p>
-Mono or[ monospaced fonts](<a href="https://en.wikipedia.org/wiki/Monospaced_font">https://en.wikipedia.org/wiki/Monospaced_font</a>) may remind you of the good old days of the typewriter. In modern times, these are fairly common in IDEs and programming/coding in general. I got to love mono fonts when I started using [Emacs](<a href="https://www.gnu.org/software/emacs/">https://www.gnu.org/software/emacs/</a>) about a year ago. When my Emacs Orgmode calendar was throwing up alignment errors, I had no idea what was causing the problem. Until, quite accidentally, I was trying out different fonts and stumbled upon a mono font which magically fixed it. I have loved mono fonts since then. My current favourites are:
+Mono or <a href="https://en.wikipedia.org/wiki/Monospaced_font">monospaced fonts</a> may remind you of the good old days of the typewriter. In modern times, these are fairly common in IDEs and programming/coding in general. I got to love mono fonts when I started using <a href="https://www.gnu.org/software/emacs/">Emacs</a> about a year ago. When my Emacs Orgmode calendar was throwing up alignment errors, I had no idea what was causing the problem. Until, quite accidentally, I was trying out different fonts and stumbled upon a mono font which magically fixed it. I have loved mono fonts since then. My current favourites are:
 </p>
 
 <p>
@@ -380,7 +387,7 @@ Mono or[ monospaced fonts](<a href="https://en.wikipedia.org/wiki/Monospaced_fon
 
 <p>
 Apart from my personal relationship with manuscript, I also design curriculum and learning experiences for preschool kids. These kids are just beginning to control their fine motors muscles of fingers and forearm (required for pincer grip holding of a writing tool). We gave incredible amount of time in decide what fonts should the kids be taught in. Now this might seem like a pretty banal thing to think about. But its really not. Just think about why you write a certain letter in a certain way. Why is your 'f' different from some one else's 'f' and so on with all letters? After quite some thought, we finalised on 
-[Zaner Bloser](<a href="https://www.drawyourworld.com/blog/examples-of-handwriting-styles.html">https://www.drawyourworld.com/blog/examples-of-handwriting-styles.html</a>) manuscript. The strokes are neat and sharp. The closed cups of 'b' and 'd' are same as open cups of 'c' and 'e' and so on. 
+<a href="https://www.drawyourworld.com/blog/examples-of-handwriting-styles.html">Zaner Bloser</a> manuscript. The strokes are neat and sharp. The closed cups of 'b' and 'd' are same as open cups of 'c' and 'e' and so on. 
 </p>
 
 <p>
@@ -394,18 +401,55 @@ Its quite fascinating to think about fonts.
 </div>
 </div>
 
-<div id="outline-container-org33003ab" class="outline-3">
-<h3 id="org33003ab">Porosity of Boundaries</h3>
-<div class="outline-text-3" id="text-org33003ab">
+<div id="outline-container-org811f8fa" class="outline-3">
+<h3 id="org811f8fa">Porosity of Boundaries</h3>
+<div class="outline-text-3" id="text-org811f8fa">
 <p>
 &#x2014;
 </p>
 </div>
 </div>
 </div>
-<div id="outline-container-orgb7fc2c9" class="outline-2">
-<h2 id="orgb7fc2c9">Astrophotography</h2>
-<div class="outline-text-2" id="text-orgb7fc2c9">
+<div id="outline-container-org8e0c62b" class="outline-2">
+<h2 id="org8e0c62b">May 2021</h2>
+<div class="outline-text-2" id="text-org8e0c62b">
+</div>
+<div id="outline-container-orge40aafb" class="outline-3">
+<h3 id="orge40aafb">Porosity of Boundaries</h3>
+<div class="outline-text-3" id="text-orge40aafb">
+<p>
+One major objective for <a href="https://www.theraga.org">Raga Svara</a> is to create, what I call, “Porosity of Boundaries”. I want to make the solid walls between apparently different ideas more porous, more accommodating. One such boundary is between western medicine and our traditional medicine. I have thought for quite sometime about Indian traditional systems, whether therapeutic or belief systems (many times they merge seamlessly) and their place in Raga Svara.
+</p>
+
+<p>
+<a href="https://www.ayurveda.com/resources/articles/ayurveda-a-brief-introduction-and-guide">Ayurveda</a> (perhaps the most popular among our traditional medicine systems) is loved and trusted by many.  At the same time it is derided by many for its lack of evidence based research to support its claims. Ayurveda is, unfortunately, a victim of many babas and their companies who make extraordinary claims to dupe gullible people (<a href="https://www.forbes.com/sites/siladityaray/2021/05/07/search-interest-in-coronil-a-false-covid-cure-soars-in-india-as-pandemic-rages/?sh=ad3709022fb2">here</a>, <a href="https://scroll.in/article/995510/ramachandra-guha-modis-hindutva-irrationality-makes-indias-war-on-covid-19-even-more-difficult">here</a>). Many rationalists are rightly on guard against all claims made by traditional systems.
+</p>
+
+<p>
+Of late, there has been a new trend of providing legitimacy to traditional medicine by using the <a href="https://en.wikipedia.org/wiki/Epistemology">epistemic</a> frameworks of modern science. Using, mostly callously, concepts like "evidence based", "clinical trials", etc. the quack tries to pass off as a scientist.
+</p>
+
+<p>
+I believe that the fundamental issue here is of "epistemic categories". Ayurveda, or for that matter any <a href="https://plato.stanford.edu/entries/categories/">conceptual category</a>, needs to be evaluated within the dynamics of discourse in which they operate. It would be futile, and even misleading, to transpose one system's internal dynamics to another system to evaluate it. An honest, and perhaps more useful, approach would be to evaluate Ayurveda within its own framework defined by its first principles and givens. The same goes with modern medicine. To think that modern science is not riddled with fallacies of inductive logic would simply show that one does not understand the very foundations on which it rests. The analytical tools and objectivity, the foundations of modern science, itself rest on historical paradigms and strategies of inquiry that are effective only within a specific milieu.
+</p>
+
+<p>
+Personally, it has been a humbling experience for me to be able to see "categories" as internally consistent while being utterly shamanic when seen from another lens.
+</p>
+
+<p>
+As individuals all we can do is to be clear and honest within our own minds about the limitations of each system. What I find difficult to accept and understand is the parasitic attempt to gain epistemic legitimacy. And this works both ways. Some Ayurveda proponents will claim "scientifically proven", "clinically tested" to sell their products and some"modern", synthetic products will claim to be "natural".
+</p>
+
+<p>
+All said and done, each system must pass a falsifiability screen. We cannot accept unsound arguments even if they are internally consistent. And there exist methods that must be employed in evaluation of any system. Unfortunately, Ayurveda (and other traditional systems such Siddha, Unani et al.) is neither making enough attempts to develop its own proof mechanisms nor is it adopting proof mechanisms of other systems (such as clinical trials of modern science) in its true spirit.  
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org9279301" class="outline-2">
+<h2 id="org9279301">Astrophotography</h2>
+<div class="outline-text-2" id="text-org9279301">
 <p>
 Something that I do, not as frequently as I would hope to. Still a beginner in the world of AP.
 </p>
@@ -415,9 +459,9 @@ Something that I do, not as frequently as I would hope to. Still a beginner in t
 </p>
 </div>
 </div>
-<div id="outline-container-org2efd980" class="outline-2">
-<h2 id="org2efd980">About</h2>
-<div class="outline-text-2" id="text-org2efd980">
+<div id="outline-container-orge312bd8" class="outline-2">
+<h2 id="orge312bd8">About</h2>
+<div class="outline-text-2" id="text-orge312bd8">
 <p>
 My name is <b><b>Mohit Patel</b></b><br />
 <a href="https://twitter.com/mohitkpatel">Twitter</a>, <a href="https://www.facebook.com/mohitpatel">Facebook</a> 
@@ -431,7 +475,7 @@ I like being a <a href="https://oll.libertyfund.org/quotes/341">gadfly</a>. My l
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: Mohit Patel</p>
-<p class="date">Created: 2021-07-26 Mon 18:18</p>
+<p class="date">Created: 2021-07-27 Tue 17:27</p>
 <p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>
