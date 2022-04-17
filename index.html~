@@ -3,10 +3,10 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2022-04-17 Sun 09:59 -->
+<!-- 2022-04-17 Sun 10:40 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Mohit's Notes</title>
+<title>Mohit Patel Notes</title>
 <meta name="author" content="Mohit Patel" />
 <meta name="generator" content="Org Mode" />
 <style>
@@ -193,142 +193,99 @@
     { background-color: #ffff00; color: #000000; font-weight: bold; }
   .org-svg { width: 90%; }
 </style>
-<style type="text/css">
-html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block}audio:not([controls]){display:none;height:0}progress{vertical-align:baseline}[hidden],template{display:none}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:inherit;font-weight:bolder}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}svg:not(:root){overflow:hidden}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}button,input,optgroup,select,textarea{font:inherit;margin:0}optgroup{font-weight:700}button,input{overflow:visible}button,select{text-transform:none}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{color:#000;background-color:#fff}.org-alert-high{color:#ff8c00;font-weight:700}.org-alert-low{color:#00008b}.org-alert-moderate{color:gold;font-weight:700}.org-alert-saved-fringe{background-color:#f2f2f2}.org-alert-trivial{color:Dark purple}.org-alert-urgent{color:red;font-weight:700}.org-anzu-match-1{color:#000;background-color:#7fffd4}.org-anzu-match-2{color:#000;background-color:#00ff7f}.org-anzu-match-3{color:#000;background-color:#ff0}.org-anzu-mode-line,.org-anzu-mode-line-no-match{color:#008b00;font-weight:700}.org-anzu-replace-highlight{color:#b0e2ff;background-color:#cd00cd}.org-anzu-replace-to{color:red}.org-bbdb-field-name{color:sienna}.org-bbdb-name{color:#00f}.org-bbdb-organization{color:#b22222}.org-beacon-fallback-background{background-color:#000}.org-biblio-results-header{color:#483d8b;font-size:150%;font-weight:700}.org-bold{font-weight:700}.org-bold-italic{font-weight:700;font-style:italic}.org-bookmark-menu-bookmark{font-weight:700}.org-bookmark-menu-heading{color:#228b22}.org-buffer-menu-buffer{font-weight:700}.org-builtin{color:#483d8b}.org-button{color:#3a5fcd;text-decoration:underline}.org-c-annotation{color:#008b8b}.org-cal-china-x-general-holiday{background-color:#228b22}.org-cal-china-x-important-holiday{background-color:#8b0000}.org-calendar-iso-week{color:pink;font-weight:700}.org-calendar-iso-week-header{color:#0ff}.org-calendar-month-header{color:#00f}.org-calendar-today{text-decoration:underline}.org-calendar-weekday-header{color:#008b8b}.org-calendar-weekend-header{color:#b22222}.org-comint-highlight-input{font-weight:700}.org-comint-highlight-prompt{color:#0000cd}.org-comment,.org-comment-delimiter{color:#b22222}.org-compilation-column-number{color:#8b2252}.org-compilation-error{color:red;font-weight:700}.org-compilation-info{color:#228b22;font-weight:700}.org-compilation-line-number{color:#a020f0}.org-compilation-mode-line-exit{color:#228b22;font-weight:700}.org-compilation-mode-line-fail{color:red;font-weight:700}.org-compilation-mode-line-run,.org-compilation-warning{color:#ff8c00;font-weight:700}.org-completions-annotations{font-style:italic}.org-completions-first-difference{font-weight:700}.org-constant{color:#008b8b}.org-cursor{background-color:#eead0e}.org-custom-button{color:#000;background-color:#d3d3d3}.org-custom-button-mouse{color:#000;background-color:#e5e5e5}.org-custom-button-pressed{color:#000;background-color:#d3d3d3}.org-custom-button-pressed-unraised{color:#8b008b;text-decoration:underline}.org-custom-button-unraised{text-decoration:underline}.org-custom-changed{color:#fff;background-color:#00f}.org-custom-comment{background-color:#d9d9d9}.org-custom-comment-tag{color:#00008b}.org-custom-face-tag{color:#00f;font-weight:700}.org-custom-group-subtitle{font-weight:700}.org-custom-group-tag{color:#00f;font-size:120%;font-weight:700}.org-custom-group-tag-1{color:red;font-size:120%;font-weight:700}.org-custom-invalid{color:#ff0;background-color:red}.org-custom-link{color:#3a5fcd;text-decoration:underline}.org-custom-modified{color:#fff;background-color:#00f}.org-custom-rogue{color:pink;background-color:#000}.org-custom-saved{text-decoration:underline}.org-custom-set{color:#00f;background-color:#fff}.org-custom-state{color:#006400}.org-custom-themed{color:#fff;background-color:#00f}.org-custom-variable-button{font-weight:700;text-decoration:underline}.org-custom-variable-tag{color:#00f;font-weight:700}.org-custom-visibility{color:#3a5fcd;font-size:80%;text-decoration:underline}.org-diary{color:red}.org-diary-anniversary{color:#a020f0}.org-diary-time{color:sienna}.org-dired-async-failures{color:red}.org-dired-async-message{color:#ff0}.org-dired-async-mode-message{color:gold}.org-dired-directory{color:#00f}.org-dired-flagged{color:red;font-weight:700}.org-dired-header{color:#228b22}.org-dired-ignored{color:#7f7f7f}.org-dired-mark{color:#008b8b}.org-dired-marked{color:#ff8c00;font-weight:700}.org-dired-perm-write{color:#b22222}.org-dired-symlink{color:#a020f0}.org-dired-warning{color:red;font-weight:700}.org-doc{color:#8b2252}.org-eldoc-highlight-function-argument{font-weight:700}.org-epa-field-body{font-style:italic}.org-epa-field-name,.org-epa-mark{font-weight:700}.org-epa-mark{color:red}.org-epa-string{color:#00008b}.org-epa-validity-disabled{font-style:italic}.org-epa-validity-high{font-weight:700}.org-epa-validity-low,.org-epa-validity-medium{font-style:italic}.org-error{color:red;font-weight:700}.org-escape-glyph{color:brown}.org-evil-ex-commands{font-style:italic;text-decoration:underline}.org-evil-ex-info{color:red;font-style:italic}.org-evil-ex-lazy-highlight{background-color:#afeeee}.org-evil-ex-search{color:#b0e2ff;background-color:#cd00cd}.org-evil-ex-substitute-matches{background-color:#afeeee}.org-evil-ex-substitute-replacement{color:red;text-decoration:underline}.org-ffap{background-color:#b4eeb4}.org-file-name-shadow{color:#7f7f7f}.org-flycheck-error{text-decoration:underline}.org-flycheck-error-list-checker-name{color:#00f}.org-flycheck-error-list-column-number{color:#008b8b}.org-flycheck-error-list-error{color:red;font-weight:700}.org-flycheck-error-list-filename{color:sienna}.org-flycheck-error-list-highlight{background-color:#b4eeb4}.org-flycheck-error-list-id,.org-flycheck-error-list-id-with-explainer{color:#228b22}.org-flycheck-error-list-info{color:#228b22;font-weight:700}.org-flycheck-error-list-line-number{color:#008b8b}.org-flycheck-error-list-warning{color:#ff8c00;font-weight:700}.org-flycheck-fringe-error{color:red;font-weight:700}.org-flycheck-fringe-info{color:#228b22;font-weight:700}.org-flycheck-fringe-warning{color:#ff8c00;font-weight:700}.org-flycheck-info,.org-flycheck-warning,.org-flyspell-duplicate,.org-flyspell-incorrect{text-decoration:underline}.org-fringe{background-color:#f2f2f2}.org-function-name{color:#00f}.org-glyphless-char{font-size:60%}.org-golden-ratio-scroll-highlight-line{color:#fff;background-color:#53868b;font-weight:700}.org-header-line{color:#333;background-color:#e5e5e5}.org-helm-action{text-decoration:underline}.org-helm-bookmark-addressbook{color:tomato}.org-helm-bookmark-directory{color:#8b0000;background-color:#d3d3d3}.org-helm-bookmark-file{color:#00b2ee}.org-helm-bookmark-file-not-found{color:#6c7b8b}.org-helm-bookmark-gnus{color:#f0f}.org-helm-bookmark-info{color:#0f0}.org-helm-bookmark-man{color:#8b5a00}.org-helm-bookmark-w3m{color:#ff0}.org-helm-buffer-archive{color:gold}.org-helm-buffer-directory{color:#8b0000;background-color:#d3d3d3}.org-helm-buffer-file{color:#483d8b}.org-helm-buffer-modified{color:#b22222}.org-helm-buffer-not-saved{color:#ee6363}.org-helm-buffer-process{color:#cd6839}.org-helm-buffer-saved-out{color:red;background-color:#000}.org-helm-buffer-size{color:#708090}.org-helm-candidate-number,.org-helm-candidate-number-suspended{color:#000;background-color:#faffb5}.org-helm-delete-async-message{color:#ff0}.org-helm-etags-file{color:#8b814c;text-decoration:underline}.org-helm-ff-denied{color:red;background-color:#000}.org-helm-ff-directory{color:#8b0000;background-color:#d3d3d3}.org-helm-ff-dirs{color:#00f}.org-helm-ff-dotted-directory{color:#000;background-color:#696969}.org-helm-ff-dotted-symlink-directory{color:#ff8c00;background-color:#696969}.org-helm-ff-executable{color:#0f0}.org-helm-ff-file{color:#483d8b}.org-helm-ff-invalid-symlink{color:#000;background-color:red}.org-helm-ff-pipe{color:#ff0;background-color:#000}.org-helm-ff-prefix{color:#000;background-color:#ff0}.org-helm-ff-socket{color:#ff1493}.org-helm-ff-suid{color:#fff;background-color:red}.org-helm-ff-symlink{color:#b22222}.org-helm-ff-truename{color:#8b2252}.org-helm-grep-cmd-line{color:#228b22}.org-helm-grep-file{color:#8a2be2;text-decoration:underline}.org-helm-grep-finish{color:#0f0}.org-helm-grep-lineno{color:#ff7f00}.org-helm-grep-match{color:#b00000}.org-helm-header{color:#333;background-color:#e5e5e5}.org-helm-header-line-left-margin{color:#000;background-color:#ff0}.org-helm-helper{color:#333;background-color:#e5e5e5}.org-helm-history-deleted{color:#000;background-color:red}.org-helm-history-remote{color:#ff6a6a}.org-helm-lisp-completion-info{color:red}.org-helm-lisp-show-completion{background-color:#2f4f4f}.org-helm-locate-finish{color:#0f0}.org-helm-m-x-key{color:orange;text-decoration:underline}.org-helm-match{color:#b00000}.org-helm-match-item{color:#b0e2ff;background-color:#cd00cd}.org-helm-minibuffer-prompt{color:#0000cd}.org-helm-moccur-buffer{color:#00ced1;text-decoration:underline}.org-helm-non-file-buffer{font-style:italic}.org-helm-prefarg{color:red}.org-helm-resume-need-update{background-color:red}.org-helm-selection{background-color:#097209}.org-helm-selection-line{background-color:#b4eeb4}.org-helm-separator{color:#ffbfb5}.org-helm-source-header{color:#000;background-color:#abd7f0;font-size:130%;font-weight:700}.org-helm-visible-mark{background-color:#d1f5ea}.org-help-argument-name{font-style:italic}.org-highlight{background-color:#b4eeb4}.org-highlight-indent-guides-character{color:#e6e6e6}.org-highlight-indent-guides-even{background-color:#e6e6e6}.org-highlight-indent-guides-odd{background-color:#f3f3f3}.org-highlight-indent-guides-stack-character{color:#ccc}.org-highlight-indent-guides-stack-even{background-color:#ccc}.org-highlight-indent-guides-stack-odd{background-color:#d9d9d9}.org-highlight-indent-guides-top-character{color:#b3b3b3}.org-highlight-indent-guides-top-even{background-color:#b3b3b3}.org-highlight-indent-guides-top-odd{background-color:silver}.org-highlight-numbers-number{color:#008b8b}.org-hl-line{background-color:#b4eeb4}.org-holiday{background-color:pink}.org-hydra-face-amaranth{color:#e52b50;font-weight:700}.org-hydra-face-blue{color:#00f;font-weight:700}.org-hydra-face-pink{color:#ff6eb4;font-weight:700}.org-hydra-face-red{color:red;font-weight:700}.org-hydra-face-teal{color:#367588;font-weight:700}.org-ido-first-match{font-weight:700}.org-ido-incomplete-regexp{color:red;font-weight:700}.org-ido-indicator{color:#ff0;background-color:red}.org-ido-only-match{color:#228b22}.org-ido-subdir{color:red}.org-ido-virtual{color:#483d8b}.org-info-header-node{color:brown;font-weight:700;font-style:italic}.org-info-header-xref{color:#3a5fcd;text-decoration:underline}.org-info-index-match{background-color:#ff0}.org-info-menu-header{font-weight:700}.org-info-menu-star{color:red}.org-info-node{color:brown;font-weight:700;font-style:italic}.org-info-title-1{font-size:172%;font-weight:700}.org-info-title-2{font-size:144%;font-weight:700}.org-info-title-3{font-size:120%;font-weight:700}.org-info-title-4{font-weight:700}.org-info-xref{color:#3a5fcd;text-decoration:underline}.org-isearch{color:#b0e2ff;background-color:#cd00cd}.org-isearch-fail{background-color:#ffc1c1}.org-italic{font-style:italic}.org-keyword{color:#a020f0}.org-lazy-highlight{background-color:#afeeee}.org-link{color:#3a5fcd;text-decoration:underline}.org-link-visited{color:#8b008b;text-decoration:underline}.org-lv-separator{background-color:#ccc}.org-match{background-color:#ff0}.org-mcXcursor-bar{background-color:#000}.org-mcXregion{background-color:gtk_selection_bg_color}.org-me-dired-dim-0{color:#b3b3b3}.org-me-dired-dim-1{color:#7f7f7f}.org-me-dired-executable{color:#0f0}.org-message-cited-text{color:red}.org-message-header-cc{color:#191970}.org-message-header-name{color:#6495ed}.org-message-header-newsgroups{color:#00008b;font-weight:700;font-style:italic}.org-message-header-other{color:#4682b4}.org-message-header-subject{color:navy;font-weight:700}.org-message-header-to{color:#191970;font-weight:700}.org-message-header-xheader{color:#00f}.org-message-mml{color:#228b22}.org-message-separator{color:brown}.org-minibuffer-prompt{color:#0000cd}.org-mm-command-output{color:#cd0000}.org-mode-line{color:#000;background-color:#bfbfbf}.org-mode-line-buffer-id,.org-mode-line-buffer-id-inactive,.org-mode-line-emphasis{font-weight:700}.org-mode-line-inactive{color:#333;background-color:#e5e5e5}.org-mu4e-attach-number{color:sienna;font-weight:700}.org-mu4e-cited-1{color:#483d8b;font-style:italic}.org-mu4e-cited-2{color:#5cacee;font-style:italic}.org-mu4e-cited-3{color:sienna;font-style:italic}.org-mu4e-cited-4{color:#a020f0;font-style:italic}.org-mu4e-cited-5,.org-mu4e-cited-6{color:#b22222;font-style:italic}.org-mu4e-cited-7{color:#228b22;font-style:italic}.org-mu4e-compose-header,.org-mu4e-compose-separator{color:brown;font-style:italic}.org-mu4e-contact{color:sienna}.org-mu4e-context{color:#006400;font-weight:700}.org-mu4e-draft{color:#8b2252}.org-mu4e-flagged{color:#008b8b;font-weight:700}.org-mu4e-footer{color:#b22222}.org-mu4e-forwarded{color:#483d8b}.org-mu4e-header{color:#000;background-color:#fff}.org-mu4e-header-highlight{background-color:#000;font-weight:700;text-decoration:underline}.org-mu4e-header-key{color:#6495ed;font-weight:700}.org-mu4e-header-marks{color:#483d8b}.org-mu4e-header-title,.org-mu4e-header-value{color:#228b22}.org-mu4e-highlight{background-color:#b4eeb4}.org-mu4e-link{color:#3a5fcd;text-decoration:underline}.org-mu4e-modeline{color:#8b4500;font-weight:700}.org-mu4e-moved{color:#b22222;font-style:italic}.org-mu4e-ok{color:#b22222;font-weight:700}.org-mu4e-region-code{background-color:#2f4f4f}.org-mu4e-replied,.org-mu4e-special-header-value{color:#483d8b}.org-mu4e-system{color:#b22222;font-style:italic}.org-mu4e-title{color:#228b22;font-weight:700}.org-mu4e-trashed{color:#b22222;text-decoration:line-through}.org-mu4e-unread{color:#a020f0;font-weight:700}.org-mu4e-url-number{color:#008b8b;font-weight:700}.org-mu4e-view-body{color:#000;background-color:#fff}.org-mu4e-warning{color:red;font-weight:700}.org-next-error{background-color:gtk_selection_bg_color}.org-nobreak-space{color:brown;text-decoration:underline}.org-org-agenda-calendar-event,.org-org-agenda-calendar-sexp{color:#000;background-color:#fff}.org-org-agenda-clocking{background-color:#ff0}.org-org-agenda-column-dateline{background-color:#e5e5e5}.org-org-agenda-current-time{color:#b8860b}.org-org-agenda-date{color:#00f}.org-org-agenda-date-today{color:#00f;font-weight:700;font-style:italic}.org-org-agenda-date-weekend{color:#00f;font-weight:700}.org-org-agenda-diary{color:#000;background-color:#fff}.org-org-agenda-dimmed-todo{color:#7f7f7f}.org-org-agenda-done{color:#228b22}.org-org-agenda-filter-category,.org-org-agenda-filter-effort,.org-org-agenda-filter-regexp,.org-org-agenda-filter-tags{color:#000;background-color:#bfbfbf}.org-org-agenda-restriction-lock{background-color:#eee}.org-org-agenda-structure{color:#00f}.org-org-archived{color:#7f7f7f}.org-org-block{color:#7f7f7f}.org-org-block-begin-line,.org-org-block-end-line{color:#b22222}.org-org-checkbox{font-weight:700}.org-org-checkbox-statistics-done{color:#228b22;font-weight:700}.org-org-checkbox-statistics-todo{color:red;font-weight:700}.org-org-clock-overlay{color:#000;background-color:#d3d3d3}.org-org-code{color:#7f7f7f}.org-org-column,.org-org-column-title{background-color:#e5e5e5}.org-org-column-title{font-weight:700;text-decoration:underline}.org-org-date{color:#bfaf87;text-decoration:underline}.org-org-date-selected{color:red}.org-org-default{color:#000;background-color:#fff}.org-org-document-info{color:#191970}.org-org-document-info-keyword{color:#7f7f7f}.org-org-document-title{color:#191970;font-weight:700}.org-org-done{color:#228b22;font-weight:700}.org-org-drawer{color:#00f}.org-org-ellipsis{color:#b8860b;text-decoration:underline}.org-org-footnote{color:#96b4cd;text-decoration:underline}.org-org-formula{color:#b22222}.org-org-habit-alert{background-color:#f5f946}.org-org-habit-alert-future{background-color:#fafca9}.org-org-habit-clear{background-color:#8270f9}.org-org-habit-clear-future{background-color:#d6e4fc}.org-org-habit-overdue{background-color:#f9372d}.org-org-habit-overdue-future{background-color:#fc9590}.org-org-habit-ready{background-color:#4df946}.org-org-habit-ready-future{background-color:#acfca9}.org-org-headline-done{color:#bc8f8f}.org-org-hide{color:#fff}.org-org-latex-and-related{color:#8b4513}.org-org-level-1{color:#edd1c5}.org-org-level-2{color:#ebebb7}.org-org-level-3{color:#cce8cc}.org-org-level-4{color:#c9deec}.org-org-level-5{color:#dce3e8}.org-org-level-6{color:#dde6dd}.org-org-level-7{color:#e8e8ce}.org-org-level-8{color:#e8dedb}.org-org-link{color:#c5d2dc;text-decoration:underline}.org-org-list-dt{font-weight:700}.org-org-macro{color:#8b4513}.org-org-meta-line{color:#b22222}.org-org-mode-line-clock{color:#000;background-color:#bfbfbf}.org-org-mode-line-clock-overrun{color:#000;background-color:red}.org-org-priority{color:#a020f0}.org-org-quote{color:#7f7f7f}.org-org-ref-acronym{color:#ee7600;text-decoration:underline}.org-org-ref-cite{color:#c3d5c3;text-decoration:underline}.org-org-ref-glossary{color:#8968cd;text-decoration:underline}.org-org-ref-label{color:#8b008b;text-decoration:underline}.org-org-ref-ref{color:#e1cc96;text-decoration:underline}.org-org-scheduled{color:#006400}.org-org-scheduled-previously{color:#b22222}.org-org-scheduled-today{color:#006400}.org-org-sexp-date{color:#a020f0}.org-org-special-keyword{color:#88949f}.org-org-table{color:#00f}.org-org-tag,.org-org-tag-group{font-weight:700}.org-org-target{text-decoration:underline}.org-org-time-grid{color:#b8860b}.org-org-todo{color:red;font-weight:700}.org-org-upcoming-deadline{color:#b22222}.org-org-verbatim,.org-org-verse{color:#7f7f7f}.org-org-warning{color:red;font-weight:700}.org-outline-1{color:#00f}.org-outline-2{color:sienna}.org-outline-3{color:#a020f0}.org-outline-4{color:#b22222}.org-outline-5{color:#228b22}.org-outline-6{color:#008b8b}.org-outline-7{color:#483d8b}.org-outline-8{color:#8b2252}.org-package-description{color:#000;background-color:#fff}.org-package-name{color:#3a5fcd;text-decoration:underline}.org-package-status-avail-obso{color:#b22222}.org-package-status-available{color:#000;background-color:#fff}.org-package-status-built-in{color:#483d8b}.org-package-status-dependency{color:#b22222}.org-package-status-disabled{color:red;font-weight:700}.org-package-status-external{color:#483d8b}.org-package-status-held{color:#008b8b}.org-package-status-incompat,.org-package-status-installed{color:#b22222}.org-package-status-unsigned{color:red;font-weight:700}.org-pdf-isearch-batch{background-color:#ff0}.org-pdf-isearch-lazy{background-color:#afeeee}.org-pdf-isearch-match{color:#b0e2ff;background-color:#cd00cd}.org-pdf-occur-document{color:#8b2252}.org-pdf-occur-page{color:#228b22}.org-pdf-view-rectangle{background-color:#b4eeb4}.org-pdf-view-region{background-color:gtk_selection_bg_color}.org-powerline-active0{color:#000;background-color:#bfbfbf}.org-powerline-active1{color:#fff;background-color:#2b2b2b}.org-powerline-active2{color:#fff;background-color:#666}.org-powerline-inactive0{color:#333;background-color:#e5e5e5}.org-powerline-inactive1{color:#333;background-color:#1c1c1c}.org-powerline-inactive2{color:#333;background-color:#333}.org-preprocessor{color:#483d8b}.org-query-replace{color:#b0e2ff;background-color:#cd00cd}.org-rainbow-delimiters-depth-1{color:#ffdead}.org-rainbow-delimiters-depth-2{color:#00bfff}.org-rainbow-delimiters-depth-3{color:#ffdead}.org-rainbow-delimiters-depth-4{color:#00bfff}.org-rainbow-delimiters-depth-5{color:#ffdead}.org-rainbow-delimiters-depth-6{color:#00bfff}.org-rainbow-delimiters-depth-7{color:#ffdead}.org-rainbow-delimiters-depth-8{color:#00bfff}.org-rainbow-delimiters-depth-9{color:#ffdead}.org-rainbow-delimiters-unmatched{color:#88090b}.org-reb-match-0{background-color:#add8e6}.org-reb-match-1{background-color:#7fffd4}.org-reb-match-2{background-color:#00ff7f}.org-reb-match-3{background-color:#ff0}.org-rectangle-preview{background-color:gtk_selection_bg_color}.org-regexp-grouping-backslash,.org-regexp-grouping-construct{font-weight:700}.org-region{background-color:gtk_selection_bg_color}.org-secondary-selection{background-color:#ff0}.org-semantic-highlight-edits,.org-semantic-highlight-func-current-tag{background-color:#e5e5e5}.org-semantic-unmatched-syntax{text-decoration:underline}.org-sgml-namespace{color:#483d8b}.org-sh-escaped-newline{color:#8b2252}.org-sh-heredoc{color:#ee0}.org-sh-quoted-exec{color:#f0f}.org-shadow{color:#7f7f7f}.org-show-paren-match{background-color:#40e0d0}.org-show-paren-mismatch{color:#fff;background-color:#a020f0}.org-sp-pair-overlay,.org-sp-show-pair-enclosing{background-color:#b4eeb4}.org-sp-show-pair-match{background-color:#40e0d0}.org-sp-show-pair-mismatch{color:#fff;background-color:#a020f0}.org-sp-wrap-overlay{background-color:#b4eeb4}.org-sp-wrap-overlay-closing-pair{color:red;background-color:#b4eeb4}.org-sp-wrap-overlay-opening-pair{color:#0f0;background-color:#b4eeb4}.org-sp-wrap-tag-overlay{background-color:#b4eeb4}.org-spaceline-flycheck-error{color:#fc5c94;background-color:#333}.org-spaceline-flycheck-info{color:#8de6f7;background-color:#333}.org-spaceline-flycheck-warning{color:#f3ea98;background-color:#333}.org-spaceline-python-venv{color:#fbf}.org-speedbar-button{color:#008b00}.org-speedbar-directory{color:#00008b}.org-speedbar-file{color:#008b8b}.org-speedbar-highlight{background-color:#0f0}.org-speedbar-selected{color:red;text-decoration:underline}.org-speedbar-separator{color:#fff;background-color:#00f;text-decoration:overline}.org-speedbar-tag{color:brown}.org-string{color:#8b2252}.org-success{color:#228b22;font-weight:700}.org-table-cell{color:#e5e5e5;background-color:#00f}.org-tex-math{color:#8b2252}.org-tool-bar{color:#000;background-color:#bfbfbf}.org-tooltip{color:#000;background-color:#ffffe0}.org-trailing-whitespace{background-color:red}.org-tty-menu-disabled{color:#d3d3d3;background-color:#00f}.org-tty-menu-enabled{color:#ff0;background-color:#00f;font-weight:700}.org-tty-menu-selected{background-color:red}.org-type{color:#228b22}.org-underline{text-decoration:underline}.org-undo-tree-visualizer-active-branch{color:#000;font-weight:700}.org-undo-tree-visualizer-current{color:red}.org-undo-tree-visualizer-default{color:#bebebe}.org-undo-tree-visualizer-register{color:#ff0}.org-undo-tree-visualizer-unmodified{color:#0ff}.org-variable-name{color:sienna}.org-vhlXdefault{background-color:#ff0}.org-warning{color:#ff8c00;font-weight:700}.org-warning-1{color:red;font-weight:700}.org-wgrep{color:#fff;background-color:#228b22}.org-wgrep-delete{color:pink;background-color:#228b22}.org-wgrep-done{color:#00f}.org-wgrep-file{color:#fff;background-color:#228b22}.org-wgrep-reject{color:red;font-weight:700}.org-which-key-command-description{color:#00f}.org-which-key-docstring{color:#b22222}.org-which-key-group-description{color:#a020f0}.org-which-key-highlighted-command{color:#00f;text-decoration:underline}.org-which-key-key{color:#008b8b}.org-which-key-local-map-description{color:#00f}.org-which-key-note,.org-which-key-separator{color:#b22222}.org-which-key-special-key{color:#008b8b;font-weight:700}.org-whitespace-big-indent{color:#b22222;background-color:red}.org-whitespace-empty{color:#b22222;background-color:#ff0}.org-whitespace-hspace{color:#d3d3d3;background-color:#cdc9a5}.org-whitespace-indentation{color:#b22222;background-color:#ff0}.org-whitespace-line{color:violet;background-color:#333}.org-whitespace-newline{color:#d3d3d3}.org-whitespace-space{color:#d3d3d3;background-color:#ffffe0}.org-whitespace-space-after-tab{color:#b22222;background-color:#ff0}.org-whitespace-space-before-tab{color:#b22222;background-color:#ff8c00}.org-whitespace-tab{color:#d3d3d3;background-color:beige}.org-whitespace-trailing{color:#ff0;background-color:red;font-weight:700}.org-widget-button{font-weight:700}.org-widget-button-pressed{color:red}.org-widget-documentation{color:#006400}.org-widget-field{background-color:#d9d9d9}.org-widget-inactive{color:#7f7f7f}.org-widget-single-line-field{background-color:#d9d9d9}.org-window-divider{color:#999}.org-window-divider-first-pixel{color:#ccc}.org-window-divider-last-pixel{color:#666}a{color:inherit;background-color:inherit;font:inherit;text-decoration:inherit}a:hover{text-decoration:underline}body{width:95%;margin:2% auto;font-size:14px;line-height:1.4em;font-family:Georgia,serif;color:#333}@media screen and (min-width:600px){body{font-size:18px}}@media screen and (min-width:910px){body{width:900px}}::selection{background:#d6edff}p{margin:1em auto}dl,ol,ul{margin:0 auto}.title{text-align:center;margin:.8em auto;color:#000}.subtitle{text-align:center;font-size:1.1em;line-height:1.4;font-weight:700;margin:1em auto}.abstract{margin:auto;width:80%;font-style:italic}.abstract p:last-of-type:before{content:"    ";white-space:pre}.status{font-size:90%;margin:2em auto}[class^=section-number-]{margin-right:.5em}[id^=orgheadline]{clear:both}#footnotes{font-size:90%}.footpara{display:inline;margin:.2em auto}.footdef{margin-bottom:1em}.footdef sup{padding-right:.5em}a{color:#527d9a;text-decoration:none}a:hover{color:#035;border-bottom:1px dotted}figure{padding:0;margin:1em auto;text-align:center}img{max-width:100%;vertical-align:middle}.MathJax_Display{margin:0!important;width:90%!important}h1,h2,h3,h4,h5,h6{color:#a5573e;line-height:1em;font-family:Helvetica,sans-serif}h1,h2,h3{line-height:1.4em}h4,h5,h6{font-size:1em}@media screen and (min-width:600px){h1{font-size:2em}h2{font-size:1.5em}h3{font-size:1.3em}h1,h2,h3{line-height:1.4em}h4,h5,h6{font-size:1.1em}}dt{font-weight:700}table{margin:1em auto;border-top:2px solid;border-bottom:2px solid;border-collapse:collapse}thead{border-bottom:2px solid}table td+td,table th+th{border-left:1px solid grey}table tr{border-top:1px solid #d3d3d3}td,th{padding:.3em .6em;vertical-align:middle}caption.t-above{caption-side:top}caption.t-bottom{caption-side:bottom}caption{margin-bottom:.3em}figcaption{margin-top:.3em}th.org-center,th.org-left,th.org-right{text-align:center}td.org-right{text-align:right}td.org-left{text-align:left}td.org-center{text-align:center}blockquote{margin:1em 2em;padding-left:1em;border-left:3px solid #ccc}kbd{background-color:#f7f7f7;font-size:80%;margin:0 .1em;padding:.1em .6em}.todo{background-color:red;color:#fff;padding:.1em .3em;border-radius:3px;background-clip:padding-box;font-size:80%;font-family:Lucida Console,monospace;line-height:1}.done{background-color:green;color:#fff;padding:.1em .3em;border-radius:3px;background-clip:padding-box;font-size:80%;font-family:Lucida Console,monospace;line-height:1}.priority{color:orange;font-family:Lucida Console,monospace}#table-of-contents li{clear:both}.tag{font-family:Lucida Console,monospace;font-size:.7em;font-weight:400}.tag span{padding:.3em;float:right;margin-right:.5em;border:1px solid #bbb;border-radius:3px;background-clip:padding-box;color:#333;background-color:#eee;line-height:1}.timestamp{color:#bebebe;font-size:90%}.timestamp-kwd{color:#5f9ea0}.org-right{margin-left:auto;margin-right:0;text-align:right}.org-left{margin-left:0;margin-right:auto;text-align:left}.org-center{margin-left:auto;margin-right:auto;text-align:center}.underline{text-decoration:underline}#postamble p,#preamble p{font-size:90%;margin:.2em}p.verse{margin-left:3%}:not(pre)>code{padding:2px 5px;margin:auto 1px;border:1px solid #ddd;border-radius:3px;background-clip:padding-box;color:#333;font-size:80%}.org-src-container{border:1px solid #ccc;box-shadow:3px 3px 3px #eee;font-family:Lucida Console,monospace;font-size:80%;margin:1em auto;padding:.1em .5em;position:relative}.org-src-container>pre{overflow:auto}.org-src-container>pre:before{display:block;position:absolute;background-color:#b3b3b3;top:0;right:0;padding:0 .5em;border-bottom-left-radius:8px;border:0;color:#fff;font-size:80%}.org-src-container>pre.src-sh:before{content:"sh"}.org-src-container>pre.src-bash:before{content:"bash"}.org-src-container>pre.src-emacs-lisp:before{content:"Emacs Lisp"}.org-src-container>pre.src-R:before{content:"R"}.org-src-container>pre.src-cpp:before{content:"C++"}.org-src-container>pre.src-c:before{content:"C"}.org-src-container>pre.src-html:before{content:"HTML"}.org-src-container>pre.src-javascript:before,.org-src-container>pre.src-js:before{content:"Javascript"}// More languages 0% http://orgmode.org/worg/org-contrib/babel/languages.html .org-src-container>pre.src-abc:before{content:"ABC"}.org-src-container>pre.src-asymptote:before{content:"Asymptote"}.org-src-container>pre.src-awk:before{content:"Awk"}.org-src-container>pre.src-C:before{content:"C"}.org-src-container>pre.src-calc:before{content:"Calc"}.org-src-container>pre.src-clojure:before{content:"Clojure"}.org-src-container>pre.src-comint:before{content:"comint"}.org-src-container>pre.src-css:before{content:"CSS"}.org-src-container>pre.src-D:before{content:"D"}.org-src-container>pre.src-ditaa:before{content:"Ditaa"}.org-src-container>pre.src-dot:before{content:"Dot"}.org-src-container>pre.src-ebnf:before{content:"ebnf"}.org-src-container>pre.src-forth:before{content:"Forth"}.org-src-container>pre.src-F90:before{content:"Fortran"}.org-src-container>pre.src-gnuplot:before{content:"Gnuplot"}.org-src-container>pre.src-haskell:before{content:"Haskell"}.org-src-container>pre.src-io:before{content:"Io"}.org-src-container>pre.src-java:before{content:"Java"}.org-src-container>pre.src-latex:before{content:"LaTeX"}.org-src-container>pre.src-ledger:before{content:"Ledger"}.org-src-container>pre.src-ly:before{content:"Lilypond"}.org-src-container>pre.src-lisp:before{content:"Lisp"}.org-src-container>pre.src-makefile:before{content:"Make"}.org-src-container>pre.src-matlab:before{content:"Matlab"}.org-src-container>pre.src-max:before{content:"Maxima"}.org-src-container>pre.src-mscgen:before{content:"Mscgen"}.org-src-container>pre.src-Caml:before{content:"Objective"}.org-src-container>pre.src-octave:before{content:"Octave"}.org-src-container>pre.src-org:before{content:"Org"}.org-src-container>pre.src-perl:before{content:"Perl"}.org-src-container>pre.src-picolisp:before{content:"Picolisp"}.org-src-container>pre.src-plantuml:before{content:"PlantUML"}.org-src-container>pre.src-python:before{content:"Python"}.org-src-container>pre.src-ruby:before{content:"Ruby"}.org-src-container>pre.src-sass:before{content:"Sass"}.org-src-container>pre.src-scala:before{content:"Scala"}.org-src-container>pre.src-scheme:before{content:"Scheme"}.org-src-container>pre.src-screen:before{content:"Screen"}.org-src-container>pre.src-sed:before{content:"Sed"}.org-src-container>pre.src-shell:before{content:"shell"}.org-src-container>pre.src-shen:before{content:"Shen"}.org-src-container>pre.src-sql:before{content:"SQL"}.org-src-container>pre.src-sqlite:before{content:"SQLite"}.org-src-container>pre.src-stan:before{content:"Stan"}.org-src-container>pre.src-vala:before{content:"Vala"}.org-src-container>pre.src-axiom:before{content:"Axiom"}.org-src-container>pre.src-browser:before{content:"HTML"}.org-src-container>pre.src-cypher:before{content:"Neo4j"}.org-src-container>pre.src-elixir:before{content:"Elixir"}.org-src-container>pre.src-request:before{content:"http"}.org-src-container>pre.src-ipython:before{content:"iPython"}.org-src-container>pre.src-kotlin:before{content:"Kotlin"}.org-src-container>pre.src-Flavored Erlang lfe:before{content:"Lisp"}.org-src-container>pre.src-mongo:before{content:"MongoDB"}.org-src-container>pre.src-prolog:before{content:"Prolog"}.org-src-container>pre.src-rec:before{content:"rec"}.org-src-container>pre.src-ML sml:before{content:"Standard"}.org-src-container>pre.src-Translate translate:before{content:"Google"}.org-src-container>pre.src-typescript:before{content:"Typescript"}.org-src-container>pre.src-rust:before{content:"Rust"}.inlinetask{background:#ffc;border:2px solid grey;margin:10px;padding:10px}#org-div-home-and-up{font-size:70%;text-align:right;white-space:nowrap}.linenr{font-size:90%}.code-highlighted{background-color:#ff0}#bibliography{font-size:90%}#bibliography table{width:100%}.creator{display:block}@media screen and (min-width:600px){.creator{display:inline;float:right}}
-</style>
-<script type="text/x-mathjax-config">
-    MathJax.Hub.Config({
-        displayAlign: "center",
-        displayIndent: "0em",
-
-        "HTML-CSS": { scale: 100,
-                        linebreaks: { automatic: "false" },
-                        webFont: "TeX"
-                       },
-        SVG: {scale: 100,
-              linebreaks: { automatic: "false" },
-              font: "TeX"},
-        NativeMML: {scale: 100},
-        TeX: { equationNumbers: {autoNumber: "AMS"},
-               MultLineWidth: "85%",
-               TagSide: "right",
-               TagIndent: ".8em"
-             }
-});
-</script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_HTML"></script>
+<link rel="stylesheet" type="text/css" href="src/readtheorg_theme/css/htmlize.css"/>
+<link rel="stylesheet" type="text/css" href="src/readtheorg_theme/css/readtheorg.css"/>
+<script type="text/javascript" src="src/lib/js/jquery.min.js"></script>
+<script type="text/javascript" src="src/lib/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="src/lib/js/jquery.stickytableheaders.min.js"></script>
+<script type="text/javascript" src="src/readtheorg_theme/js/readtheorg.js"></script>
 </head>
 <body>
 <div id="content" class="content">
-<h1 class="title">Mohit's Notes</h1>
+<h1 class="title">Mohit Patel Notes</h1>
 <div id="table-of-contents" role="doc-toc">
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#org4bc57ec">January 2022</a>
+<li><a href="#org37f4540">How to double your money, the Poe way</a></li>
+<li><a href="#org67b1d1d">Thoughts on Hospitality</a></li>
+<li><a href="#org97c275d">Carbon Sequestration at RKU</a></li>
+<li><a href="#org871f2ac">Triangulum Galaxy</a></li>
+<li><a href="#orgda804db">Orion Nebula</a></li>
+<li><a href="#orgdf94a02">Turn of the Screw</a></li>
+<li><a href="#org4f070c5">Vega</a></li>
+<li><a href="#orgbd9df17">Star Cluster in Pegasus</a></li>
+<li><a href="#org4b2a483">A Walk in the Campus</a>
 <ul>
-<li><a href="#orgd8f4b05">How to double your money, the Poe way <span class="timestamp-wrapper"><span class="timestamp">[2022-01-16 Sun]</span></span></a></li>
+<li><a href="#org19b57f7">Ketaki (Agave americana)</a></li>
+<li><a href="#org09c8068">Kadamb (Neolamarckia cadamba)</a></li>
+<li><a href="#org10766bb">Saptaparni (Alstonia scholaris)</a></li>
+<li><a href="#org4a6cb24">Traveller's Palm (Ravenala madagascariensis)</a></li>
 </ul>
 </li>
-<li><a href="#org83fe785">December 2021</a>
+<li><a href="#orgc214ef7">How I got introduced to Borges</a></li>
+<li><a href="#org6f5e762">Andromeda Galaxy</a></li>
+<li><a href="#org54074e6">The Babylon Lottery - Borges</a></li>
+<li><a href="#orgc84a719">Ranks and Rankers</a></li>
+<li><a href="#org68877b3">Indian Higher Education and Rankings</a>
 <ul>
-<li><a href="#org6b63714">Thoughts on Hospitality <span class="timestamp-wrapper"><span class="timestamp">[2021-12-21 Tue]</span></span></a></li>
+<li><a href="#orgb0c0426">Part 1: Funding</a></li>
+<li><a href="#org2b6003c">Part 2: What can be done</a></li>
 </ul>
 </li>
-<li><a href="#org1bd2e16">November 2021</a>
+<li><a href="#orgb2ec721">Emil Cioran and the Impossibility of Meaning</a></li>
+<li><a href="#orgf74b4ac">Problem of Evil</a></li>
+<li><a href="#orgd5ab80f">Beginning Roberto Bolaño</a></li>
+<li><a href="#org5c3da7b">Happy Teachers' Day</a></li>
+<li><a href="#org06f2572">Lutheran Insulter</a></li>
+<li><a href="#orgcfde995">Quotes on education</a></li>
+<li><a href="#org4401a4a">August 2021</a>
 <ul>
-<li><a href="#org5210b1a">Carbon Sequestration at RKU <span class="timestamp-wrapper"><span class="timestamp">[2021-11-25 Thu]</span></span></a></li>
-<li><a href="#org9cc170f">Triangulum Galaxy <span class="timestamp-wrapper"><span class="timestamp">[2021-11-05 Fri]</span></span></a></li>
-<li><a href="#org1d7653d">Orion Nebula <span class="timestamp-wrapper"><span class="timestamp">[2021-11-02 Tue]</span></span></a></li>
+<li><a href="#org364a682">Noesis | Afghanistan: A Story in Images <span class="timestamp-wrapper"><span class="timestamp">[2021-08-19 Thu]</span></span></a></li>
+<li><a href="#org2ff67c1">Thinking about thinking <span class="timestamp-wrapper"><span class="timestamp">[2021-08-08 Sun]</span></span></a></li>
+<li><a href="#org3e07773">A Walk in the Northstar Campus <span class="timestamp-wrapper"><span class="timestamp">[2021-08-07 Sat]</span></span></a></li>
+<li><a href="#org4d704fc">The Ones Who Walk Away From Omelas - Ursula K. Le Guin <span class="timestamp-wrapper"><span class="timestamp">[2021-08-04 Wed]</span></span></a></li>
 </ul>
 </li>
-<li><a href="#orga175241">October 2021</a>
+<li><a href="#orgb25b6ce">July 2021</a>
 <ul>
-<li><a href="#org0e237c0">Turn of the Screw <span class="timestamp-wrapper"><span class="timestamp">[2021-10-24 Sun]</span></span></a></li>
+<li><a href="#orgb85c0fb">Raga Svara Habitat Collective <span class="timestamp-wrapper"><span class="timestamp">[2021-07-31 Sat]</span></span></a></li>
+<li><a href="#org063dcf2">Euthyphro <span class="timestamp-wrapper"><span class="timestamp">[2021-07-10 Sat]</span></span></a></li>
 </ul>
 </li>
-<li><a href="#org046a1df">September 2021</a>
+<li><a href="#org75e4245">June 2021</a>
 <ul>
-<li><a href="#orga82dd0f">Vega <span class="timestamp-wrapper"><span class="timestamp">[2021-10-15 Fri]</span></span></a></li>
-<li><a href="#orge576211">Star Cluster in Pegasus <span class="timestamp-wrapper"><span class="timestamp">[2021-10-15 Fri]</span></span></a></li>
-<li><a href="#org5464cdf">A Walk in the Campus <span class="timestamp-wrapper"><span class="timestamp">[2021-10-07 Thu]</span></span></a>
-<ul>
-<li><a href="#orga485e89">Ketaki (Agave americana)</a></li>
-<li><a href="#org71f258c">Kadamb (Neolamarckia cadamba)</a></li>
-<li><a href="#org55cfe8f">Saptaparni (Alstonia scholaris)</a></li>
-<li><a href="#org172e517">Traveller's Palm (Ravenala madagascariensis)</a></li>
+<li><a href="#orga7fa55f">On Method <span class="timestamp-wrapper"><span class="timestamp">[2021-06-03 Thu]</span></span></a></li>
+<li><a href="#orge9de881">On Schools <span class="timestamp-wrapper"><span class="timestamp">[2021-07-05 Mon]</span></span></a></li>
 </ul>
 </li>
-<li><a href="#org3767122">How I got introduced to Borges <span class="timestamp-wrapper"><span class="timestamp">[2021-10-05 Tue]</span></span></a></li>
-<li><a href="#orgf8da860">Andromeda Galaxy <span class="timestamp-wrapper"><span class="timestamp">[2021-10-05 Tue]</span></span></a></li>
-<li><a href="#org17f6dc3">The Babylon Lottery - Borges <span class="timestamp-wrapper"><span class="timestamp">[2021-09-24 Fri]</span></span></a></li>
-<li><a href="#org5637d44">Ranks and Rankers <span class="timestamp-wrapper"><span class="timestamp">[2021-09-14 Tue]</span></span></a></li>
-<li><a href="#orga776bd6">Indian Higher Education and Rankings <span class="timestamp-wrapper"><span class="timestamp">[2021-09-16 Thu]</span></span></a>
+<li><a href="#org7e6ca2b">May 2021</a>
 <ul>
-<li><a href="#orgcea1136">Part 1: Funding</a></li>
-<li><a href="#org73f779a">Part 2: What can be done</a></li>
-</ul>
-</li>
-<li><a href="#orgeb353c4">Emil Cioran and the Impossibility of Meaning <span class="timestamp-wrapper"><span class="timestamp">[2021-09-14 Tue]</span></span></a></li>
-<li><a href="#org1439579">Problem of Evil <span class="timestamp-wrapper"><span class="timestamp">[2021-09-10 Fri]</span></span></a></li>
-<li><a href="#org5a7c96e">Beginning Roberto Bolaño <span class="timestamp-wrapper"><span class="timestamp">[2021-09-05 Sun]</span></span></a></li>
-<li><a href="#org0a309fb">Happy Teachers' Day <span class="timestamp-wrapper"><span class="timestamp">[2021-09-05 Sun]</span></span></a></li>
-<li><a href="#orgf097c08">Lutheran Insulter <span class="timestamp-wrapper"><span class="timestamp">[2021-09-04 Sat]</span></span></a></li>
-<li><a href="#org42e5766">Quotes on education <span class="timestamp-wrapper"><span class="timestamp">[2021-09-03 Fri]</span></span></a></li>
-</ul>
-</li>
-<li><a href="#orgc527b2d">August 2021</a>
+<li><a href="#org15786e7">Porosity of Boundaries <span class="timestamp-wrapper"><span class="timestamp">[2021-05-25 Tue]</span></span></a></li>
+<li><a href="#org0d997e4">Tambourine Man <span class="timestamp-wrapper"><span class="timestamp">[2021-05-25 Tue]</span></span></a></li>
+<li><a href="#org80d1319">On the love of monospace fonts <span class="timestamp-wrapper"><span class="timestamp">[2021-05-20 Thu]</span></span></a>
 <ul>
-<li><a href="#orgeb8f67b">Noesis | Afghanistan: A Story in Images <span class="timestamp-wrapper"><span class="timestamp">[2021-08-19 Thu]</span></span></a></li>
-<li><a href="#org395d749">Thinking about thinking <span class="timestamp-wrapper"><span class="timestamp">[2021-08-08 Sun]</span></span></a></li>
-<li><a href="#org6823d39">A Walk in the Northstar Campus <span class="timestamp-wrapper"><span class="timestamp">[2021-08-07 Sat]</span></span></a></li>
-<li><a href="#org1203e83">The Ones Who Walk Away From Omelas - Ursula K. Le Guin <span class="timestamp-wrapper"><span class="timestamp">[2021-08-04 Wed]</span></span></a></li>
+<li><a href="#org7222eb9">Proportional Fonts</a></li>
+<li><a href="#org1fb3abf">Mono Fonts</a></li>
 </ul>
 </li>
-<li><a href="#org169aa30">July 2021</a>
-<ul>
-<li><a href="#org2d463e2">Raga Svara Habitat Collective <span class="timestamp-wrapper"><span class="timestamp">[2021-07-31 Sat]</span></span></a></li>
-<li><a href="#orga93cf1e">Euthyphro <span class="timestamp-wrapper"><span class="timestamp">[2021-07-10 Sat]</span></span></a></li>
+<li><a href="#org9d1e115">Hercules Globular Cluster <span class="timestamp-wrapper"><span class="timestamp">[2021-05-12 Wed]</span></span></a></li>
+<li><a href="#orgd1f07d2">Sirius <span class="timestamp-wrapper"><span class="timestamp">[2021-05-22 Sat]</span></span></a></li>
+<li><a href="#org0d87f92">Orion Nebula <span class="timestamp-wrapper"><span class="timestamp">[2021-05-12 Wed]</span></span></a></li>
+<li><a href="#org8e3efd7">Pleiades <span class="timestamp-wrapper"><span class="timestamp">[2021-05-12 Wed]</span></span></a></li>
+<li><a href="#org74aa5f9">Finitude <span class="timestamp-wrapper"><span class="timestamp">[2021-05-07 Fri]</span></span></a></li>
 </ul>
 </li>
-<li><a href="#orgb42058a">June 2021</a>
-<ul>
-<li><a href="#orga9a5cf5">On Method <span class="timestamp-wrapper"><span class="timestamp">[2021-06-03 Thu]</span></span></a></li>
-<li><a href="#org6df858f">On Schools <span class="timestamp-wrapper"><span class="timestamp">[2021-07-05 Mon]</span></span></a></li>
-</ul>
-</li>
-<li><a href="#org8aeecf4">May 2021</a>
-<ul>
-<li><a href="#org32a6442">Porosity of Boundaries <span class="timestamp-wrapper"><span class="timestamp">[2021-05-25 Tue]</span></span></a></li>
-<li><a href="#org3d4d8d6">Tambourine Man <span class="timestamp-wrapper"><span class="timestamp">[2021-05-25 Tue]</span></span></a></li>
-<li><a href="#org191eb47">On the love of monospace fonts <span class="timestamp-wrapper"><span class="timestamp">[2021-05-20 Thu]</span></span></a>
-<ul>
-<li><a href="#org9913e11">Proportional Fonts</a></li>
-<li><a href="#org0fdf426">Mono Fonts</a></li>
-</ul>
-</li>
-<li><a href="#org5165e55">Hercules Globular Cluster <span class="timestamp-wrapper"><span class="timestamp">[2021-05-12 Wed]</span></span></a></li>
-<li><a href="#org49289d9">Sirius <span class="timestamp-wrapper"><span class="timestamp">[2021-05-22 Sat]</span></span></a></li>
-<li><a href="#org018e8f4">Orion Nebula <span class="timestamp-wrapper"><span class="timestamp">[2021-05-12 Wed]</span></span></a></li>
-<li><a href="#orgc311b3a">Pleiades <span class="timestamp-wrapper"><span class="timestamp">[2021-05-12 Wed]</span></span></a></li>
-<li><a href="#org52585b9">Finitude <span class="timestamp-wrapper"><span class="timestamp">[2021-05-07 Fri]</span></span></a></li>
-</ul>
-</li>
-<li><a href="#org46e5c22">About me</a></li>
+<li><a href="#orga499d34">About me</a></li>
 </ul>
 </div>
 </div>
+
+<div id="outline-container-org37f4540" class="outline-2">
+<h2 id="org37f4540">How to double your money, the Poe way</h2>
+<div class="outline-text-2" id="text-org37f4540">
 <p>
-SETUPFILE: C:\Users\Mohit Patel\Nextcloud\blog\org-html-themes\org\theme-readtheorg-local.setup
-</p>
-<div id="outline-container-org4bc57ec" class="outline-2">
-<h2 id="org4bc57ec">January 2022</h2>
-<div class="outline-text-2" id="text-org4bc57ec">
-</div>
-<div id="outline-container-orgd8f4b05" class="outline-3">
-<h3 id="orgd8f4b05">How to double your money, the Poe way <span class="timestamp-wrapper"><span class="timestamp">[2022-01-16 Sun]</span></span></h3>
-<div class="outline-text-3" id="text-orgd8f4b05">
-<p>
+<span class="timestamp-wrapper"><span class="timestamp">[2022-01-16 Sun]</span></span><br />
 While reading Poe today morning, came across this little gem on making money.
 </p>
 
@@ -351,16 +308,14 @@ And every time that you fold it across,<br />
 <hr />
 </div>
 </div>
-</div>
-<div id="outline-container-org83fe785" class="outline-2">
-<h2 id="org83fe785">December 2021</h2>
-<div class="outline-text-2" id="text-org83fe785">
-</div>
-<div id="outline-container-org6b63714" class="outline-3">
-<h3 id="org6b63714">Thoughts on Hospitality <span class="timestamp-wrapper"><span class="timestamp">[2021-12-21 Tue]</span></span></h3>
-<div class="outline-text-3" id="text-org6b63714">
+<div id="outline-container-org67b1d1d" class="outline-2">
+<h2 id="org67b1d1d">Thoughts on Hospitality</h2>
+<div class="outline-text-2" id="text-org67b1d1d">
+<p>
+<span class="timestamp-wrapper"><span class="timestamp">[2021-12-21 Tue]</span></span><br />
+</p>
 
-<div id="org0e162ba" class="figure">
+<div id="org9f46c3a" class="figure">
 <p><img src="./images/raga-night.jpg" alt="raga-night.jpg" width="600px" />
 </p>
 </div>
@@ -397,17 +352,15 @@ L’hospitalité, c’est la culture même et ce n’est pas une éthique parmi 
 <hr />
 </div>
 </div>
-</div>
 
-<div id="outline-container-org1bd2e16" class="outline-2">
-<h2 id="org1bd2e16">November 2021</h2>
-<div class="outline-text-2" id="text-org1bd2e16">
-</div>
-<div id="outline-container-org5210b1a" class="outline-3">
-<h3 id="org5210b1a">Carbon Sequestration at RKU <span class="timestamp-wrapper"><span class="timestamp">[2021-11-25 Thu]</span></span></h3>
-<div class="outline-text-3" id="text-org5210b1a">
+<div id="outline-container-org97c275d" class="outline-2">
+<h2 id="org97c275d">Carbon Sequestration at RKU</h2>
+<div class="outline-text-2" id="text-org97c275d">
+<p>
+<span class="timestamp-wrapper"><span class="timestamp">[2021-11-25 Thu]</span></span><br />
+</p>
 
-<div id="orge77de81" class="figure">
+<div id="org0bd11f0" class="figure">
 <p><img src="./images/RKU Trees.jpg" alt="RKU Trees.jpg" width="600px" />
 </p>
 </div>
@@ -422,11 +375,14 @@ Thanks to Dr Devang Pandya (of School of Pharmacy, RKU)  and his team of faculti
 </div>
 </div>
 
-<div id="outline-container-org9cc170f" class="outline-3">
-<h3 id="org9cc170f">Triangulum Galaxy <span class="timestamp-wrapper"><span class="timestamp">[2021-11-05 Fri]</span></span></h3>
-<div class="outline-text-3" id="text-org9cc170f">
+<div id="outline-container-org871f2ac" class="outline-2">
+<h2 id="org871f2ac">Triangulum Galaxy</h2>
+<div class="outline-text-2" id="text-org871f2ac">
+<p>
+<span class="timestamp-wrapper"><span class="timestamp">[2021-11-05 Fri]</span></span><br />
+</p>
 
-<div id="orgdef7aae" class="figure">
+<div id="org67e9c4d" class="figure">
 <p><img src="./images/M33-blog.jpg" alt="M33-blog.jpg" width="800px" />
 </p>
 </div>
@@ -438,11 +394,14 @@ This is the Triangulum Galaxy. It is a spiral galaxy 2.73 million light-years  f
 </div>
 </div>
 
-<div id="outline-container-org1d7653d" class="outline-3">
-<h3 id="org1d7653d">Orion Nebula <span class="timestamp-wrapper"><span class="timestamp">[2021-11-02 Tue]</span></span></h3>
-<div class="outline-text-3" id="text-org1d7653d">
+<div id="outline-container-orgda804db" class="outline-2">
+<h2 id="orgda804db">Orion Nebula</h2>
+<div class="outline-text-2" id="text-orgda804db">
+<p>
+<span class="timestamp-wrapper"><span class="timestamp">[2021-11-02 Tue]</span></span><br />
+</p>
 
-<div id="org6600cd4" class="figure">
+<div id="org0ef712f" class="figure">
 <p><img src="./images/M42-blog.jpg" alt="M42-blog.jpg" width="800px" />
 </p>
 </div>
@@ -457,36 +416,30 @@ My third attempt at this deep sky object. I took over 150 images of 30 seconds e
 <hr />
 </div>
 </div>
-</div>
 
-<div id="outline-container-orga175241" class="outline-2">
-<h2 id="orga175241">October 2021</h2>
-<div class="outline-text-2" id="text-orga175241">
-</div>
-<div id="outline-container-org0e237c0" class="outline-3">
-<h3 id="org0e237c0">Turn of the Screw <span class="timestamp-wrapper"><span class="timestamp">[2021-10-24 Sun]</span></span></h3>
-<div class="outline-text-3" id="text-org0e237c0">
+<div id="outline-container-orgdf94a02" class="outline-2">
+<h2 id="orgdf94a02">Turn of the Screw</h2>
+<div class="outline-text-2" id="text-orgdf94a02">
 <p>
+<span class="timestamp-wrapper"><span class="timestamp">[2021-10-24 Sun]</span></span><br />
 I just completed <a href="https://en.wikipedia.org/wiki/The_Turn_of_the_Screw">Turn of the Screw</a> by Henry James. Horrifying in some parts and labrouious to read in most parts. The sentences and sytax is very Henry James-like.<br />
 </p>
 
-<div id="org11b6b81" class="figure">
+<div id="org09a909e" class="figure">
 <p><img src="./images/screw.jpg" alt="screw.jpg" width="500px" />
 </p>
 </div>
 </div>
 </div>
-</div>
 
-<div id="outline-container-org046a1df" class="outline-2">
-<h2 id="org046a1df">September 2021</h2>
-<div class="outline-text-2" id="text-org046a1df">
-</div>
-<div id="outline-container-orga82dd0f" class="outline-3">
-<h3 id="orga82dd0f">Vega <span class="timestamp-wrapper"><span class="timestamp">[2021-10-15 Fri]</span></span></h3>
-<div class="outline-text-3" id="text-orga82dd0f">
+<div id="outline-container-org4f070c5" class="outline-2">
+<h2 id="org4f070c5">Vega</h2>
+<div class="outline-text-2" id="text-org4f070c5">
+<p>
+<span class="timestamp-wrapper"><span class="timestamp">[2021-10-15 Fri]</span></span><br />
+</p>
 
-<div id="org6e5850d" class="figure">
+<div id="org3b52655" class="figure">
 <p><img src="./images/vega.jpg" alt="vega.jpg" width="800px" />
 </p>
 <p><span class="figure-number">Figure 1: </span>Photographed on 14th October 2021 from a horribly light polluted city of Rajkot.</p>
@@ -500,104 +453,108 @@ I love photographing solitary stars. I love the simplicity of the composition. T
 <hr />
 </div>
 </div>
-<div id="outline-container-orge576211" class="outline-3">
-<h3 id="orge576211">Star Cluster in Pegasus <span class="timestamp-wrapper"><span class="timestamp">[2021-10-15 Fri]</span></span></h3>
-<div class="outline-text-3" id="text-orge576211">
+<div id="outline-container-orgbd9df17" class="outline-2">
+<h2 id="orgbd9df17">Star Cluster in Pegasus</h2>
+<div class="outline-text-2" id="text-orgbd9df17">
+<p>
+<span class="timestamp-wrapper"><span class="timestamp">[2021-10-15 Fri]</span></span><br />
+</p>
 
-<div id="org6eee5e8" class="figure">
+<div id="org7b4bd0c" class="figure">
 <p><img src="./images/m15.jpg" alt="m15.jpg" width="800px" />
 </p>
 <p><span class="figure-number">Figure 2: </span>Photographed on 14th October 2021 from a horribly light polluted city of Rajkot.</p>
 </div>
 
 <p>
-The central star cluster in this photo is the Globular Cluster in constellation Pegasus. This is my second cluster photo after <a href="#org5165e55">Hercules Globular Cluster</a>. I have been able to do a better job at the capturing the incredible star density. I do not wish to make technical observations. These photographs are meant to create a poetic image. It has no past and no future. Just an emergence in a reader's psyche. A phenomenon that reverberates deep within our soul. Looking at the something that is so beyond our comprehension. This unbearable beauty.
+The central star cluster in this photo is the Globular Cluster in constellation Pegasus. This is my second cluster photo after <a href="#org9d1e115">Hercules Globular Cluster</a>. I have been able to do a better job at the capturing the incredible star density. I do not wish to make technical observations. These photographs are meant to create a poetic image. It has no past and no future. Just an emergence in a reader's psyche. A phenomenon that reverberates deep within our soul. Looking at the something that is so beyond our comprehension. This unbearable beauty.
 </p>
 </div>
 </div>
 
-<div id="outline-container-org5464cdf" class="outline-3">
-<h3 id="org5464cdf">A Walk in the Campus <span class="timestamp-wrapper"><span class="timestamp">[2021-10-07 Thu]</span></span></h3>
-<div class="outline-text-3" id="text-org5464cdf">
+<div id="outline-container-org4b2a483" class="outline-2">
+<h2 id="org4b2a483">A Walk in the Campus</h2>
+<div class="outline-text-2" id="text-org4b2a483">
 <p>
-A few weeks back I shared <a href="#org6823d39">some images</a> of the Agave Americana entering its flowering season. Here are some updates.<br />
+<span class="timestamp-wrapper"><span class="timestamp">[2021-10-07 Thu]</span></span><br />
+A few weeks back I shared <a href="#org3e07773">some images</a> of the Agave Americana entering its flowering season. Here are some updates.<br />
 </p>
 </div>
 
-<div id="outline-container-orga485e89" class="outline-4">
-<h4 id="orga485e89">Ketaki (Agave americana)</h4>
-<div class="outline-text-4" id="text-orga485e89">
+<div id="outline-container-org19b57f7" class="outline-3">
+<h3 id="org19b57f7">Ketaki (Agave americana)</h3>
+<div class="outline-text-3" id="text-org19b57f7">
 
-<div id="org5e2bff8" class="figure">
+<div id="org1992573" class="figure">
 <p><img src="./images/agave2.jpg" alt="agave2.jpg" width="400px" />
 </p>
 </div>
 
 
-<div id="org849d9ce" class="figure">
+<div id="orgb159fdf" class="figure">
 <p><img src="./images/agave1.jpg" alt="agave1.jpg" width="400px" />
 </p>
 </div>
 
 
-<div id="org00576ad" class="figure">
+<div id="org5499b44" class="figure">
 <p><img src="./images/agave3.jpg" alt="agave3.jpg" width="400px" />
 </p>
 </div>
 </div>
 </div>
 
-<div id="outline-container-org71f258c" class="outline-4">
-<h4 id="org71f258c">Kadamb (Neolamarckia cadamba)</h4>
-<div class="outline-text-4" id="text-org71f258c">
+<div id="outline-container-org09c8068" class="outline-3">
+<h3 id="org09c8068">Kadamb (Neolamarckia cadamba)</h3>
+<div class="outline-text-3" id="text-org09c8068">
 <p>
 And look at these majestic flowers of Kadamb (Neolamarckia cadamba). The large woolly balls are its flowers packed together in this shape. The organe colour looks captivating when it catches the sunlight.
 </p>
 
 
-<div id="org36bdb7e" class="figure">
+<div id="orgd5e58c9" class="figure">
 <p><img src="./images/kadamb2.jpg" alt="kadamb2.jpg" width="400px" />
 </p>
 </div>
 
 
-<div id="org3c83173" class="figure">
+<div id="org9b86818" class="figure">
 <p><img src="./images/kadamb1.jpg" alt="kadamb1.jpg" width="400px" />
 </p>
 </div>
 </div>
 </div>
 
-<div id="outline-container-org55cfe8f" class="outline-4">
-<h4 id="org55cfe8f">Saptaparni (Alstonia scholaris)</h4>
-<div class="outline-text-4" id="text-org55cfe8f">
+<div id="outline-container-org10766bb" class="outline-3">
+<h3 id="org10766bb">Saptaparni (Alstonia scholaris)</h3>
+<div class="outline-text-3" id="text-org10766bb">
 <p>
 Saptaparnis line the entrance avenue at Northstar. They are still young but already about 20 feet tall. The flowering has begun.
 </p>
 
 
-<div id="orgdcca1e1" class="figure">
+<div id="org7323d85" class="figure">
 <p><img src="./images/saptaparni1.jpg" alt="saptaparni1.jpg" width="400px" />
 </p>
 </div>
 
 
-<div id="orgbef4759" class="figure">
+<div id="org4cd4929" class="figure">
 <p><img src="./images/saptaparni2.jpg" alt="saptaparni2.jpg" width="400px" />
 </p>
 </div>
 </div>
 </div>
 
-<div id="outline-container-org172e517" class="outline-4">
-<h4 id="org172e517">Traveller's Palm (Ravenala madagascariensis)</h4>
-<div class="outline-text-4" id="text-org172e517">
+<div id="outline-container-org4a6cb24" class="outline-3">
+<h3 id="org4a6cb24">Traveller's Palm (Ravenala madagascariensis)</h3>
+<div class="outline-text-3" id="text-org4a6cb24">
 <p>
 I did know when we planted Traveller's Palm in our campus. We have a few at RKU. This tiny one looks nice but we may have to move it somewhere.
 </p>
 
 
-<div id="org5e5197f" class="figure">
+<div id="orga29ad07" class="figure">
 <p><img src="./images/travellerpalm.jpg" alt="travellerpalm.jpg" width="400px" />
 </p>
 </div>
@@ -607,10 +564,11 @@ I did know when we planted Traveller's Palm in our campus. We have a few at RKU.
 </div>
 </div>
 
-<div id="outline-container-org3767122" class="outline-3">
-<h3 id="org3767122">How I got introduced to Borges <span class="timestamp-wrapper"><span class="timestamp">[2021-10-05 Tue]</span></span></h3>
-<div class="outline-text-3" id="text-org3767122">
+<div id="outline-container-orgc214ef7" class="outline-2">
+<h2 id="orgc214ef7">How I got introduced to Borges</h2>
+<div class="outline-text-2" id="text-orgc214ef7">
 <p>
+<span class="timestamp-wrapper"><span class="timestamp">[2021-10-05 Tue]</span></span><br />
 Sometimes I wonder how I stumbled upon Borges.
 I remember one passage that shattered my mind. The opening paragraph of Michel Foucault's The Order of Things had these lines:
 </p>
@@ -624,16 +582,17 @@ This book first arose out of a passage in Borges, out of the laughter that shatt
 </div>
 </div>
 
-<div id="outline-container-orgf8da860" class="outline-3">
-<h3 id="orgf8da860">Andromeda Galaxy <span class="timestamp-wrapper"><span class="timestamp">[2021-10-05 Tue]</span></span></h3>
-<div class="outline-text-3" id="text-orgf8da860">
+<div id="outline-container-org6f5e762" class="outline-2">
+<h2 id="org6f5e762">Andromeda Galaxy</h2>
+<div class="outline-text-2" id="text-org6f5e762">
 <p>
+<span class="timestamp-wrapper"><span class="timestamp">[2021-10-05 Tue]</span></span><br />
 This is Andromeda Galaxy. Photographing this one was really hard for me. Many many hours to get this image.
 Astronomy and astrophotography is a humbling experience. What we are seeing is 2.5 million light years away. And it is still the closest galaxy to ours. This imageAndromeda contains more than 1 trillion stars. I still have a long way to go to improve my astro work but I'm proud of this one.
 </p>
 
 
-<div id="orgb70b973" class="figure">
+<div id="org87b3c9a" class="figure">
 <p><img src="./images/M31-blog.jpg" alt="M31-blog.jpg" height="500px" />
 </p>
 </div>
@@ -642,14 +601,15 @@ Astronomy and astrophotography is a humbling experience. What we are seeing is 2
 <hr />
 </div>
 </div>
-<div id="outline-container-org17f6dc3" class="outline-3">
-<h3 id="org17f6dc3">The Babylon Lottery - Borges <span class="timestamp-wrapper"><span class="timestamp">[2021-09-24 Fri]</span></span></h3>
-<div class="outline-text-3" id="text-org17f6dc3">
+<div id="outline-container-org54074e6" class="outline-2">
+<h2 id="org54074e6">The Babylon Lottery - Borges</h2>
+<div class="outline-text-2" id="text-org54074e6">
 <p>
+<span class="timestamp-wrapper"><span class="timestamp">[2021-09-24 Fri]</span></span><br />
 This week I led a close reading of Jorge Luis Borges's short story <b>The Babylon Lottery</b>. It is one of my favourite short stories.
 </p>
 
-<div id="orgdb99226" class="figure">
+<div id="org20fec83" class="figure">
 <p><img src="./images/babylonlottery.jpg" alt="babylonlottery.jpg" height="500px" />
 </p>
 </div>
@@ -658,11 +618,12 @@ This week I led a close reading of Jorge Luis Borges's short story <b>The Babylo
 </div>
 </div>
 
-<div id="outline-container-org5637d44" class="outline-3">
-<h3 id="org5637d44">Ranks and Rankers <span class="timestamp-wrapper"><span class="timestamp">[2021-09-14 Tue]</span></span></h3>
-<div class="outline-text-3" id="text-org5637d44">
+<div id="outline-container-orgc84a719" class="outline-2">
+<h2 id="orgc84a719">Ranks and Rankers</h2>
+<div class="outline-text-2" id="text-orgc84a719">
 <p>
-In all matters of taste and rankings and classifications that we inadvertently take part in our daily lives, I go back to Bourdieu and his thoughts on distinction:
+<span class="timestamp-wrapper"><span class="timestamp">[2021-09-14 Tue]</span></span><br />
+   In all matters of taste and rankings and classifications that we inadvertently take part in our daily lives, I go back to Bourdieu and his thoughts on distinction:
 </p>
 
 <blockquote>
@@ -685,9 +646,13 @@ It is a matter of pride for RKU and its community to achieve this. I have made i
 </div>
 </div>
 
-<div id="outline-container-orga776bd6" class="outline-3">
-<h3 id="orga776bd6">Indian Higher Education and Rankings <span class="timestamp-wrapper"><span class="timestamp">[2021-09-16 Thu]</span></span></h3>
-<div class="outline-text-3" id="text-orga776bd6">
+<div id="outline-container-org68877b3" class="outline-2">
+<h2 id="org68877b3">Indian Higher Education and Rankings</h2>
+<div class="outline-text-2" id="text-org68877b3">
+<p>
+<span class="timestamp-wrapper"><span class="timestamp">[2021-09-16 Thu]</span></span><br />
+</p>
+
 <p>
 <i>Posted originally at projectnoesis.in on <span class="timestamp-wrapper"><span class="timestamp">[2021-03-08 Mon]</span></span></i>
 </p>
@@ -713,9 +678,9 @@ My argument is that chasing after rankings will do (and is doing) a major disser
 </p>
 </div>
 
-<div id="outline-container-orgcea1136" class="outline-4">
-<h4 id="orgcea1136">Part 1: Funding</h4>
-<div class="outline-text-4" id="text-orgcea1136">
+<div id="outline-container-orgb0c0426" class="outline-3">
+<h3 id="orgb0c0426">Part 1: Funding</h3>
+<div class="outline-text-3" id="text-orgb0c0426">
 <p>
 <b>Story in numbers</b><br />
 We implicitly agree on the importance of education (education being the first point of blame for deteriorating or failed social and economic outcomes). A cursory look at the input side betrays a different story. Proportion of GDP spent on education in India is about 3.0%. Compare that to the United States' 5% (of GDP) in 2014, UK's 5.5% in 2016, Australia's 5.3% in 2016 and Canada's 5.3% in 2011. Scandinavian countries' spend is nearer to 10% of GDP. In absolute numbers India's total expenditure on education was Rs. 94000 crore in 2019.
@@ -763,9 +728,9 @@ Let me try to sum it up in a sentence: Higher ranking needs extensive research, 
 </div>
 </div>
 
-<div id="outline-container-org73f779a" class="outline-4">
-<h4 id="org73f779a">Part 2: What can be done</h4>
-<div class="outline-text-4" id="text-org73f779a">
+<div id="outline-container-org2b6003c" class="outline-3">
+<h3 id="org2b6003c">Part 2: What can be done</h3>
+<div class="outline-text-3" id="text-org2b6003c">
 <blockquote>
 <p>
 The important thing for government is not to do things which individuals are doing already, and to do them a little better or a little worse; but to do those things which at present are not done at all.<br />
@@ -816,10 +781,11 @@ Again to put in a sentence: We need to stop thinking of private HEIs as de facto
 </div>
 </div>
 
-<div id="outline-container-orgeb353c4" class="outline-3">
-<h3 id="orgeb353c4">Emil Cioran and the Impossibility of Meaning <span class="timestamp-wrapper"><span class="timestamp">[2021-09-14 Tue]</span></span></h3>
-<div class="outline-text-3" id="text-orgeb353c4">
+<div id="outline-container-orgb2ec721" class="outline-2">
+<h2 id="orgb2ec721">Emil Cioran and the Impossibility of Meaning</h2>
+<div class="outline-text-2" id="text-orgb2ec721">
 <p>
+<span class="timestamp-wrapper"><span class="timestamp">[2021-09-14 Tue]</span></span><br />
 And so I begin my dive in to Emil Cioran. I have never been optimistic about anything in my life. And Cioran resonates with me like very few others have. Just leaving some aphorisms below. May be someday I will write more about it. But really, would there be any point to that?
 </p>
 
@@ -846,15 +812,16 @@ Knowledge subverts love: in proportion as we penetrate our secrets, we come to l
 </div>
 </div>
 
-<div id="outline-container-org1439579" class="outline-3">
-<h3 id="org1439579">Problem of Evil <span class="timestamp-wrapper"><span class="timestamp">[2021-09-10 Fri]</span></span></h3>
-<div class="outline-text-3" id="text-org1439579">
+<div id="outline-container-orgf74b4ac" class="outline-2">
+<h2 id="orgf74b4ac">Problem of Evil</h2>
+<div class="outline-text-2" id="text-orgf74b4ac">
 <p>
-We had session on the Problem of Evil. A very basic readin to start would be <a href="https://1000wordphilosophy.com/2014/04/07/the-problem-of-evil/">this</a>. I aslo recommend reading two chapter from Fyodor Dostevsky's The Brothers Karamazov: The Rebellion and The Grand Inquisitor.<br />
+<span class="timestamp-wrapper"><span class="timestamp">[2021-09-10 Fri]</span></span><br />
+We had session on the Problem of Evil. A very basic reading to start would be <a href="https://1000wordphilosophy.com/2014/04/07/the-problem-of-evil/">this</a>. I aslo recommend reading two chapter from Fyodor Dostevsky's The Brothers Karamazov: The Rebellion and The Grand Inquisitor.<br />
 </p>
 
 
-<div id="org84fe9ed" class="figure">
+<div id="orgaaf40b0" class="figure">
 <p><img src="./images/evil.jpg" alt="evil.jpg" height="500px" />
 </p>
 </div>
@@ -862,11 +829,14 @@ We had session on the Problem of Evil. A very basic readin to start would be <a 
 </div>
 </div>
 
-<div id="outline-container-org5a7c96e" class="outline-3">
-<h3 id="org5a7c96e">Beginning Roberto Bolaño <span class="timestamp-wrapper"><span class="timestamp">[2021-09-05 Sun]</span></span></h3>
-<div class="outline-text-3" id="text-org5a7c96e">
+<div id="outline-container-orgd5ab80f" class="outline-2">
+<h2 id="orgd5ab80f">Beginning Roberto Bolaño</h2>
+<div class="outline-text-2" id="text-orgd5ab80f">
+<p>
+<span class="timestamp-wrapper"><span class="timestamp">[2021-09-05 Sun]</span></span><br />
+</p>
 
-<div id="org807408e" class="figure">
+<div id="orgc869040" class="figure">
 <p><img src="./images/2666.jpg" alt="2666.jpg" height="500px" />
 </p>
 </div>
@@ -890,11 +860,12 @@ Just what I needed to start the day!
 </div>
 </div>
 
-<div id="outline-container-org0a309fb" class="outline-3">
-<h3 id="org0a309fb">Happy Teachers' Day <span class="timestamp-wrapper"><span class="timestamp">[2021-09-05 Sun]</span></span></h3>
-<div class="outline-text-3" id="text-org0a309fb">
+<div id="outline-container-org5c3da7b" class="outline-2">
+<h2 id="org5c3da7b">Happy Teachers' Day</h2>
+<div class="outline-text-2" id="text-org5c3da7b">
 <p>
-I wrote this sometime back. Resharing on the occasion of Teachers' Day in India. 
+<span class="timestamp-wrapper"><span class="timestamp">[2021-09-05 Sun]</span></span><br />
+   I wrote this sometime back. Resharing on the occasion of Teachers' Day in India. 
 </p>
 <blockquote>
 <p>
@@ -922,21 +893,26 @@ Lev Vygotsky had suggested that social participation facilitated by language and
 </div>
 </div>
 
-<div id="outline-container-orgf097c08" class="outline-3">
-<h3 id="orgf097c08">Lutheran Insulter <span class="timestamp-wrapper"><span class="timestamp">[2021-09-04 Sat]</span></span></h3>
-<div class="outline-text-3" id="text-orgf097c08">
+<div id="outline-container-org06f2572" class="outline-2">
+<h2 id="org06f2572">Lutheran Insulter</h2>
+<div class="outline-text-2" id="text-org06f2572">
 <p>
-Fabulous! Go here for some exquisite insults.<br />
-<a href="https://ergofabulous.org/luther/">https://ergofabulous.org/luther/</a>
+<span class="timestamp-wrapper"><span class="timestamp">[2021-09-04 Sat]</span></span><br />
+   Fabulous! Go here for some exquisite insults.<br />
+   <a href="https://ergofabulous.org/luther/">https://ergofabulous.org/luther/</a>
 </p>
 
 <hr />
 </div>
 </div>
 
-<div id="outline-container-org42e5766" class="outline-3">
-<h3 id="org42e5766">Quotes on education <span class="timestamp-wrapper"><span class="timestamp">[2021-09-03 Fri]</span></span></h3>
-<div class="outline-text-3" id="text-org42e5766">
+<div id="outline-container-orgcfde995" class="outline-2">
+<h2 id="orgcfde995">Quotes on education</h2>
+<div class="outline-text-2" id="text-orgcfde995">
+<p>
+<span class="timestamp-wrapper"><span class="timestamp">[2021-09-03 Fri]</span></span>
+</p>
+
 <p>
 <b>Richard Rorty</b><br />
 Rorty presents knowledge, not as a representation of the real world or a “match” between knowledge and reality, but rather as a collection of conceptual structures that are adapted, or viable, within a person's range of experience. In other words, the person's knowledge “fits” with the world, much like how a key fits a lock (Bodner, 1986). Each of us builds our own key by making sense of the world, and many different keys can open a given lock.
@@ -948,22 +924,21 @@ A Game Master or teacher who was primarily concerned with being close enough to 
 </p>
 
 <p>
-See also <a href="#org6df858f">On Schools [2021-07-05 Mon]​</a>
+See also <a href="#orge9de881">On Schools [2021-07-05 Mon]​</a>
 </p>
 <hr />
 </div>
 </div>
-</div>
 
-<div id="outline-container-orgc527b2d" class="outline-2">
-<h2 id="orgc527b2d">August 2021</h2>
-<div class="outline-text-2" id="text-orgc527b2d">
+<div id="outline-container-org4401a4a" class="outline-2">
+<h2 id="org4401a4a">August 2021</h2>
+<div class="outline-text-2" id="text-org4401a4a">
 </div>
-<div id="outline-container-orgeb8f67b" class="outline-3">
-<h3 id="orgeb8f67b">Noesis | Afghanistan: A Story in Images <span class="timestamp-wrapper"><span class="timestamp">[2021-08-19 Thu]</span></span></h3>
-<div class="outline-text-3" id="text-orgeb8f67b">
+<div id="outline-container-org364a682" class="outline-3">
+<h3 id="org364a682">Noesis | Afghanistan: A Story in Images <span class="timestamp-wrapper"><span class="timestamp">[2021-08-19 Thu]</span></span></h3>
+<div class="outline-text-3" id="text-org364a682">
 
-<div id="org1f241f8" class="figure">
+<div id="orgb626569" class="figure">
 <p><img src="./images/noesis-afghanistan.jpg" alt="noesis-afghanistan.jpg" height="500px" />
 </p>
 </div>
@@ -975,9 +950,9 @@ We are witnessing a crisis unfold in our time. I grew up in the 90s and remember
 <hr />
 </div>
 </div>
-<div id="outline-container-org395d749" class="outline-3">
-<h3 id="org395d749">Thinking about thinking <span class="timestamp-wrapper"><span class="timestamp">[2021-08-08 Sun]</span></span></h3>
-<div class="outline-text-3" id="text-org395d749">
+<div id="outline-container-org2ff67c1" class="outline-3">
+<h3 id="org2ff67c1">Thinking about thinking <span class="timestamp-wrapper"><span class="timestamp">[2021-08-08 Sun]</span></span></h3>
+<div class="outline-text-3" id="text-org2ff67c1">
 <p>
 As an educator, one of the key ideas that I explore is <b>thinking</b>. One of the goals to start Noesis, my philosophy class at The Northstar School, was to learn and teach the process of thinking with students and educators. I used to say that learning the <b>process of thinking</b> is an extremely important skill. I still believe that. My primary influence in this regard has been <a href="https://en.wikipedia.org/wiki/John_Dewey">John Dewey</a>. In his book <a href="https://www.gutenberg.org/files/37423/37423-h/37423-h.htm">How We Think</a>, he writes
 </p>
@@ -1031,11 +1006,11 @@ The more I teach and discuss in my classes, the more I keep feeling that teachin
 </div>
 </div>
 
-<div id="outline-container-org6823d39" class="outline-3">
-<h3 id="org6823d39">A Walk in the Northstar Campus <span class="timestamp-wrapper"><span class="timestamp">[2021-08-07 Sat]</span></span></h3>
-<div class="outline-text-3" id="text-org6823d39">
+<div id="outline-container-org3e07773" class="outline-3">
+<h3 id="org3e07773">A Walk in the Northstar Campus <span class="timestamp-wrapper"><span class="timestamp">[2021-08-07 Sat]</span></span></h3>
+<div class="outline-text-3" id="text-org3e07773">
 
-<div id="orgb6a44db" class="figure">
+<div id="org43acd62" class="figure">
 <p><img src="./images/kassod.jpeg" alt="kassod.jpeg" />
 </p>
 </div>
@@ -1045,7 +1020,7 @@ New leaves in this young Kassod on the campus. We are in peak monsoon right now.
 </p>
 
 
-<div id="orgbb7fc05" class="figure">
+<div id="orgbbdffe1" class="figure">
 <p><img src="./images/kassodcanopy.jpeg" alt="kassodcanopy.jpeg" />
 </p>
 </div>
@@ -1055,7 +1030,7 @@ The canopy is not quite shapely yet. It's still young.
 </p>
 
 
-<div id="org781bd67" class="figure">
+<div id="org10b8920" class="figure">
 <p><img src="./images/agave.jpeg" alt="agave.jpeg" />
 </p>
 </div>
@@ -1067,11 +1042,11 @@ This is Agave Americana and it has started flowering. The central spike is about
 <hr />
 </div>
 </div>
-<div id="outline-container-org1203e83" class="outline-3">
-<h3 id="org1203e83">The Ones Who Walk Away From Omelas - Ursula K. Le Guin <span class="timestamp-wrapper"><span class="timestamp">[2021-08-04 Wed]</span></span></h3>
-<div class="outline-text-3" id="text-org1203e83">
+<div id="outline-container-org4d704fc" class="outline-3">
+<h3 id="org4d704fc">The Ones Who Walk Away From Omelas - Ursula K. Le Guin <span class="timestamp-wrapper"><span class="timestamp">[2021-08-04 Wed]</span></span></h3>
+<div class="outline-text-3" id="text-org4d704fc">
 
-<div id="org354ee65" class="figure">
+<div id="orgd790ec9" class="figure">
 <p><img src="./images/leguin.jpg" alt="leguin.jpg" height="500px" />
 </p>
 </div>
@@ -1099,15 +1074,15 @@ William James alluded to the fallibility of human nature when he wrote that an i
 </div>
 </div>
 </div>
-<div id="outline-container-org169aa30" class="outline-2">
-<h2 id="org169aa30">July 2021</h2>
-<div class="outline-text-2" id="text-org169aa30">
+<div id="outline-container-orgb25b6ce" class="outline-2">
+<h2 id="orgb25b6ce">July 2021</h2>
+<div class="outline-text-2" id="text-orgb25b6ce">
 </div>
-<div id="outline-container-org2d463e2" class="outline-3">
-<h3 id="org2d463e2">Raga Svara Habitat Collective <span class="timestamp-wrapper"><span class="timestamp">[2021-07-31 Sat]</span></span></h3>
-<div class="outline-text-3" id="text-org2d463e2">
+<div id="outline-container-orgb85c0fb" class="outline-3">
+<h3 id="orgb85c0fb">Raga Svara Habitat Collective <span class="timestamp-wrapper"><span class="timestamp">[2021-07-31 Sat]</span></span></h3>
+<div class="outline-text-3" id="text-orgb85c0fb">
 
-<div id="org5240d81" class="figure">
+<div id="org93e35e5" class="figure">
 <p><img src="./static/rshabitat.jpg" alt="rshabitat.jpg" width="400px" />
 </p>
 </div>
@@ -1142,11 +1117,11 @@ Habitat Collective creates an environment to think about ethical, and  even aest
 </p>
 </div>
 </div>
-<div id="outline-container-orga93cf1e" class="outline-3">
-<h3 id="orga93cf1e">Euthyphro <span class="timestamp-wrapper"><span class="timestamp">[2021-07-10 Sat]</span></span></h3>
-<div class="outline-text-3" id="text-orga93cf1e">
+<div id="outline-container-org063dcf2" class="outline-3">
+<h3 id="org063dcf2">Euthyphro <span class="timestamp-wrapper"><span class="timestamp">[2021-07-10 Sat]</span></span></h3>
+<div class="outline-text-3" id="text-org063dcf2">
 
-<div id="org507e80c" class="figure">
+<div id="orgcea3d1c" class="figure">
 <p><img src="./images/euthyphro.jpg" alt="euthyphro.jpg" height="500px" />
 </p>
 </div>
@@ -1166,13 +1141,13 @@ If you don’t know Plato, you can get some background <a href="https://en.wikip
 </div>
 </div>
 </div>
-<div id="outline-container-orgb42058a" class="outline-2">
-<h2 id="orgb42058a">June 2021</h2>
-<div class="outline-text-2" id="text-orgb42058a">
+<div id="outline-container-org75e4245" class="outline-2">
+<h2 id="org75e4245">June 2021</h2>
+<div class="outline-text-2" id="text-org75e4245">
 </div>
-<div id="outline-container-orga9a5cf5" class="outline-3">
-<h3 id="orga9a5cf5">On Method <span class="timestamp-wrapper"><span class="timestamp">[2021-06-03 Thu]</span></span></h3>
-<div class="outline-text-3" id="text-orga9a5cf5">
+<div id="outline-container-orga7fa55f" class="outline-3">
+<h3 id="orga7fa55f">On Method <span class="timestamp-wrapper"><span class="timestamp">[2021-06-03 Thu]</span></span></h3>
+<div class="outline-text-3" id="text-orga7fa55f">
 <p>
 कबीरा कुआँ एक है,<br />
 पानी भरे अनेक<br />
@@ -1248,7 +1223,7 @@ And, although in the hundred and twenty years or so, during which this ambition 
 </blockquote>
 
 <p>
-I shared similar thoughts in <a href="#org32a6442">Porosity of Boundaries</a>
+I shared similar thoughts in <a href="#org15786e7">Porosity of Boundaries</a>
 </p>
 <blockquote>
 <p>
@@ -1290,9 +1265,9 @@ And I get back to the sublime writing of Hesse. "The incomprehensible truth, rea
 <hr />
 </div>
 </div>
-<div id="outline-container-org6df858f" class="outline-3">
-<h3 id="org6df858f">On Schools <span class="timestamp-wrapper"><span class="timestamp">[2021-07-05 Mon]</span></span></h3>
-<div class="outline-text-3" id="text-org6df858f">
+<div id="outline-container-orge9de881" class="outline-3">
+<h3 id="orge9de881">On Schools <span class="timestamp-wrapper"><span class="timestamp">[2021-07-05 Mon]</span></span></h3>
+<div class="outline-text-3" id="text-orge9de881">
 <blockquote>
 <p>
 What, then, is truth? A mobile army of metaphors, metonyms, and anthropomorphisms – in short, a sum of human relations, which have been enhanced, transposed, and embellished poetically and rhetorically, and which after long use seem firm, canonical, and obligatory to a people: truths are illusions about which one has forgotten that this is what they are; metaphors which are worn out and without sensuous power; coins which have lost their pictures and now matter only as metal, no longer as coins.<br />
@@ -1317,19 +1292,19 @@ Lev Vygotsky had suggested that social participation facilitated by language and
 </p>
 
 <p>
-See also <a href="#org42e5766">Quotes on education [2021-09-03 Fri]​</a>
+See also <a href="#orgcfde995">Quotes on education</a>
 </p>
 <hr />
 </div>
 </div>
 </div>
-<div id="outline-container-org8aeecf4" class="outline-2">
-<h2 id="org8aeecf4">May 2021</h2>
-<div class="outline-text-2" id="text-org8aeecf4">
+<div id="outline-container-org7e6ca2b" class="outline-2">
+<h2 id="org7e6ca2b">May 2021</h2>
+<div class="outline-text-2" id="text-org7e6ca2b">
 </div>
-<div id="outline-container-org32a6442" class="outline-3">
-<h3 id="org32a6442">Porosity of Boundaries <span class="timestamp-wrapper"><span class="timestamp">[2021-05-25 Tue]</span></span></h3>
-<div class="outline-text-3" id="text-org32a6442">
+<div id="outline-container-org15786e7" class="outline-3">
+<h3 id="org15786e7">Porosity of Boundaries <span class="timestamp-wrapper"><span class="timestamp">[2021-05-25 Tue]</span></span></h3>
+<div class="outline-text-3" id="text-org15786e7">
 <p>
 One major objective for <a href="https://www.theraga.org">Raga Svara</a> is to create, what I call, “Porosity of Boundaries”. I want to make the solid walls between apparently different ideas more porous, more accommodating. One such boundary is between western medicine and our traditional medicine. I have thought for quite sometime about Indian traditional systems, whether therapeutic or belief systems (many times they merge seamlessly) and their place in Raga Svara.
 </p>
@@ -1360,9 +1335,9 @@ All said and done, each system must pass a falsifiability screen. We cannot acce
 <hr />
 </div>
 </div>
-<div id="outline-container-org3d4d8d6" class="outline-3">
-<h3 id="org3d4d8d6">Tambourine Man <span class="timestamp-wrapper"><span class="timestamp">[2021-05-25 Tue]</span></span></h3>
-<div class="outline-text-3" id="text-org3d4d8d6">
+<div id="outline-container-org0d997e4" class="outline-3">
+<h3 id="org0d997e4">Tambourine Man <span class="timestamp-wrapper"><span class="timestamp">[2021-05-25 Tue]</span></span></h3>
+<div class="outline-text-3" id="text-org0d997e4">
 <p>
 Today, 25th May, is Bob Dylan's birthday. Remembering days from the past and how Dylan got entangled in my memories.
 </p>
@@ -1395,23 +1370,23 @@ In the jingle jangle morning I'll come following you&#x2026;
 
 
 
-<div id="orgb1493b4" class="figure">
+<div id="orgba46d6c" class="figure">
 <p><img src="./static/motherwell.jpg" alt="motherwell.jpg" />
 </p>
 </div>
 </div>
 </div>
 
-<div id="outline-container-org191eb47" class="outline-3">
-<h3 id="org191eb47">On the love of monospace fonts <span class="timestamp-wrapper"><span class="timestamp">[2021-05-20 Thu]</span></span></h3>
-<div class="outline-text-3" id="text-org191eb47">
+<div id="outline-container-org80d1319" class="outline-3">
+<h3 id="org80d1319">On the love of monospace fonts <span class="timestamp-wrapper"><span class="timestamp">[2021-05-20 Thu]</span></span></h3>
+<div class="outline-text-3" id="text-org80d1319">
 <p>
 I think good fonts can elevate a design and bad fonts do the opposite. As a reader my most intimate relationship is with print. The curves, the spacing, serif or sans, everything comes together to create a character of the graphemes. Over the years I have liked (and then stopped linking) many fonts. I'm listing some of my current favourites.
 </p>
 </div>
-<div id="outline-container-org9913e11" class="outline-4">
-<h4 id="org9913e11">Proportional Fonts</h4>
-<div class="outline-text-4" id="text-org9913e11">
+<div id="outline-container-org7222eb9" class="outline-4">
+<h4 id="org7222eb9">Proportional Fonts</h4>
+<div class="outline-text-4" id="text-org7222eb9">
 <p>
 This is the type of font that you would see most often (almost always). <a href="https://en.wikipedia.org/wiki/Typeface#Proportion">Proportional</a> or variable width fonts are probably easier on the eye and are made possible by modern computers. You would probably have not noticed that the width of each letter and the spacing between each letter is not the same (this very text that you are reading right now!). I like these proportional fonts:
 </p>
@@ -1425,9 +1400,9 @@ This is the type of font that you would see most often (almost always). <a href=
 </div>
 </div>
 
-<div id="outline-container-org0fdf426" class="outline-4">
-<h4 id="org0fdf426">Mono Fonts</h4>
-<div class="outline-text-4" id="text-org0fdf426">
+<div id="outline-container-org1fb3abf" class="outline-4">
+<h4 id="org1fb3abf">Mono Fonts</h4>
+<div class="outline-text-4" id="text-org1fb3abf">
 <p>
 Mono or <a href="https://en.wikipedia.org/wiki/Monospaced_font">monospaced fonts</a> may remind you of the good old days of the typewriter. In modern times, these are fairly common in IDEs and programming/coding in general. I got to love mono fonts when I started using <a href="https://www.gnu.org/software/emacs/">Emacs</a> about a year ago. When my Emacs Orgmode calendar was throwing up alignment errors, I had no idea what was causing the problem. Until, quite accidentally, I was trying out different fonts and stumbled upon a mono font which magically fixed it. I have loved mono fonts since then. My current favourites are:
 </p>
@@ -1451,9 +1426,9 @@ Its quite fascinating to think about fonts.
 </div>
 </div>
 
-<div id="outline-container-org5165e55" class="outline-3">
-<h3 id="org5165e55">Hercules Globular Cluster <span class="timestamp-wrapper"><span class="timestamp">[2021-05-12 Wed]</span></span></h3>
-<div class="outline-text-3" id="text-org5165e55">
+<div id="outline-container-org9d1e115" class="outline-3">
+<h3 id="org9d1e115">Hercules Globular Cluster <span class="timestamp-wrapper"><span class="timestamp">[2021-05-12 Wed]</span></span></h3>
+<div class="outline-text-3" id="text-org9d1e115">
 <p>
 So I had stopped photographing the skies for some months. I was not getting to a point of clicking any photos, let alone getting good ones. I simply couldn't set up the gear properly. Astrophotography is highly technical requiring complex and sensitive equipment and some very quaint softwares which seem like they were made in late 90s. For every imaging session, it takes me about an hour of setup time. It takes me another 2 hours or for image capture. I have no idea how the image is going to come out until the next day when I process it. I was procrastinating for a very long time since I knew I was going to make a mistake and botch up the setup leading to no images.
 </p>
@@ -1464,7 +1439,7 @@ Carl Sagan and Frank Drake sent a message to the Hercules Cluster using the Arec
 </p>
 
 
-<div id="org5252360" class="figure">
+<div id="org0f5668b" class="figure">
 <p><img src="./static/M13-PI1.jpg" alt="M13-PI1.jpg" />
 </p>
 <p><span class="figure-number">Figure 3: </span>Photographed on 10th May 2021 from Rajkot (India).</p>
@@ -1472,9 +1447,9 @@ Carl Sagan and Frank Drake sent a message to the Hercules Cluster using the Arec
 <hr />
 </div>
 </div>
-<div id="outline-container-org49289d9" class="outline-3">
-<h3 id="org49289d9">Sirius <span class="timestamp-wrapper"><span class="timestamp">[2021-05-22 Sat]</span></span></h3>
-<div class="outline-text-3" id="text-org49289d9">
+<div id="outline-container-orgd1f07d2" class="outline-3">
+<h3 id="orgd1f07d2">Sirius <span class="timestamp-wrapper"><span class="timestamp">[2021-05-22 Sat]</span></span></h3>
+<div class="outline-text-3" id="text-orgd1f07d2">
 <p>
 With the incredibly light polluted city of Rajkot, I continue to fail at getting any sort of deep sky objects. More than 50% moon brightness added to my misery. Even with new moon, I barely manage to see anything below 35 degree altitude. Light pollution is the least talked about perhaps. The maddening LED hoardings blinding the eye at signals, uplighters on buildings, random spotlights during events, and much more.
 </p>
@@ -1492,16 +1467,16 @@ The alpha star of Canis Major, is a binary star about 25 times as bright as the 
 </p>
 
 
-<div id="orgc8771de" class="figure">
+<div id="org5f3aa0e" class="figure">
 <p><img src="./siriusspikes.jpg" alt="siriusspikes.jpg" width="600px" />
 </p>
 </div>
 </div>
 </div>
 
-<div id="outline-container-org018e8f4" class="outline-3">
-<h3 id="org018e8f4">Orion Nebula <span class="timestamp-wrapper"><span class="timestamp">[2021-05-12 Wed]</span></span></h3>
-<div class="outline-text-3" id="text-org018e8f4">
+<div id="outline-container-org0d87f92" class="outline-3">
+<h3 id="org0d87f92">Orion Nebula <span class="timestamp-wrapper"><span class="timestamp">[2021-05-12 Wed]</span></span></h3>
+<div class="outline-text-3" id="text-org0d87f92">
 <p>
 I have been wanting to combine my interests in astronomy and photography by exploring deep sky imaging. I have spent many hours getting this first image of Orion Nebula. This is a diffuse nebula in the Orion constellation. It is about 1500 light years away. About 700 new stars are being formed in the gases of this nebula. How incredible that I can see this nursery of stars from our planet. Photographed from highly light polluted city of Rajkot.
 </p>
@@ -1511,7 +1486,7 @@ This was my first AP target.
 </p>
 
 
-<div id="orgeb2ca08" class="figure">
+<div id="orgdd0a973" class="figure">
 <p><img src="./static/M42-MohitPatel.jpg" alt="M42-MohitPatel.jpg" />
 </p>
 <p><span class="figure-number">Figure 4: </span>My first capture of M42 Orion Nebula</p>
@@ -1519,9 +1494,9 @@ This was my first AP target.
 <hr />
 </div>
 </div>
-<div id="outline-container-orgc311b3a" class="outline-3">
-<h3 id="orgc311b3a">Pleiades <span class="timestamp-wrapper"><span class="timestamp">[2021-05-12 Wed]</span></span></h3>
-<div class="outline-text-3" id="text-orgc311b3a">
+<div id="outline-container-org8e3efd7" class="outline-3">
+<h3 id="org8e3efd7">Pleiades <span class="timestamp-wrapper"><span class="timestamp">[2021-05-12 Wed]</span></span></h3>
+<div class="outline-text-3" id="text-org8e3efd7">
 <p>
 Our lives are illuminated; sparsely, dimly. Just like pin points of starlight in the maddening blackness of the universe. Sometimes on a winter's night, it can be achingly beautiful.
 </p>
@@ -1531,7 +1506,7 @@ The Seven Sisters, or the Pleiades, is an open star cluster in Taurus. Known as 
 </p>
 
 
-<div id="org5b232ed" class="figure">
+<div id="org74125a5" class="figure">
 <p><img src="./static/PI-M45.jpg" alt="PI-M45.jpg" />
 </p>
 </div>
@@ -1539,9 +1514,9 @@ The Seven Sisters, or the Pleiades, is an open star cluster in Taurus. Known as 
 </div>
 </div>
 
-<div id="outline-container-org52585b9" class="outline-3">
-<h3 id="org52585b9">Finitude <span class="timestamp-wrapper"><span class="timestamp">[2021-05-07 Fri]</span></span></h3>
-<div class="outline-text-3" id="text-org52585b9">
+<div id="outline-container-org74aa5f9" class="outline-3">
+<h3 id="org74aa5f9">Finitude <span class="timestamp-wrapper"><span class="timestamp">[2021-05-07 Fri]</span></span></h3>
+<div class="outline-text-3" id="text-org74aa5f9">
 <p>
 As we go through the greatest humanitarian crisis of modern times, it is hard to maintain a semblance of sanity. So much suffering, so much pain all around. What can words do to those who have lost the ones they love? All the pent-up anger and pain, where will it unleash?
 </p>
@@ -1574,9 +1549,9 @@ Aur hum payo visram
 </div>
 </div>
 
-<div id="outline-container-org46e5c22" class="outline-2">
-<h2 id="org46e5c22">About me</h2>
-<div class="outline-text-2" id="text-org46e5c22">
+<div id="outline-container-orga499d34" class="outline-2">
+<h2 id="orga499d34">About me</h2>
+<div class="outline-text-2" id="text-orga499d34">
 <p>
 My name is <b><b>Mohit Patel</b></b><br />
 <a href="https://twitter.com/mohitkpatel">Twitter</a>, <a href="https://www.facebook.com/mohitpatel">Facebook</a> 
@@ -1590,7 +1565,7 @@ I like being a <a href="https://oll.libertyfund.org/quotes/341">gadfly</a>. My l
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: Mohit Patel</p>
-<p class="date">Created: 2022-04-17 Sun 09:59</p>
+<p class="date">Created: 2022-04-17 Sun 10:40</p>
 <p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>
