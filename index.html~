@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2022-01-16 Sun 10:58 -->
+<!-- 2022-04-17 Sun 09:51 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Mohit's Notes</title>
@@ -193,12 +193,28 @@
     { background-color: #ffff00; color: #000000; font-weight: bold; }
   .org-svg { width: 90%; }
 </style>
-<link rel="stylesheet" type="text/css" href="src/readtheorg_theme/css/htmlize.css"/>
-<link rel="stylesheet" type="text/css" href="src/readtheorg_theme/css/readtheorg.css"/>
-<script type="text/javascript" src="src/lib/js/jquery.min.js"></script>
-<script type="text/javascript" src="src/lib/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="src/lib/js/jquery.stickytableheaders.min.js"></script>
-<script type="text/javascript" src="src/readtheorg_theme/js/readtheorg.js"></script>
+<style type="text/css"> * { font-family: "Georgia";}h1, h2, h3, h4, h5, h6,h1 span, h2 span, h3 span, h4 span, h5 span, h6 span,h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {    font-family: "Arial";}pre, code {    font-family: Monaco, "Courier New", Courier;}#text-table-of-contents a {    font-family: "Arial";}/* @end *//* @group Baseline */body {	font-size: 14px;	line-height: 1.5em;	padding: 0;	margin: 0;}h1 {	margin: 0;	font-size: 1.6666666666666667em;	line-height: 0.9em;	margin-bottom: 0.9em;}h2 {	margin: 0;	font-size: 1.5em;	line-height: 1em;	margin-bottom: 1em;}h3 {	margin: 0;	font-size: 1.3333333333333333em;	line-height: 1.125em;	margin-bottom: 1.125em;}h4 {	margin: 0;	font-size: 1.1666666666666667em;	line-height: 1.2857142857142858em;	margin-bottom: 1.2857142857142858em;}p, ul, blockquote, pre, td, th, label {	margin: 0;	font-size: 1em;	line-height: 1.5em;	margin-bottom: 1.5em;}p.small, #postamble {	margin: 0;	font-size: 0.8333333333333334em;	line-height: 1.8em;	margin-bottom: 1.8em;}table {	border-collapse: collapse;	margin-bottom: 1.5em;}/* @end *//* @group Layout */#content {	width: 70em;	margin-left: auto;	margin-right: auto;}/* #header {	height: 10em;}*/#table-of-contents {	width: 15em;	float: left;	overflow: auto;}/* #main { */div.outline-2 {        width: 52em;	float: right;	/* The lines below are useful if the "main" div isn't available and	   div.outline-2 has to be used. */	position: relative;}#postamble {	clear: both;	text-align: center;}div.outline-2 pre {    width: 40em;    overflow: auto;}/* @end *//* @group Header */h1.title {	margin-top: 10px;	text-align: center;}h1.title {	font-size: 3em;	font-weight: bold;	margin-bottom: 0.8em;}/* @end *//* @group Org Keywords */.todo {	color: red;}.done {	color: green;}.tag {	color: blue;	text-transform: lowercase;	/* This will be obscured by the surrounding span tag, so blank everything. */	background: #fff;	border: none;	/* position: relative;	text-align: right;	right: 1em; */}.timestamp {}.timestamp-kwd  {	/* keyword associated with a time stamp, like SCHEDULED */}.target {	/* target for links */}/* @end *//* @group Table of Contents */#table-of-contents h2 {	letter-spacing: -0.1em;}#table-of-contents ul,#table-of-contents ol {    padding-left: 1em;}/* @end *//* @group Outline Level 2 */.outline-2 h2 {    background: #ffc;    border-bottom: 1px solid #ccc;}.outline-2 h2, .outline-2 h3 {    letter-spacing: -0.05em;}.outline-2 {	padding: 5px;	/* margin-bottom: 10px; */	/* border-top: 1px solid #ccc; */}/* @end */td {	border: 1px solid #ccc;}h1 span, h2 span, h3 span, h4 span, h5 span, h6 span {    background-color: #eee;    padding: 2px;    border: 1px solid #ccc;}.outline-1, .outline-2, .outline-3, .outline-4, .outline-5, .outline-6 {    margin-left: 2em;}a {    text-decoration: none;    color: #57d; /* TODO: Find a better colour for this. */}a:hover {    border-bottom: 1px dotted #57d;}#postamble p {    margin: 0px;}.footpara { display: inline; }.footdef { margin-bottom: 3em; font-size: 80%; }/*]]>*/--></style><script type="text/javascript">/*@licstart  The following is the entire license notice for theJavaScript code in this tag.Copyright (C) 2012-2013 Free Software Foundation, Inc.The JavaScript code in this tag is free software: you canredistribute it and/or modify it under the terms of the GNUGeneral Public License (GNU GPL) as published by the Free SoftwareFoundation, either version 3 of the License, or (at your option)any later version.  The code is distributed WITHOUT ANY WARRANTY;without even the implied warranty of MERCHANTABILITY or FITNESSFOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.As additional permission under GNU GPL version 3 section 7, youmay distribute non-source (e.g., minimized or compacted) forms ofthat code without the copy of the GNU GPL normally required bysection 4, provided you include this license notice and a URLthrough which recipients can access the Corresponding Source.@licend  The above is the entire license noticefor the JavaScript code in this tag.*/<!--/*--><![CDATA[/*><!--*/ function CodeHighlightOn(elem, id) {   var target = document.getElementById(id);   if(null != target) {     elem.cacheClassElem = elem.className;     elem.cacheClassTarget = target.className;     target.className = "code-highlighted";     elem.className   = "code-highlighted";   } } function CodeHighlightOff(elem, id) {   var target = document.getElementById(id);   if(elem.cacheClassElem)     elem.className = elem.cacheClassElem;   if(elem.cacheClassTarget)     target.className = elem.cacheClassTarget; }</script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        displayAlign: "center",
+        displayIndent: "0em",
+
+        "HTML-CSS": { scale: 100,
+                        linebreaks: { automatic: "false" },
+                        webFont: "TeX"
+                       },
+        SVG: {scale: 100,
+              linebreaks: { automatic: "false" },
+              font: "TeX"},
+        NativeMML: {scale: 100},
+        TeX: { equationNumbers: {autoNumber: "AMS"},
+               MultLineWidth: "85%",
+               TagSide: "right",
+               TagIndent: ".8em"
+             }
+});
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_HTML"></script>
 </head>
 <body>
 <div id="content" class="content">
@@ -207,106 +223,109 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#org78e573d">January 2022</a>
+<li><a href="#org0f07140">January 2022</a>
 <ul>
-<li><a href="#orgebae574">How to double your money, the Poe way <span class="timestamp-wrapper"><span class="timestamp">[2022-01-16 Sun]</span></span></a></li>
+<li><a href="#orgc57e88f">How to double your money, the Poe way <span class="timestamp-wrapper"><span class="timestamp">[2022-01-16 Sun]</span></span></a></li>
 </ul>
 </li>
-<li><a href="#org1cb45e4">December 2021</a>
+<li><a href="#org80f658d">December 2021</a>
 <ul>
-<li><a href="#org6d399db">Thoughts on Hospitality <span class="timestamp-wrapper"><span class="timestamp">[2021-12-21 Tue]</span></span></a></li>
+<li><a href="#org02d28db">Thoughts on Hospitality <span class="timestamp-wrapper"><span class="timestamp">[2021-12-21 Tue]</span></span></a></li>
 </ul>
 </li>
-<li><a href="#orgfefe872">November 2021</a>
+<li><a href="#orgd630257">November 2021</a>
 <ul>
-<li><a href="#org68ce901">Carbon Sequestration at RKU <span class="timestamp-wrapper"><span class="timestamp">[2021-11-25 Thu]</span></span></a></li>
-<li><a href="#org8ba32b1">Triangulum Galaxy <span class="timestamp-wrapper"><span class="timestamp">[2021-11-05 Fri]</span></span></a></li>
-<li><a href="#orge1f2f83">Orion Nebula <span class="timestamp-wrapper"><span class="timestamp">[2021-11-02 Tue]</span></span></a></li>
+<li><a href="#orgdba51fe">Carbon Sequestration at RKU <span class="timestamp-wrapper"><span class="timestamp">[2021-11-25 Thu]</span></span></a></li>
+<li><a href="#org4252252">Triangulum Galaxy <span class="timestamp-wrapper"><span class="timestamp">[2021-11-05 Fri]</span></span></a></li>
+<li><a href="#org2dd3382">Orion Nebula <span class="timestamp-wrapper"><span class="timestamp">[2021-11-02 Tue]</span></span></a></li>
 </ul>
 </li>
-<li><a href="#org73876da">October 2021</a>
+<li><a href="#org61ae4d4">October 2021</a>
 <ul>
-<li><a href="#org29a44f0">Turn of the Screw <span class="timestamp-wrapper"><span class="timestamp">[2021-10-24 Sun]</span></span></a></li>
+<li><a href="#orgd9690fa">Turn of the Screw <span class="timestamp-wrapper"><span class="timestamp">[2021-10-24 Sun]</span></span></a></li>
 </ul>
 </li>
-<li><a href="#org490c889">September 2021</a>
+<li><a href="#org2882e9d">September 2021</a>
 <ul>
-<li><a href="#orgb332335">Vega <span class="timestamp-wrapper"><span class="timestamp">[2021-10-15 Fri]</span></span></a></li>
-<li><a href="#org458a984">Star Cluster in Pegasus <span class="timestamp-wrapper"><span class="timestamp">[2021-10-15 Fri]</span></span></a></li>
-<li><a href="#orga1da139">A Walk in the Campus <span class="timestamp-wrapper"><span class="timestamp">[2021-10-07 Thu]</span></span></a>
+<li><a href="#org70d4e30">Vega <span class="timestamp-wrapper"><span class="timestamp">[2021-10-15 Fri]</span></span></a></li>
+<li><a href="#orgaf8a803">Star Cluster in Pegasus <span class="timestamp-wrapper"><span class="timestamp">[2021-10-15 Fri]</span></span></a></li>
+<li><a href="#org02031d2">A Walk in the Campus <span class="timestamp-wrapper"><span class="timestamp">[2021-10-07 Thu]</span></span></a>
 <ul>
-<li><a href="#orgb7bcef2">Ketaki (Agave americana)</a></li>
-<li><a href="#orgaf2fbe4">Kadamb (Neolamarckia cadamba)</a></li>
-<li><a href="#org7512e02">Saptaparni (Alstonia scholaris)</a></li>
-<li><a href="#orgc1bfb99">Traveller's Palm (Ravenala madagascariensis)</a></li>
+<li><a href="#orga5eef75">Ketaki (Agave americana)</a></li>
+<li><a href="#org33033bc">Kadamb (Neolamarckia cadamba)</a></li>
+<li><a href="#org107ff19">Saptaparni (Alstonia scholaris)</a></li>
+<li><a href="#orga50bb67">Traveller's Palm (Ravenala madagascariensis)</a></li>
 </ul>
 </li>
-<li><a href="#orgfb88001">How I got introduced to Borges <span class="timestamp-wrapper"><span class="timestamp">[2021-10-05 Tue]</span></span></a></li>
-<li><a href="#orgc524583">Andromeda Galaxy <span class="timestamp-wrapper"><span class="timestamp">[2021-10-05 Tue]</span></span></a></li>
-<li><a href="#org048fa2d">The Babylon Lottery - Borges <span class="timestamp-wrapper"><span class="timestamp">[2021-09-24 Fri]</span></span></a></li>
-<li><a href="#org9877267">Ranks and Rankers <span class="timestamp-wrapper"><span class="timestamp">[2021-09-14 Tue]</span></span></a></li>
-<li><a href="#org2396f62">Indian Higher Education and Rankings <span class="timestamp-wrapper"><span class="timestamp">[2021-09-16 Thu]</span></span></a>
+<li><a href="#orga2a9661">How I got introduced to Borges <span class="timestamp-wrapper"><span class="timestamp">[2021-10-05 Tue]</span></span></a></li>
+<li><a href="#org81a7d42">Andromeda Galaxy <span class="timestamp-wrapper"><span class="timestamp">[2021-10-05 Tue]</span></span></a></li>
+<li><a href="#org43e0be3">The Babylon Lottery - Borges <span class="timestamp-wrapper"><span class="timestamp">[2021-09-24 Fri]</span></span></a></li>
+<li><a href="#org72e22c0">Ranks and Rankers <span class="timestamp-wrapper"><span class="timestamp">[2021-09-14 Tue]</span></span></a></li>
+<li><a href="#org623d99c">Indian Higher Education and Rankings <span class="timestamp-wrapper"><span class="timestamp">[2021-09-16 Thu]</span></span></a>
 <ul>
-<li><a href="#org532bb9a">Part 1: Funding</a></li>
-<li><a href="#org73f1d64">Part 2: What can be done</a></li>
+<li><a href="#org89e214e">Part 1: Funding</a></li>
+<li><a href="#org84c4451">Part 2: What can be done</a></li>
 </ul>
 </li>
-<li><a href="#org841bd5f">Emil Cioran and the Impossibility of Meaning <span class="timestamp-wrapper"><span class="timestamp">[2021-09-14 Tue]</span></span></a></li>
-<li><a href="#org4267499">Problem of Evil <span class="timestamp-wrapper"><span class="timestamp">[2021-09-10 Fri]</span></span></a></li>
-<li><a href="#orgb63096b">Beginning Roberto Bolaño <span class="timestamp-wrapper"><span class="timestamp">[2021-09-05 Sun]</span></span></a></li>
-<li><a href="#org072a2e2">Happy Teachers' Day <span class="timestamp-wrapper"><span class="timestamp">[2021-09-05 Sun]</span></span></a></li>
-<li><a href="#orgc262a3a">Lutheran Insulter <span class="timestamp-wrapper"><span class="timestamp">[2021-09-04 Sat]</span></span></a></li>
-<li><a href="#org7d066ce">Quotes on education <span class="timestamp-wrapper"><span class="timestamp">[2021-09-03 Fri]</span></span></a></li>
+<li><a href="#org425287c">Emil Cioran and the Impossibility of Meaning <span class="timestamp-wrapper"><span class="timestamp">[2021-09-14 Tue]</span></span></a></li>
+<li><a href="#org767824b">Problem of Evil <span class="timestamp-wrapper"><span class="timestamp">[2021-09-10 Fri]</span></span></a></li>
+<li><a href="#orgc1a6328">Beginning Roberto Bolaño <span class="timestamp-wrapper"><span class="timestamp">[2021-09-05 Sun]</span></span></a></li>
+<li><a href="#org56469af">Happy Teachers' Day <span class="timestamp-wrapper"><span class="timestamp">[2021-09-05 Sun]</span></span></a></li>
+<li><a href="#org95d8edc">Lutheran Insulter <span class="timestamp-wrapper"><span class="timestamp">[2021-09-04 Sat]</span></span></a></li>
+<li><a href="#orgf2dd328">Quotes on education <span class="timestamp-wrapper"><span class="timestamp">[2021-09-03 Fri]</span></span></a></li>
 </ul>
 </li>
-<li><a href="#orgcba9430">August 2021</a>
+<li><a href="#orgfa972eb">August 2021</a>
 <ul>
-<li><a href="#org840210b">Noesis | Afghanistan: A Story in Images <span class="timestamp-wrapper"><span class="timestamp">[2021-08-19 Thu]</span></span></a></li>
-<li><a href="#org5470db9">Thinking about thinking <span class="timestamp-wrapper"><span class="timestamp">[2021-08-08 Sun]</span></span></a></li>
-<li><a href="#org6939e62">A Walk in the Northstar Campus <span class="timestamp-wrapper"><span class="timestamp">[2021-08-07 Sat]</span></span></a></li>
-<li><a href="#org7645774">The Ones Who Walk Away From Omelas - Ursula K. Le Guin <span class="timestamp-wrapper"><span class="timestamp">[2021-08-04 Wed]</span></span></a></li>
+<li><a href="#org3d7a3c8">Noesis | Afghanistan: A Story in Images <span class="timestamp-wrapper"><span class="timestamp">[2021-08-19 Thu]</span></span></a></li>
+<li><a href="#org3941dd7">Thinking about thinking <span class="timestamp-wrapper"><span class="timestamp">[2021-08-08 Sun]</span></span></a></li>
+<li><a href="#org2796f0e">A Walk in the Northstar Campus <span class="timestamp-wrapper"><span class="timestamp">[2021-08-07 Sat]</span></span></a></li>
+<li><a href="#orgd4c41ea">The Ones Who Walk Away From Omelas - Ursula K. Le Guin <span class="timestamp-wrapper"><span class="timestamp">[2021-08-04 Wed]</span></span></a></li>
 </ul>
 </li>
-<li><a href="#orgdd75b15">July 2021</a>
+<li><a href="#orgeb8f346">July 2021</a>
 <ul>
-<li><a href="#orgdf88b4a">Raga Svara Habitat Collective <span class="timestamp-wrapper"><span class="timestamp">[2021-07-31 Sat]</span></span></a></li>
-<li><a href="#orgc264600">Euthyphro <span class="timestamp-wrapper"><span class="timestamp">[2021-07-10 Sat]</span></span></a></li>
+<li><a href="#orgb87a887">Raga Svara Habitat Collective <span class="timestamp-wrapper"><span class="timestamp">[2021-07-31 Sat]</span></span></a></li>
+<li><a href="#org6971a79">Euthyphro <span class="timestamp-wrapper"><span class="timestamp">[2021-07-10 Sat]</span></span></a></li>
 </ul>
 </li>
-<li><a href="#org257edf5">June 2021</a>
+<li><a href="#org1d461d2">June 2021</a>
 <ul>
-<li><a href="#orgddc816c">On Method <span class="timestamp-wrapper"><span class="timestamp">[2021-06-03 Thu]</span></span></a></li>
-<li><a href="#orgab588f2">On Schools <span class="timestamp-wrapper"><span class="timestamp">[2021-07-05 Mon]</span></span></a></li>
+<li><a href="#orgf460c55">On Method <span class="timestamp-wrapper"><span class="timestamp">[2021-06-03 Thu]</span></span></a></li>
+<li><a href="#org0f0edd0">On Schools <span class="timestamp-wrapper"><span class="timestamp">[2021-07-05 Mon]</span></span></a></li>
 </ul>
 </li>
-<li><a href="#orga83818e">May 2021</a>
+<li><a href="#org8fe4653">May 2021</a>
 <ul>
-<li><a href="#org9ac5022">Porosity of Boundaries <span class="timestamp-wrapper"><span class="timestamp">[2021-05-25 Tue]</span></span></a></li>
-<li><a href="#org28579e9">Tambourine Man <span class="timestamp-wrapper"><span class="timestamp">[2021-05-25 Tue]</span></span></a></li>
-<li><a href="#orgabdb507">On the love of monospace fonts <span class="timestamp-wrapper"><span class="timestamp">[2021-05-20 Thu]</span></span></a>
+<li><a href="#org8d5921b">Porosity of Boundaries <span class="timestamp-wrapper"><span class="timestamp">[2021-05-25 Tue]</span></span></a></li>
+<li><a href="#orged8c1a2">Tambourine Man <span class="timestamp-wrapper"><span class="timestamp">[2021-05-25 Tue]</span></span></a></li>
+<li><a href="#orgd6b7b2d">On the love of monospace fonts <span class="timestamp-wrapper"><span class="timestamp">[2021-05-20 Thu]</span></span></a>
 <ul>
-<li><a href="#orgacc5a72">Proportional Fonts</a></li>
-<li><a href="#org82574fe">Mono Fonts</a></li>
+<li><a href="#org560f25f">Proportional Fonts</a></li>
+<li><a href="#org5ea5eff">Mono Fonts</a></li>
 </ul>
 </li>
-<li><a href="#org5ff3e62">Hercules Globular Cluster <span class="timestamp-wrapper"><span class="timestamp">[2021-05-12 Wed]</span></span></a></li>
-<li><a href="#orga21155d">Sirius <span class="timestamp-wrapper"><span class="timestamp">[2021-05-22 Sat]</span></span></a></li>
-<li><a href="#orgba1988f">Orion Nebula <span class="timestamp-wrapper"><span class="timestamp">[2021-05-12 Wed]</span></span></a></li>
-<li><a href="#org211e4e4">Pleiades <span class="timestamp-wrapper"><span class="timestamp">[2021-05-12 Wed]</span></span></a></li>
+<li><a href="#org094ca55">Hercules Globular Cluster <span class="timestamp-wrapper"><span class="timestamp">[2021-05-12 Wed]</span></span></a></li>
+<li><a href="#org574d112">Sirius <span class="timestamp-wrapper"><span class="timestamp">[2021-05-22 Sat]</span></span></a></li>
+<li><a href="#org228aeea">Orion Nebula <span class="timestamp-wrapper"><span class="timestamp">[2021-05-12 Wed]</span></span></a></li>
+<li><a href="#orgb4344cc">Pleiades <span class="timestamp-wrapper"><span class="timestamp">[2021-05-12 Wed]</span></span></a></li>
+<li><a href="#org8b9c4fe">Finitude <span class="timestamp-wrapper"><span class="timestamp">[2021-05-07 Fri]</span></span></a></li>
 </ul>
 </li>
-<li><a href="#org885e832">About me</a></li>
+<li><a href="#orgeac3844">About me</a></li>
 </ul>
 </div>
 </div>
-
-<div id="outline-container-org78e573d" class="outline-2">
-<h2 id="org78e573d">January 2022</h2>
-<div class="outline-text-2" id="text-org78e573d">
+<p>
+SETUPFILE: C:\Users\Mohit Patel\Nextcloud\blog\org-html-themes\org\theme-readtheorg-local.setup
+</p>
+<div id="outline-container-org0f07140" class="outline-2">
+<h2 id="org0f07140">January 2022</h2>
+<div class="outline-text-2" id="text-org0f07140">
 </div>
-<div id="outline-container-orgebae574" class="outline-3">
-<h3 id="orgebae574">How to double your money, the Poe way <span class="timestamp-wrapper"><span class="timestamp">[2022-01-16 Sun]</span></span></h3>
-<div class="outline-text-3" id="text-orgebae574">
+<div id="outline-container-orgc57e88f" class="outline-3">
+<h3 id="orgc57e88f">How to double your money, the Poe way <span class="timestamp-wrapper"><span class="timestamp">[2022-01-16 Sun]</span></span></h3>
+<div class="outline-text-3" id="text-orgc57e88f">
 <p>
 While reading Poe today morning, came across this little gem on making money.
 </p>
@@ -331,15 +350,15 @@ And every time that you fold it across,<br />
 </div>
 </div>
 </div>
-<div id="outline-container-org1cb45e4" class="outline-2">
-<h2 id="org1cb45e4">December 2021</h2>
-<div class="outline-text-2" id="text-org1cb45e4">
+<div id="outline-container-org80f658d" class="outline-2">
+<h2 id="org80f658d">December 2021</h2>
+<div class="outline-text-2" id="text-org80f658d">
 </div>
-<div id="outline-container-org6d399db" class="outline-3">
-<h3 id="org6d399db">Thoughts on Hospitality <span class="timestamp-wrapper"><span class="timestamp">[2021-12-21 Tue]</span></span></h3>
-<div class="outline-text-3" id="text-org6d399db">
+<div id="outline-container-org02d28db" class="outline-3">
+<h3 id="org02d28db">Thoughts on Hospitality <span class="timestamp-wrapper"><span class="timestamp">[2021-12-21 Tue]</span></span></h3>
+<div class="outline-text-3" id="text-org02d28db">
 
-<div id="org4102291" class="figure">
+<div id="org73e8bd9" class="figure">
 <p><img src="./images/raga-night.jpg" alt="raga-night.jpg" width="600px" />
 </p>
 </div>
@@ -366,7 +385,7 @@ As Derrida said:
 <blockquote>
 <p>
 Hospitality is ethics, is the condition of humanity – for ethos is place:
-Hospitality is culture itself and not simply one ethic amongst others. Insofar as it has to do with the ethos, that is, the residence, one’s home, the familiar place of dwelling, inasmuch as it is a manner of being there, the manner in which we relate to ourselves and to others, to others as our own or as foreigners, ethics is hospitality; ethics is so thoroughly coexten- sive with the experience of hospitality.
+Hospitality is culture itself and not simply one ethic amongst others. Insofar as it has to do with the ethos, that is, the residence, one’s home, the familiar place of dwelling, inasmuch as it is a manner of being there, the manner in which we relate to ourselves and to others, to others as our own or as foreigners, ethics is hospitality; ethics is so thoroughly coextensive with the experience of hospitality.
 </p>
 
 <p>
@@ -378,15 +397,15 @@ L’hospitalité, c’est la culture même et ce n’est pas une éthique parmi 
 </div>
 </div>
 
-<div id="outline-container-orgfefe872" class="outline-2">
-<h2 id="orgfefe872">November 2021</h2>
-<div class="outline-text-2" id="text-orgfefe872">
+<div id="outline-container-orgd630257" class="outline-2">
+<h2 id="orgd630257">November 2021</h2>
+<div class="outline-text-2" id="text-orgd630257">
 </div>
-<div id="outline-container-org68ce901" class="outline-3">
-<h3 id="org68ce901">Carbon Sequestration at RKU <span class="timestamp-wrapper"><span class="timestamp">[2021-11-25 Thu]</span></span></h3>
-<div class="outline-text-3" id="text-org68ce901">
+<div id="outline-container-orgdba51fe" class="outline-3">
+<h3 id="orgdba51fe">Carbon Sequestration at RKU <span class="timestamp-wrapper"><span class="timestamp">[2021-11-25 Thu]</span></span></h3>
+<div class="outline-text-3" id="text-orgdba51fe">
 
-<div id="orgddd47bb" class="figure">
+<div id="org5239a0d" class="figure">
 <p><img src="./images/RKU Trees.jpg" alt="RKU Trees.jpg" width="600px" />
 </p>
 </div>
@@ -401,11 +420,11 @@ Thanks to Dr Devang Pandya (of School of Pharmacy, RKU)  and his team of faculti
 </div>
 </div>
 
-<div id="outline-container-org8ba32b1" class="outline-3">
-<h3 id="org8ba32b1">Triangulum Galaxy <span class="timestamp-wrapper"><span class="timestamp">[2021-11-05 Fri]</span></span></h3>
-<div class="outline-text-3" id="text-org8ba32b1">
+<div id="outline-container-org4252252" class="outline-3">
+<h3 id="org4252252">Triangulum Galaxy <span class="timestamp-wrapper"><span class="timestamp">[2021-11-05 Fri]</span></span></h3>
+<div class="outline-text-3" id="text-org4252252">
 
-<div id="orgb6daf2c" class="figure">
+<div id="org2144bc2" class="figure">
 <p><img src="./images/M33-blog.jpg" alt="M33-blog.jpg" width="800px" />
 </p>
 </div>
@@ -417,11 +436,11 @@ This is the Triangulum Galaxy. It is a spiral galaxy 2.73 million light-years  f
 </div>
 </div>
 
-<div id="outline-container-orge1f2f83" class="outline-3">
-<h3 id="orge1f2f83">Orion Nebula <span class="timestamp-wrapper"><span class="timestamp">[2021-11-02 Tue]</span></span></h3>
-<div class="outline-text-3" id="text-orge1f2f83">
+<div id="outline-container-org2dd3382" class="outline-3">
+<h3 id="org2dd3382">Orion Nebula <span class="timestamp-wrapper"><span class="timestamp">[2021-11-02 Tue]</span></span></h3>
+<div class="outline-text-3" id="text-org2dd3382">
 
-<div id="orga3c385d" class="figure">
+<div id="org7a99060" class="figure">
 <p><img src="./images/M42-blog.jpg" alt="M42-blog.jpg" width="800px" />
 </p>
 </div>
@@ -438,18 +457,18 @@ My third attempt at this deep sky object. I took over 150 images of 30 seconds e
 </div>
 </div>
 
-<div id="outline-container-org73876da" class="outline-2">
-<h2 id="org73876da">October 2021</h2>
-<div class="outline-text-2" id="text-org73876da">
+<div id="outline-container-org61ae4d4" class="outline-2">
+<h2 id="org61ae4d4">October 2021</h2>
+<div class="outline-text-2" id="text-org61ae4d4">
 </div>
-<div id="outline-container-org29a44f0" class="outline-3">
-<h3 id="org29a44f0">Turn of the Screw <span class="timestamp-wrapper"><span class="timestamp">[2021-10-24 Sun]</span></span></h3>
-<div class="outline-text-3" id="text-org29a44f0">
+<div id="outline-container-orgd9690fa" class="outline-3">
+<h3 id="orgd9690fa">Turn of the Screw <span class="timestamp-wrapper"><span class="timestamp">[2021-10-24 Sun]</span></span></h3>
+<div class="outline-text-3" id="text-orgd9690fa">
 <p>
 I just completed <a href="https://en.wikipedia.org/wiki/The_Turn_of_the_Screw">Turn of the Screw</a> by Henry James. Horrifying in some parts and labrouious to read in most parts. The sentences and sytax is very Henry James-like.<br />
 </p>
 
-<div id="org4446a08" class="figure">
+<div id="org641ff27" class="figure">
 <p><img src="./images/screw.jpg" alt="screw.jpg" width="500px" />
 </p>
 </div>
@@ -457,15 +476,15 @@ I just completed <a href="https://en.wikipedia.org/wiki/The_Turn_of_the_Screw">T
 </div>
 </div>
 
-<div id="outline-container-org490c889" class="outline-2">
-<h2 id="org490c889">September 2021</h2>
-<div class="outline-text-2" id="text-org490c889">
+<div id="outline-container-org2882e9d" class="outline-2">
+<h2 id="org2882e9d">September 2021</h2>
+<div class="outline-text-2" id="text-org2882e9d">
 </div>
-<div id="outline-container-orgb332335" class="outline-3">
-<h3 id="orgb332335">Vega <span class="timestamp-wrapper"><span class="timestamp">[2021-10-15 Fri]</span></span></h3>
-<div class="outline-text-3" id="text-orgb332335">
+<div id="outline-container-org70d4e30" class="outline-3">
+<h3 id="org70d4e30">Vega <span class="timestamp-wrapper"><span class="timestamp">[2021-10-15 Fri]</span></span></h3>
+<div class="outline-text-3" id="text-org70d4e30">
 
-<div id="org1a87e1e" class="figure">
+<div id="orgbac7aff" class="figure">
 <p><img src="./images/vega.jpg" alt="vega.jpg" width="800px" />
 </p>
 <p><span class="figure-number">Figure 1: </span>Photographed on 14th October 2021 from a horribly light polluted city of Rajkot.</p>
@@ -479,104 +498,104 @@ I love photographing solitary stars. I love the simplicity of the composition. T
 <hr />
 </div>
 </div>
-<div id="outline-container-org458a984" class="outline-3">
-<h3 id="org458a984">Star Cluster in Pegasus <span class="timestamp-wrapper"><span class="timestamp">[2021-10-15 Fri]</span></span></h3>
-<div class="outline-text-3" id="text-org458a984">
+<div id="outline-container-orgaf8a803" class="outline-3">
+<h3 id="orgaf8a803">Star Cluster in Pegasus <span class="timestamp-wrapper"><span class="timestamp">[2021-10-15 Fri]</span></span></h3>
+<div class="outline-text-3" id="text-orgaf8a803">
 
-<div id="orgef768d5" class="figure">
+<div id="org53431e7" class="figure">
 <p><img src="./images/m15.jpg" alt="m15.jpg" width="800px" />
 </p>
 <p><span class="figure-number">Figure 2: </span>Photographed on 14th October 2021 from a horribly light polluted city of Rajkot.</p>
 </div>
 
 <p>
-The central star cluster in this photo is the Globular Cluster in constellation Pegasus. This is my second cluster photo after <a href="#org5ff3e62">Hercules Globular Cluster</a>. I have been able to do a better job at the capturing the incredible star density. I do not wish to make technical observations. These photographs are meant to create a poetic image. It has no past and no future. Just an emergence in a reader's psyche. A phenomenon that reverberates deep within our soul. Looking at the something that is so beyond our comprehension. This unbearable beauty.
+The central star cluster in this photo is the Globular Cluster in constellation Pegasus. This is my second cluster photo after <a href="#org094ca55">Hercules Globular Cluster</a>. I have been able to do a better job at the capturing the incredible star density. I do not wish to make technical observations. These photographs are meant to create a poetic image. It has no past and no future. Just an emergence in a reader's psyche. A phenomenon that reverberates deep within our soul. Looking at the something that is so beyond our comprehension. This unbearable beauty.
 </p>
 </div>
 </div>
 
-<div id="outline-container-orga1da139" class="outline-3">
-<h3 id="orga1da139">A Walk in the Campus <span class="timestamp-wrapper"><span class="timestamp">[2021-10-07 Thu]</span></span></h3>
-<div class="outline-text-3" id="text-orga1da139">
+<div id="outline-container-org02031d2" class="outline-3">
+<h3 id="org02031d2">A Walk in the Campus <span class="timestamp-wrapper"><span class="timestamp">[2021-10-07 Thu]</span></span></h3>
+<div class="outline-text-3" id="text-org02031d2">
 <p>
-A few weeks back I shared <a href="#org6939e62">some images</a> of the Agave Americana entering its flowering season. Here are some updates.<br />
+A few weeks back I shared <a href="#org2796f0e">some images</a> of the Agave Americana entering its flowering season. Here are some updates.<br />
 </p>
 </div>
 
-<div id="outline-container-orgb7bcef2" class="outline-4">
-<h4 id="orgb7bcef2">Ketaki (Agave americana)</h4>
-<div class="outline-text-4" id="text-orgb7bcef2">
+<div id="outline-container-orga5eef75" class="outline-4">
+<h4 id="orga5eef75">Ketaki (Agave americana)</h4>
+<div class="outline-text-4" id="text-orga5eef75">
 
-<div id="org0ec4935" class="figure">
+<div id="org71469e3" class="figure">
 <p><img src="./images/agave2.jpg" alt="agave2.jpg" width="400px" />
 </p>
 </div>
 
 
-<div id="org93c6b0d" class="figure">
+<div id="org8e1504d" class="figure">
 <p><img src="./images/agave1.jpg" alt="agave1.jpg" width="400px" />
 </p>
 </div>
 
 
-<div id="org763e3db" class="figure">
+<div id="org6ca5aaa" class="figure">
 <p><img src="./images/agave3.jpg" alt="agave3.jpg" width="400px" />
 </p>
 </div>
 </div>
 </div>
 
-<div id="outline-container-orgaf2fbe4" class="outline-4">
-<h4 id="orgaf2fbe4">Kadamb (Neolamarckia cadamba)</h4>
-<div class="outline-text-4" id="text-orgaf2fbe4">
+<div id="outline-container-org33033bc" class="outline-4">
+<h4 id="org33033bc">Kadamb (Neolamarckia cadamba)</h4>
+<div class="outline-text-4" id="text-org33033bc">
 <p>
 And look at these majestic flowers of Kadamb (Neolamarckia cadamba). The large woolly balls are its flowers packed together in this shape. The organe colour looks captivating when it catches the sunlight.
 </p>
 
 
-<div id="org4ec2f19" class="figure">
+<div id="org88b40de" class="figure">
 <p><img src="./images/kadamb2.jpg" alt="kadamb2.jpg" width="400px" />
 </p>
 </div>
 
 
-<div id="orgf96bcb9" class="figure">
+<div id="org5e77307" class="figure">
 <p><img src="./images/kadamb1.jpg" alt="kadamb1.jpg" width="400px" />
 </p>
 </div>
 </div>
 </div>
 
-<div id="outline-container-org7512e02" class="outline-4">
-<h4 id="org7512e02">Saptaparni (Alstonia scholaris)</h4>
-<div class="outline-text-4" id="text-org7512e02">
+<div id="outline-container-org107ff19" class="outline-4">
+<h4 id="org107ff19">Saptaparni (Alstonia scholaris)</h4>
+<div class="outline-text-4" id="text-org107ff19">
 <p>
 Saptaparnis line the entrance avenue at Northstar. They are still young but already about 20 feet tall. The flowering has begun.
 </p>
 
 
-<div id="org4569303" class="figure">
+<div id="orgebdd663" class="figure">
 <p><img src="./images/saptaparni1.jpg" alt="saptaparni1.jpg" width="400px" />
 </p>
 </div>
 
 
-<div id="org57fe634" class="figure">
+<div id="orgf8f3489" class="figure">
 <p><img src="./images/saptaparni2.jpg" alt="saptaparni2.jpg" width="400px" />
 </p>
 </div>
 </div>
 </div>
 
-<div id="outline-container-orgc1bfb99" class="outline-4">
-<h4 id="orgc1bfb99">Traveller's Palm (Ravenala madagascariensis)</h4>
-<div class="outline-text-4" id="text-orgc1bfb99">
+<div id="outline-container-orga50bb67" class="outline-4">
+<h4 id="orga50bb67">Traveller's Palm (Ravenala madagascariensis)</h4>
+<div class="outline-text-4" id="text-orga50bb67">
 <p>
 I did know when we planted Traveller's Palm in our campus. We have a few at RKU. This tiny one looks nice but we may have to move it somewhere.
 </p>
 
 
-<div id="orgd9e3b7d" class="figure">
+<div id="org79653c4" class="figure">
 <p><img src="./images/travellerpalm.jpg" alt="travellerpalm.jpg" width="400px" />
 </p>
 </div>
@@ -586,9 +605,9 @@ I did know when we planted Traveller's Palm in our campus. We have a few at RKU.
 </div>
 </div>
 
-<div id="outline-container-orgfb88001" class="outline-3">
-<h3 id="orgfb88001">How I got introduced to Borges <span class="timestamp-wrapper"><span class="timestamp">[2021-10-05 Tue]</span></span></h3>
-<div class="outline-text-3" id="text-orgfb88001">
+<div id="outline-container-orga2a9661" class="outline-3">
+<h3 id="orga2a9661">How I got introduced to Borges <span class="timestamp-wrapper"><span class="timestamp">[2021-10-05 Tue]</span></span></h3>
+<div class="outline-text-3" id="text-orga2a9661">
 <p>
 Sometimes I wonder how I stumbled upon Borges.
 I remember one passage that shattered my mind. The opening paragraph of Michel Foucault's The Order of Things had these lines:
@@ -603,16 +622,16 @@ This book first arose out of a passage in Borges, out of the laughter that shatt
 </div>
 </div>
 
-<div id="outline-container-orgc524583" class="outline-3">
-<h3 id="orgc524583">Andromeda Galaxy <span class="timestamp-wrapper"><span class="timestamp">[2021-10-05 Tue]</span></span></h3>
-<div class="outline-text-3" id="text-orgc524583">
+<div id="outline-container-org81a7d42" class="outline-3">
+<h3 id="org81a7d42">Andromeda Galaxy <span class="timestamp-wrapper"><span class="timestamp">[2021-10-05 Tue]</span></span></h3>
+<div class="outline-text-3" id="text-org81a7d42">
 <p>
 This is Andromeda Galaxy. Photographing this one was really hard for me. Many many hours to get this image.
 Astronomy and astrophotography is a humbling experience. What we are seeing is 2.5 million light years away. And it is still the closest galaxy to ours. This imageAndromeda contains more than 1 trillion stars. I still have a long way to go to improve my astro work but I'm proud of this one.
 </p>
 
 
-<div id="orga604582" class="figure">
+<div id="org6d4f0ce" class="figure">
 <p><img src="./images/M31-blog.jpg" alt="M31-blog.jpg" height="500px" />
 </p>
 </div>
@@ -621,14 +640,14 @@ Astronomy and astrophotography is a humbling experience. What we are seeing is 2
 <hr />
 </div>
 </div>
-<div id="outline-container-org048fa2d" class="outline-3">
-<h3 id="org048fa2d">The Babylon Lottery - Borges <span class="timestamp-wrapper"><span class="timestamp">[2021-09-24 Fri]</span></span></h3>
-<div class="outline-text-3" id="text-org048fa2d">
+<div id="outline-container-org43e0be3" class="outline-3">
+<h3 id="org43e0be3">The Babylon Lottery - Borges <span class="timestamp-wrapper"><span class="timestamp">[2021-09-24 Fri]</span></span></h3>
+<div class="outline-text-3" id="text-org43e0be3">
 <p>
 This week I led a close reading of Jorge Luis Borges's short story <b>The Babylon Lottery</b>. It is one of my favourite short stories.
 </p>
 
-<div id="org4da74d8" class="figure">
+<div id="orgff50ade" class="figure">
 <p><img src="./images/babylonlottery.jpg" alt="babylonlottery.jpg" height="500px" />
 </p>
 </div>
@@ -637,9 +656,9 @@ This week I led a close reading of Jorge Luis Borges's short story <b>The Babylo
 </div>
 </div>
 
-<div id="outline-container-org9877267" class="outline-3">
-<h3 id="org9877267">Ranks and Rankers <span class="timestamp-wrapper"><span class="timestamp">[2021-09-14 Tue]</span></span></h3>
-<div class="outline-text-3" id="text-org9877267">
+<div id="outline-container-org72e22c0" class="outline-3">
+<h3 id="org72e22c0">Ranks and Rankers <span class="timestamp-wrapper"><span class="timestamp">[2021-09-14 Tue]</span></span></h3>
+<div class="outline-text-3" id="text-org72e22c0">
 <p>
 In all matters of taste and rankings and classifications that we inadvertently take part in our daily lives, I go back to Bourdieu and his thoughts on distinction:
 </p>
@@ -664,9 +683,9 @@ It is a matter of pride for RKU and its community to achieve this. I have made i
 </div>
 </div>
 
-<div id="outline-container-org2396f62" class="outline-3">
-<h3 id="org2396f62">Indian Higher Education and Rankings <span class="timestamp-wrapper"><span class="timestamp">[2021-09-16 Thu]</span></span></h3>
-<div class="outline-text-3" id="text-org2396f62">
+<div id="outline-container-org623d99c" class="outline-3">
+<h3 id="org623d99c">Indian Higher Education and Rankings <span class="timestamp-wrapper"><span class="timestamp">[2021-09-16 Thu]</span></span></h3>
+<div class="outline-text-3" id="text-org623d99c">
 <p>
 <i>Posted originally at projectnoesis.in on <span class="timestamp-wrapper"><span class="timestamp">[2021-03-08 Mon]</span></span></i>
 </p>
@@ -692,9 +711,9 @@ My argument is that chasing after rankings will do (and is doing) a major disser
 </p>
 </div>
 
-<div id="outline-container-org532bb9a" class="outline-4">
-<h4 id="org532bb9a">Part 1: Funding</h4>
-<div class="outline-text-4" id="text-org532bb9a">
+<div id="outline-container-org89e214e" class="outline-4">
+<h4 id="org89e214e">Part 1: Funding</h4>
+<div class="outline-text-4" id="text-org89e214e">
 <p>
 <b>Story in numbers</b><br />
 We implicitly agree on the importance of education (education being the first point of blame for deteriorating or failed social and economic outcomes). A cursory look at the input side betrays a different story. Proportion of GDP spent on education in India is about 3.0%. Compare that to the United States' 5% (of GDP) in 2014, UK's 5.5% in 2016, Australia's 5.3% in 2016 and Canada's 5.3% in 2011. Scandinavian countries' spend is nearer to 10% of GDP. In absolute numbers India's total expenditure on education was Rs. 94000 crore in 2019.
@@ -742,9 +761,9 @@ Let me try to sum it up in a sentence: Higher ranking needs extensive research, 
 </div>
 </div>
 
-<div id="outline-container-org73f1d64" class="outline-4">
-<h4 id="org73f1d64">Part 2: What can be done</h4>
-<div class="outline-text-4" id="text-org73f1d64">
+<div id="outline-container-org84c4451" class="outline-4">
+<h4 id="org84c4451">Part 2: What can be done</h4>
+<div class="outline-text-4" id="text-org84c4451">
 <blockquote>
 <p>
 The important thing for government is not to do things which individuals are doing already, and to do them a little better or a little worse; but to do those things which at present are not done at all.<br />
@@ -795,9 +814,9 @@ Again to put in a sentence: We need to stop thinking of private HEIs as de facto
 </div>
 </div>
 
-<div id="outline-container-org841bd5f" class="outline-3">
-<h3 id="org841bd5f">Emil Cioran and the Impossibility of Meaning <span class="timestamp-wrapper"><span class="timestamp">[2021-09-14 Tue]</span></span></h3>
-<div class="outline-text-3" id="text-org841bd5f">
+<div id="outline-container-org425287c" class="outline-3">
+<h3 id="org425287c">Emil Cioran and the Impossibility of Meaning <span class="timestamp-wrapper"><span class="timestamp">[2021-09-14 Tue]</span></span></h3>
+<div class="outline-text-3" id="text-org425287c">
 <p>
 And so I begin my dive in to Emil Cioran. I have never been optimistic about anything in my life. And Cioran resonates with me like very few others have. Just leaving some aphorisms below. May be someday I will write more about it. But really, would there be any point to that?
 </p>
@@ -825,15 +844,15 @@ Knowledge subverts love: in proportion as we penetrate our secrets, we come to l
 </div>
 </div>
 
-<div id="outline-container-org4267499" class="outline-3">
-<h3 id="org4267499">Problem of Evil <span class="timestamp-wrapper"><span class="timestamp">[2021-09-10 Fri]</span></span></h3>
-<div class="outline-text-3" id="text-org4267499">
+<div id="outline-container-org767824b" class="outline-3">
+<h3 id="org767824b">Problem of Evil <span class="timestamp-wrapper"><span class="timestamp">[2021-09-10 Fri]</span></span></h3>
+<div class="outline-text-3" id="text-org767824b">
 <p>
 We had session on the Problem of Evil. A very basic readin to start would be <a href="https://1000wordphilosophy.com/2014/04/07/the-problem-of-evil/">this</a>. I aslo recommend reading two chapter from Fyodor Dostevsky's The Brothers Karamazov: The Rebellion and The Grand Inquisitor.<br />
 </p>
 
 
-<div id="org729a1ff" class="figure">
+<div id="org4f58c4e" class="figure">
 <p><img src="./images/evil.jpg" alt="evil.jpg" height="500px" />
 </p>
 </div>
@@ -841,11 +860,11 @@ We had session on the Problem of Evil. A very basic readin to start would be <a 
 </div>
 </div>
 
-<div id="outline-container-orgb63096b" class="outline-3">
-<h3 id="orgb63096b">Beginning Roberto Bolaño <span class="timestamp-wrapper"><span class="timestamp">[2021-09-05 Sun]</span></span></h3>
-<div class="outline-text-3" id="text-orgb63096b">
+<div id="outline-container-orgc1a6328" class="outline-3">
+<h3 id="orgc1a6328">Beginning Roberto Bolaño <span class="timestamp-wrapper"><span class="timestamp">[2021-09-05 Sun]</span></span></h3>
+<div class="outline-text-3" id="text-orgc1a6328">
 
-<div id="org09779b5" class="figure">
+<div id="org0344fd1" class="figure">
 <p><img src="./images/2666.jpg" alt="2666.jpg" height="500px" />
 </p>
 </div>
@@ -869,9 +888,9 @@ Just what I needed to start the day!
 </div>
 </div>
 
-<div id="outline-container-org072a2e2" class="outline-3">
-<h3 id="org072a2e2">Happy Teachers' Day <span class="timestamp-wrapper"><span class="timestamp">[2021-09-05 Sun]</span></span></h3>
-<div class="outline-text-3" id="text-org072a2e2">
+<div id="outline-container-org56469af" class="outline-3">
+<h3 id="org56469af">Happy Teachers' Day <span class="timestamp-wrapper"><span class="timestamp">[2021-09-05 Sun]</span></span></h3>
+<div class="outline-text-3" id="text-org56469af">
 <p>
 I wrote this sometime back. Resharing on the occasion of Teachers' Day in India. 
 </p>
@@ -901,9 +920,9 @@ Lev Vygotsky had suggested that social participation facilitated by language and
 </div>
 </div>
 
-<div id="outline-container-orgc262a3a" class="outline-3">
-<h3 id="orgc262a3a">Lutheran Insulter <span class="timestamp-wrapper"><span class="timestamp">[2021-09-04 Sat]</span></span></h3>
-<div class="outline-text-3" id="text-orgc262a3a">
+<div id="outline-container-org95d8edc" class="outline-3">
+<h3 id="org95d8edc">Lutheran Insulter <span class="timestamp-wrapper"><span class="timestamp">[2021-09-04 Sat]</span></span></h3>
+<div class="outline-text-3" id="text-org95d8edc">
 <p>
 Fabulous! Go here for some exquisite insults.<br />
 <a href="https://ergofabulous.org/luther/">https://ergofabulous.org/luther/</a>
@@ -913,9 +932,9 @@ Fabulous! Go here for some exquisite insults.<br />
 </div>
 </div>
 
-<div id="outline-container-org7d066ce" class="outline-3">
-<h3 id="org7d066ce">Quotes on education <span class="timestamp-wrapper"><span class="timestamp">[2021-09-03 Fri]</span></span></h3>
-<div class="outline-text-3" id="text-org7d066ce">
+<div id="outline-container-orgf2dd328" class="outline-3">
+<h3 id="orgf2dd328">Quotes on education <span class="timestamp-wrapper"><span class="timestamp">[2021-09-03 Fri]</span></span></h3>
+<div class="outline-text-3" id="text-orgf2dd328">
 <p>
 <b>Richard Rorty</b><br />
 Rorty presents knowledge, not as a representation of the real world or a “match” between knowledge and reality, but rather as a collection of conceptual structures that are adapted, or viable, within a person's range of experience. In other words, the person's knowledge “fits” with the world, much like how a key fits a lock (Bodner, 1986). Each of us builds our own key by making sense of the world, and many different keys can open a given lock.
@@ -927,22 +946,22 @@ A Game Master or teacher who was primarily concerned with being close enough to 
 </p>
 
 <p>
-See also <a href="#orgab588f2">On Schools [2021-07-05 Mon]​</a>
+See also <a href="#org0f0edd0">On Schools [2021-07-05 Mon]​</a>
 </p>
 <hr />
 </div>
 </div>
 </div>
 
-<div id="outline-container-orgcba9430" class="outline-2">
-<h2 id="orgcba9430">August 2021</h2>
-<div class="outline-text-2" id="text-orgcba9430">
+<div id="outline-container-orgfa972eb" class="outline-2">
+<h2 id="orgfa972eb">August 2021</h2>
+<div class="outline-text-2" id="text-orgfa972eb">
 </div>
-<div id="outline-container-org840210b" class="outline-3">
-<h3 id="org840210b">Noesis | Afghanistan: A Story in Images <span class="timestamp-wrapper"><span class="timestamp">[2021-08-19 Thu]</span></span></h3>
-<div class="outline-text-3" id="text-org840210b">
+<div id="outline-container-org3d7a3c8" class="outline-3">
+<h3 id="org3d7a3c8">Noesis | Afghanistan: A Story in Images <span class="timestamp-wrapper"><span class="timestamp">[2021-08-19 Thu]</span></span></h3>
+<div class="outline-text-3" id="text-org3d7a3c8">
 
-<div id="org45c8821" class="figure">
+<div id="org0e160da" class="figure">
 <p><img src="./images/noesis-afghanistan.jpg" alt="noesis-afghanistan.jpg" height="500px" />
 </p>
 </div>
@@ -954,9 +973,9 @@ We are witnessing a crisis unfold in our time. I grew up in the 90s and remember
 <hr />
 </div>
 </div>
-<div id="outline-container-org5470db9" class="outline-3">
-<h3 id="org5470db9">Thinking about thinking <span class="timestamp-wrapper"><span class="timestamp">[2021-08-08 Sun]</span></span></h3>
-<div class="outline-text-3" id="text-org5470db9">
+<div id="outline-container-org3941dd7" class="outline-3">
+<h3 id="org3941dd7">Thinking about thinking <span class="timestamp-wrapper"><span class="timestamp">[2021-08-08 Sun]</span></span></h3>
+<div class="outline-text-3" id="text-org3941dd7">
 <p>
 As an educator, one of the key ideas that I explore is <b>thinking</b>. One of the goals to start Noesis, my philosophy class at The Northstar School, was to learn and teach the process of thinking with students and educators. I used to say that learning the <b>process of thinking</b> is an extremely important skill. I still believe that. My primary influence in this regard has been <a href="https://en.wikipedia.org/wiki/John_Dewey">John Dewey</a>. In his book <a href="https://www.gutenberg.org/files/37423/37423-h/37423-h.htm">How We Think</a>, he writes
 </p>
@@ -1010,11 +1029,11 @@ The more I teach and discuss in my classes, the more I keep feeling that teachin
 </div>
 </div>
 
-<div id="outline-container-org6939e62" class="outline-3">
-<h3 id="org6939e62">A Walk in the Northstar Campus <span class="timestamp-wrapper"><span class="timestamp">[2021-08-07 Sat]</span></span></h3>
-<div class="outline-text-3" id="text-org6939e62">
+<div id="outline-container-org2796f0e" class="outline-3">
+<h3 id="org2796f0e">A Walk in the Northstar Campus <span class="timestamp-wrapper"><span class="timestamp">[2021-08-07 Sat]</span></span></h3>
+<div class="outline-text-3" id="text-org2796f0e">
 
-<div id="org12b6938" class="figure">
+<div id="org7f1ed6f" class="figure">
 <p><img src="./images/kassod.jpeg" alt="kassod.jpeg" />
 </p>
 </div>
@@ -1024,7 +1043,7 @@ New leaves in this young Kassod on the campus. We are in peak monsoon right now.
 </p>
 
 
-<div id="org221537d" class="figure">
+<div id="orga5825f9" class="figure">
 <p><img src="./images/kassodcanopy.jpeg" alt="kassodcanopy.jpeg" />
 </p>
 </div>
@@ -1034,7 +1053,7 @@ The canopy is not quite shapely yet. It's still young.
 </p>
 
 
-<div id="org3458dd8" class="figure">
+<div id="org02398d3" class="figure">
 <p><img src="./images/agave.jpeg" alt="agave.jpeg" />
 </p>
 </div>
@@ -1046,11 +1065,11 @@ This is Agave Americana and it has started flowering. The central spike is about
 <hr />
 </div>
 </div>
-<div id="outline-container-org7645774" class="outline-3">
-<h3 id="org7645774">The Ones Who Walk Away From Omelas - Ursula K. Le Guin <span class="timestamp-wrapper"><span class="timestamp">[2021-08-04 Wed]</span></span></h3>
-<div class="outline-text-3" id="text-org7645774">
+<div id="outline-container-orgd4c41ea" class="outline-3">
+<h3 id="orgd4c41ea">The Ones Who Walk Away From Omelas - Ursula K. Le Guin <span class="timestamp-wrapper"><span class="timestamp">[2021-08-04 Wed]</span></span></h3>
+<div class="outline-text-3" id="text-orgd4c41ea">
 
-<div id="orgfd11015" class="figure">
+<div id="orga9a93b8" class="figure">
 <p><img src="./images/leguin.jpg" alt="leguin.jpg" height="500px" />
 </p>
 </div>
@@ -1078,15 +1097,15 @@ William James alluded to the fallibility of human nature when he wrote that an i
 </div>
 </div>
 </div>
-<div id="outline-container-orgdd75b15" class="outline-2">
-<h2 id="orgdd75b15">July 2021</h2>
-<div class="outline-text-2" id="text-orgdd75b15">
+<div id="outline-container-orgeb8f346" class="outline-2">
+<h2 id="orgeb8f346">July 2021</h2>
+<div class="outline-text-2" id="text-orgeb8f346">
 </div>
-<div id="outline-container-orgdf88b4a" class="outline-3">
-<h3 id="orgdf88b4a">Raga Svara Habitat Collective <span class="timestamp-wrapper"><span class="timestamp">[2021-07-31 Sat]</span></span></h3>
-<div class="outline-text-3" id="text-orgdf88b4a">
+<div id="outline-container-orgb87a887" class="outline-3">
+<h3 id="orgb87a887">Raga Svara Habitat Collective <span class="timestamp-wrapper"><span class="timestamp">[2021-07-31 Sat]</span></span></h3>
+<div class="outline-text-3" id="text-orgb87a887">
 
-<div id="orgc900f85" class="figure">
+<div id="org9b3f3f6" class="figure">
 <p><img src="./static/rshabitat.jpg" alt="rshabitat.jpg" width="400px" />
 </p>
 </div>
@@ -1121,11 +1140,11 @@ Habitat Collective creates an environment to think about ethical, and  even aest
 </p>
 </div>
 </div>
-<div id="outline-container-orgc264600" class="outline-3">
-<h3 id="orgc264600">Euthyphro <span class="timestamp-wrapper"><span class="timestamp">[2021-07-10 Sat]</span></span></h3>
-<div class="outline-text-3" id="text-orgc264600">
+<div id="outline-container-org6971a79" class="outline-3">
+<h3 id="org6971a79">Euthyphro <span class="timestamp-wrapper"><span class="timestamp">[2021-07-10 Sat]</span></span></h3>
+<div class="outline-text-3" id="text-org6971a79">
 
-<div id="org19a7436" class="figure">
+<div id="org6144ceb" class="figure">
 <p><img src="./images/euthyphro.jpg" alt="euthyphro.jpg" height="500px" />
 </p>
 </div>
@@ -1145,13 +1164,13 @@ If you don’t know Plato, you can get some background <a href="https://en.wikip
 </div>
 </div>
 </div>
-<div id="outline-container-org257edf5" class="outline-2">
-<h2 id="org257edf5">June 2021</h2>
-<div class="outline-text-2" id="text-org257edf5">
+<div id="outline-container-org1d461d2" class="outline-2">
+<h2 id="org1d461d2">June 2021</h2>
+<div class="outline-text-2" id="text-org1d461d2">
 </div>
-<div id="outline-container-orgddc816c" class="outline-3">
-<h3 id="orgddc816c">On Method <span class="timestamp-wrapper"><span class="timestamp">[2021-06-03 Thu]</span></span></h3>
-<div class="outline-text-3" id="text-orgddc816c">
+<div id="outline-container-orgf460c55" class="outline-3">
+<h3 id="orgf460c55">On Method <span class="timestamp-wrapper"><span class="timestamp">[2021-06-03 Thu]</span></span></h3>
+<div class="outline-text-3" id="text-orgf460c55">
 <p>
 कबीरा कुआँ एक है,<br />
 पानी भरे अनेक<br />
@@ -1227,7 +1246,7 @@ And, although in the hundred and twenty years or so, during which this ambition 
 </blockquote>
 
 <p>
-I shared similar thoughts in <a href="#org9ac5022">Porosity of Boundaries</a>
+I shared similar thoughts in <a href="#org8d5921b">Porosity of Boundaries</a>
 </p>
 <blockquote>
 <p>
@@ -1269,9 +1288,9 @@ And I get back to the sublime writing of Hesse. "The incomprehensible truth, rea
 <hr />
 </div>
 </div>
-<div id="outline-container-orgab588f2" class="outline-3">
-<h3 id="orgab588f2">On Schools <span class="timestamp-wrapper"><span class="timestamp">[2021-07-05 Mon]</span></span></h3>
-<div class="outline-text-3" id="text-orgab588f2">
+<div id="outline-container-org0f0edd0" class="outline-3">
+<h3 id="org0f0edd0">On Schools <span class="timestamp-wrapper"><span class="timestamp">[2021-07-05 Mon]</span></span></h3>
+<div class="outline-text-3" id="text-org0f0edd0">
 <blockquote>
 <p>
 What, then, is truth? A mobile army of metaphors, metonyms, and anthropomorphisms – in short, a sum of human relations, which have been enhanced, transposed, and embellished poetically and rhetorically, and which after long use seem firm, canonical, and obligatory to a people: truths are illusions about which one has forgotten that this is what they are; metaphors which are worn out and without sensuous power; coins which have lost their pictures and now matter only as metal, no longer as coins.<br />
@@ -1296,19 +1315,19 @@ Lev Vygotsky had suggested that social participation facilitated by language and
 </p>
 
 <p>
-See also <a href="#org7d066ce">Quotes on education [2021-09-03 Fri]​</a>
+See also <a href="#orgf2dd328">Quotes on education [2021-09-03 Fri]​</a>
 </p>
 <hr />
 </div>
 </div>
 </div>
-<div id="outline-container-orga83818e" class="outline-2">
-<h2 id="orga83818e">May 2021</h2>
-<div class="outline-text-2" id="text-orga83818e">
+<div id="outline-container-org8fe4653" class="outline-2">
+<h2 id="org8fe4653">May 2021</h2>
+<div class="outline-text-2" id="text-org8fe4653">
 </div>
-<div id="outline-container-org9ac5022" class="outline-3">
-<h3 id="org9ac5022">Porosity of Boundaries <span class="timestamp-wrapper"><span class="timestamp">[2021-05-25 Tue]</span></span></h3>
-<div class="outline-text-3" id="text-org9ac5022">
+<div id="outline-container-org8d5921b" class="outline-3">
+<h3 id="org8d5921b">Porosity of Boundaries <span class="timestamp-wrapper"><span class="timestamp">[2021-05-25 Tue]</span></span></h3>
+<div class="outline-text-3" id="text-org8d5921b">
 <p>
 One major objective for <a href="https://www.theraga.org">Raga Svara</a> is to create, what I call, “Porosity of Boundaries”. I want to make the solid walls between apparently different ideas more porous, more accommodating. One such boundary is between western medicine and our traditional medicine. I have thought for quite sometime about Indian traditional systems, whether therapeutic or belief systems (many times they merge seamlessly) and their place in Raga Svara.
 </p>
@@ -1339,9 +1358,9 @@ All said and done, each system must pass a falsifiability screen. We cannot acce
 <hr />
 </div>
 </div>
-<div id="outline-container-org28579e9" class="outline-3">
-<h3 id="org28579e9">Tambourine Man <span class="timestamp-wrapper"><span class="timestamp">[2021-05-25 Tue]</span></span></h3>
-<div class="outline-text-3" id="text-org28579e9">
+<div id="outline-container-orged8c1a2" class="outline-3">
+<h3 id="orged8c1a2">Tambourine Man <span class="timestamp-wrapper"><span class="timestamp">[2021-05-25 Tue]</span></span></h3>
+<div class="outline-text-3" id="text-orged8c1a2">
 <p>
 Today, 25th May, is Bob Dylan's birthday. Remembering days from the past and how Dylan got entangled in my memories.
 </p>
@@ -1374,23 +1393,23 @@ In the jingle jangle morning I'll come following you&#x2026;
 
 
 
-<div id="orgf69cd76" class="figure">
+<div id="orge9c3e32" class="figure">
 <p><img src="./static/motherwell.jpg" alt="motherwell.jpg" />
 </p>
 </div>
 </div>
 </div>
 
-<div id="outline-container-orgabdb507" class="outline-3">
-<h3 id="orgabdb507">On the love of monospace fonts <span class="timestamp-wrapper"><span class="timestamp">[2021-05-20 Thu]</span></span></h3>
-<div class="outline-text-3" id="text-orgabdb507">
+<div id="outline-container-orgd6b7b2d" class="outline-3">
+<h3 id="orgd6b7b2d">On the love of monospace fonts <span class="timestamp-wrapper"><span class="timestamp">[2021-05-20 Thu]</span></span></h3>
+<div class="outline-text-3" id="text-orgd6b7b2d">
 <p>
 I think good fonts can elevate a design and bad fonts do the opposite. As a reader my most intimate relationship is with print. The curves, the spacing, serif or sans, everything comes together to create a character of the graphemes. Over the years I have liked (and then stopped linking) many fonts. I'm listing some of my current favourites.
 </p>
 </div>
-<div id="outline-container-orgacc5a72" class="outline-4">
-<h4 id="orgacc5a72">Proportional Fonts</h4>
-<div class="outline-text-4" id="text-orgacc5a72">
+<div id="outline-container-org560f25f" class="outline-4">
+<h4 id="org560f25f">Proportional Fonts</h4>
+<div class="outline-text-4" id="text-org560f25f">
 <p>
 This is the type of font that you would see most often (almost always). <a href="https://en.wikipedia.org/wiki/Typeface#Proportion">Proportional</a> or variable width fonts are probably easier on the eye and are made possible by modern computers. You would probably have not noticed that the width of each letter and the spacing between each letter is not the same (this very text that you are reading right now!). I like these proportional fonts:
 </p>
@@ -1404,9 +1423,9 @@ This is the type of font that you would see most often (almost always). <a href=
 </div>
 </div>
 
-<div id="outline-container-org82574fe" class="outline-4">
-<h4 id="org82574fe">Mono Fonts</h4>
-<div class="outline-text-4" id="text-org82574fe">
+<div id="outline-container-org5ea5eff" class="outline-4">
+<h4 id="org5ea5eff">Mono Fonts</h4>
+<div class="outline-text-4" id="text-org5ea5eff">
 <p>
 Mono or <a href="https://en.wikipedia.org/wiki/Monospaced_font">monospaced fonts</a> may remind you of the good old days of the typewriter. In modern times, these are fairly common in IDEs and programming/coding in general. I got to love mono fonts when I started using <a href="https://www.gnu.org/software/emacs/">Emacs</a> about a year ago. When my Emacs Orgmode calendar was throwing up alignment errors, I had no idea what was causing the problem. Until, quite accidentally, I was trying out different fonts and stumbled upon a mono font which magically fixed it. I have loved mono fonts since then. My current favourites are:
 </p>
@@ -1430,9 +1449,9 @@ Its quite fascinating to think about fonts.
 </div>
 </div>
 
-<div id="outline-container-org5ff3e62" class="outline-3">
-<h3 id="org5ff3e62">Hercules Globular Cluster <span class="timestamp-wrapper"><span class="timestamp">[2021-05-12 Wed]</span></span></h3>
-<div class="outline-text-3" id="text-org5ff3e62">
+<div id="outline-container-org094ca55" class="outline-3">
+<h3 id="org094ca55">Hercules Globular Cluster <span class="timestamp-wrapper"><span class="timestamp">[2021-05-12 Wed]</span></span></h3>
+<div class="outline-text-3" id="text-org094ca55">
 <p>
 So I had stopped photographing the skies for some months. I was not getting to a point of clicking any photos, let alone getting good ones. I simply couldn't set up the gear properly. Astrophotography is highly technical requiring complex and sensitive equipment and some very quaint softwares which seem like they were made in late 90s. For every imaging session, it takes me about an hour of setup time. It takes me another 2 hours or for image capture. I have no idea how the image is going to come out until the next day when I process it. I was procrastinating for a very long time since I knew I was going to make a mistake and botch up the setup leading to no images.
 </p>
@@ -1443,7 +1462,7 @@ Carl Sagan and Frank Drake sent a message to the Hercules Cluster using the Arec
 </p>
 
 
-<div id="org21656db" class="figure">
+<div id="org99c05f5" class="figure">
 <p><img src="./static/M13-PI1.jpg" alt="M13-PI1.jpg" />
 </p>
 <p><span class="figure-number">Figure 3: </span>Photographed on 10th May 2021 from Rajkot (India).</p>
@@ -1451,9 +1470,9 @@ Carl Sagan and Frank Drake sent a message to the Hercules Cluster using the Arec
 <hr />
 </div>
 </div>
-<div id="outline-container-orga21155d" class="outline-3">
-<h3 id="orga21155d">Sirius <span class="timestamp-wrapper"><span class="timestamp">[2021-05-22 Sat]</span></span></h3>
-<div class="outline-text-3" id="text-orga21155d">
+<div id="outline-container-org574d112" class="outline-3">
+<h3 id="org574d112">Sirius <span class="timestamp-wrapper"><span class="timestamp">[2021-05-22 Sat]</span></span></h3>
+<div class="outline-text-3" id="text-org574d112">
 <p>
 With the incredibly light polluted city of Rajkot, I continue to fail at getting any sort of deep sky objects. More than 50% moon brightness added to my misery. Even with new moon, I barely manage to see anything below 35 degree altitude. Light pollution is the least talked about perhaps. The maddening LED hoardings blinding the eye at signals, uplighters on buildings, random spotlights during events, and much more.
 </p>
@@ -1471,16 +1490,16 @@ The alpha star of Canis Major, is a binary star about 25 times as bright as the 
 </p>
 
 
-<div id="org688902a" class="figure">
+<div id="orgda400cb" class="figure">
 <p><img src="file:///c:/.Sirius-MohitPatel.jpg" alt=".Sirius-MohitPatel.jpg" />
 </p>
 </div>
 </div>
 </div>
 
-<div id="outline-container-orgba1988f" class="outline-3">
-<h3 id="orgba1988f">Orion Nebula <span class="timestamp-wrapper"><span class="timestamp">[2021-05-12 Wed]</span></span></h3>
-<div class="outline-text-3" id="text-orgba1988f">
+<div id="outline-container-org228aeea" class="outline-3">
+<h3 id="org228aeea">Orion Nebula <span class="timestamp-wrapper"><span class="timestamp">[2021-05-12 Wed]</span></span></h3>
+<div class="outline-text-3" id="text-org228aeea">
 <p>
 I have been wanting to combine my interests in astronomy and photography by exploring deep sky imaging. I have spent many hours getting this first image of Orion Nebula. This is a diffuse nebula in the Orion constellation. It is about 1500 light years away. About 700 new stars are being formed in the gases of this nebula. How incredible that I can see this nursery of stars from our planet. Photographed from highly light polluted city of Rajkot.
 </p>
@@ -1490,7 +1509,7 @@ This was my first AP target.
 </p>
 
 
-<div id="org07e4cd5" class="figure">
+<div id="org5199d72" class="figure">
 <p><img src="./static/M42-MohitPatel.jpg" alt="M42-MohitPatel.jpg" />
 </p>
 <p><span class="figure-number">Figure 4: </span>My first capture of M42 Orion Nebula</p>
@@ -1498,9 +1517,9 @@ This was my first AP target.
 <hr />
 </div>
 </div>
-<div id="outline-container-org211e4e4" class="outline-3">
-<h3 id="org211e4e4">Pleiades <span class="timestamp-wrapper"><span class="timestamp">[2021-05-12 Wed]</span></span></h3>
-<div class="outline-text-3" id="text-org211e4e4">
+<div id="outline-container-orgb4344cc" class="outline-3">
+<h3 id="orgb4344cc">Pleiades <span class="timestamp-wrapper"><span class="timestamp">[2021-05-12 Wed]</span></span></h3>
+<div class="outline-text-3" id="text-orgb4344cc">
 <p>
 Our lives are illuminated; sparsely, dimly. Just like pin points of starlight in the maddening blackness of the universe. Sometimes on a winter's night, it can be achingly beautiful.
 </p>
@@ -1510,18 +1529,52 @@ The Seven Sisters, or the Pleiades, is an open star cluster in Taurus. Known as 
 </p>
 
 
-<div id="org1a136ae" class="figure">
+<div id="orgb60bb03" class="figure">
 <p><img src="./static/PI-M45.jpg" alt="PI-M45.jpg" />
 </p>
 </div>
 <hr />
 </div>
 </div>
+
+<div id="outline-container-org8b9c4fe" class="outline-3">
+<h3 id="org8b9c4fe">Finitude <span class="timestamp-wrapper"><span class="timestamp">[2021-05-07 Fri]</span></span></h3>
+<div class="outline-text-3" id="text-org8b9c4fe">
+<p>
+As we go through the greatest humanitarian crisis of modern times, it is hard to maintain a semblance of sanity. So much suffering, so much pain all around. What can words do to those who have lost the ones they love? All the pent-up anger and pain, where will it unleash?
+</p>
+
+<p>
+It feels like I am in some sort of waking sleep. So many people, including my relatives have passed away. At some point we become numb, unable to process and feel any sort of grief. This naked death anxiety is buried under the daily, mundane existence; willingly or as a coping mechanism. We become an automaton. Some jolting experiences, like the ones we are having now, unleash the anxiety of our finitude. But we quickly repair the broken delusion. These jolting experiences, as Karl Jaspers called them, the "border" or "boundary" situations, are unalterable. There is nothing we can do in the face of death. And we cannot exist in such paralysed destitution. So weave together a faux reality and cocoon inside it.
+</p>
+
+<p>
+While the frail stilts that hold our fragile home fall and crack, one learns to keep doing the banal, the mundane. And so it is with me. There are many who have lost; and many who have found courage along with disillusionment. I am too jaded to be shaken. I am chronically bitter.
+</p>
+
+<p>
+And I come to a Heideggerian choice: to be in a state of forgetfulness of being or to be in a state of mindfulness of being. The first is inauthentic; one rescinds the authorship of one's life, one flees, carried along by the nobody. And the other is hard, perhaps confusing. We have heard much about 'being mindful'. 'Mindfulness of being' involves being subjected to "urgent experiences", "jolting experiences" and amongst all these "limit" situations, death is nonpareil.
+</p>
+
+<p>
+So I must continue, thinking, working and sharing about work, about life and its tragic beauty. But all this while trying to remain mindful about being. Peeping out of the cocoon. Keeping the dread at bay while it attacks us from all sides at once. And reclaiming the authorship of my own life. In Kabir's words:
+</p>
+
+<blockquote>
+<p>
+Mala japu na kar japu
+Na mukh se kahu main ram
+Ram hamara hume jape
+Aur hum payo visram
+</p>
+</blockquote>
+</div>
+</div>
 </div>
 
-<div id="outline-container-org885e832" class="outline-2">
-<h2 id="org885e832">About me</h2>
-<div class="outline-text-2" id="text-org885e832">
+<div id="outline-container-orgeac3844" class="outline-2">
+<h2 id="orgeac3844">About me</h2>
+<div class="outline-text-2" id="text-orgeac3844">
 <p>
 My name is <b><b>Mohit Patel</b></b><br />
 <a href="https://twitter.com/mohitkpatel">Twitter</a>, <a href="https://www.facebook.com/mohitpatel">Facebook</a> 
@@ -1535,7 +1588,7 @@ I like being a <a href="https://oll.libertyfund.org/quotes/341">gadfly</a>. My l
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: Mohit Patel</p>
-<p class="date">Created: 2022-01-16 Sun 10:58</p>
+<p class="date">Created: 2022-04-17 Sun 09:51</p>
 <p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>
