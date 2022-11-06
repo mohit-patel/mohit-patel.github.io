@@ -6,8 +6,35 @@
     <description>Recent content in Tags on Mohit Khodidas</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>Copyright © 2008–2019, Steve Francia and the Mohit Patel; all rights reserved.</copyright>
-    <lastBuildDate>Thu, 01 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://mohit-patel.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Copyright © 2008–2019, Steve Francia and Mohit Patel; all rights reserved.</copyright>
+    <lastBuildDate>Sat, 29 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://mohit-patel.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>gallery</title>
+      <link>https://mohit-patel.github.io/tags/gallery/</link>
+      <pubDate>Sat, 29 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://mohit-patel.github.io/tags/gallery/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>nature</title>
+      <link>https://mohit-patel.github.io/tags/nature/</link>
+      <pubDate>Sat, 29 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://mohit-patel.github.io/tags/nature/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>photography</title>
+      <link>https://mohit-patel.github.io/tags/photography/</link>
+      <pubDate>Sat, 29 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://mohit-patel.github.io/tags/photography/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>education</title>
       <link>https://mohit-patel.github.io/tags/education/</link>
@@ -54,29 +81,11 @@
     </item>
     
     <item>
-      <title>photography</title>
-      <link>https://mohit-patel.github.io/tags/photography/</link>
-      <pubDate>Fri, 05 Nov 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://mohit-patel.github.io/tags/photography/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>readings</title>
       <link>https://mohit-patel.github.io/tags/readings/</link>
       <pubDate>Sun, 24 Oct 2021 00:00:00 +0000</pubDate>
       
       <guid>https://mohit-patel.github.io/tags/readings/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>nature</title>
-      <link>https://mohit-patel.github.io/tags/nature/</link>
-      <pubDate>Thu, 07 Oct 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://mohit-patel.github.io/tags/nature/</guid>
       <description></description>
     </item>
     
