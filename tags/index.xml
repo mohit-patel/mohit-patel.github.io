@@ -7,22 +7,31 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright © 2008–2019, Steve Francia and Mohit Patel; all rights reserved.</copyright>
-    <lastBuildDate>Sun, 01 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://mohit-patel.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 26 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://mohit-patel.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>literature</title>
-      <link>https://mohit-patel.github.io/tags/literature/</link>
-      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <title>northstar</title>
+      <link>https://mohit-patel.github.io/tags/northstar/</link>
+      <pubDate>Thu, 26 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://mohit-patel.github.io/tags/literature/</guid>
+      <guid>https://mohit-patel.github.io/tags/northstar/</guid>
       <description></description>
     </item>
     
     <item>
       <title>philosophy</title>
       <link>https://mohit-patel.github.io/tags/philosophy/</link>
-      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 26 Jan 2023 00:00:00 +0000</pubDate>
       
       <guid>https://mohit-patel.github.io/tags/philosophy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>literature</title>
+      <link>https://mohit-patel.github.io/tags/literature/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mohit-patel.github.io/tags/literature/</guid>
       <description></description>
     </item>
     
@@ -41,15 +50,6 @@
       <pubDate>Tue, 27 Dec 2022 00:00:00 +0000</pubDate>
       
       <guid>https://mohit-patel.github.io/tags/noesis/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>northstar</title>
-      <link>https://mohit-patel.github.io/tags/northstar/</link>
-      <pubDate>Tue, 27 Dec 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://mohit-patel.github.io/tags/northstar/</guid>
       <description></description>
     </item>
     
