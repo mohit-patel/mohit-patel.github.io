@@ -7,7 +7,25 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright © 2008–2019, Steve Francia and Mohit Patel; all rights reserved.</copyright>
-    <lastBuildDate>Tue, 21 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://mohit-patel.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 28 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://mohit-patel.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>education</title>
+      <link>https://mohit-patel.github.io/tags/education/</link>
+      <pubDate>Tue, 28 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mohit-patel.github.io/tags/education/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>philosophy</title>
+      <link>https://mohit-patel.github.io/tags/philosophy/</link>
+      <pubDate>Tue, 28 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mohit-patel.github.io/tags/philosophy/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>books</title>
       <link>https://mohit-patel.github.io/tags/books/</link>
@@ -41,24 +59,6 @@
       <pubDate>Thu, 26 Jan 2023 00:00:00 +0000</pubDate>
       
       <guid>https://mohit-patel.github.io/tags/northstar/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>philosophy</title>
-      <link>https://mohit-patel.github.io/tags/philosophy/</link>
-      <pubDate>Thu, 26 Jan 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://mohit-patel.github.io/tags/philosophy/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>education</title>
-      <link>https://mohit-patel.github.io/tags/education/</link>
-      <pubDate>Tue, 27 Dec 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://mohit-patel.github.io/tags/education/</guid>
       <description></description>
     </item>
     
