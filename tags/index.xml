@@ -7,7 +7,25 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright © 2008–2019, Steve Francia and Mohit Patel; all rights reserved.</copyright>
-    <lastBuildDate>Sun, 25 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://mohit-patel.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 29 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://mohit-patel.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>literature</title>
+      <link>https://mohit-patel.github.io/tags/literature/</link>
+      <pubDate>Sat, 29 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mohit-patel.github.io/tags/literature/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>philosophy</title>
+      <link>https://mohit-patel.github.io/tags/philosophy/</link>
+      <pubDate>Sat, 29 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mohit-patel.github.io/tags/philosophy/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>education</title>
       <link>https://mohit-patel.github.io/tags/education/</link>
@@ -27,15 +45,6 @@
     </item>
     
     <item>
-      <title>literature</title>
-      <link>https://mohit-patel.github.io/tags/literature/</link>
-      <pubDate>Sun, 25 Jun 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://mohit-patel.github.io/tags/literature/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>landscapes</title>
       <link>https://mohit-patel.github.io/tags/landscapes/</link>
       <pubDate>Sat, 20 May 2023 00:00:00 +0000</pubDate>
@@ -50,15 +59,6 @@
       <pubDate>Sat, 20 May 2023 00:00:00 +0000</pubDate>
       
       <guid>https://mohit-patel.github.io/tags/nature/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>philosophy</title>
-      <link>https://mohit-patel.github.io/tags/philosophy/</link>
-      <pubDate>Mon, 08 May 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://mohit-patel.github.io/tags/philosophy/</guid>
       <description></description>
     </item>
     
